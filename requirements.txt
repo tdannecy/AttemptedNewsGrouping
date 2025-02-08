@@ -1,0 +1,7 @@
+beautifulsoup4
+feedparser
+requests
+urllib3
+streamlit
+pandas
+openai

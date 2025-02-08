@@ -1,0 +1,6 @@
+services:
+  app:
+    build: .
+    container_name: my_scraper_app
+    ports:
+      - "8501:8501"  # Map container’s 8501 to localhost:8501
