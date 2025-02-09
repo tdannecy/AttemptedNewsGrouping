@@ -1,19 +1,14 @@
 # main.py
 import subprocess
 import sys
-import threading
 import os
+import time
+import threading
 
-# Import the pipeline function from pipeline.py
 from pipeline import run_full_pipeline_headless
 
-import os
-api_key = os.getenv('OPENAI_API_KEY')
-if not api_key:
-    print("Error: OPENAI_API_KEY environment variable not found")
-    sys.exit(1)
-logs = run_full_pipeline_headless(api_key=api_key, db_path="db/news.db")
-
+# Reuse your existing functions for running scrapers in threads:
+# (e.g., from the old main.py code)
 def run_scraper(script_path: str):
     print(f"--- Running {script_path} ---")
     subprocess.run([sys.executable, script_path], check=True)
@@ -35,8 +30,14 @@ def run_all_scrapers_in_threads(scraper_scripts):
     for t in threads:
         t.join()
 
-def main():
-    # 1) Define the scraper scripts
+def run_full_cycle(api_key):
+    """
+    Runs the entire cycle:
+      1) Scrape all sources
+      2) Standardize dates
+      3) Run the pipeline
+    """
+    # 1) Run all scrapers in parallel
     scraper_scripts = [
         "scrapers/bleepingcomputer.py",
         "scrapers/darkreading-scraper.py",
@@ -51,25 +52,40 @@ def main():
         "scrapers/techcrunch.py",
         "scrapers/techradar.py",
     ]
-
-    # 2) Run all scrapers
     run_all_scrapers_in_threads(scraper_scripts)
 
-    # 3) Run date.py to standardize publication dates
+    # 2) Standardize publication dates
     print("\n--- Running date.py to standardize publication dates ---")
-    try:
-        run_scraper("date.py")
-    except subprocess.CalledProcessError as e:
-        print(f"Error running date.py: {e}")
+    run_scraper("date.py")
 
-    # 4) Automatically run the pipeline (assuming your pipeline doesn’t need an API key now)
+    # 3) Run the pipeline (company extraction, CVE, grouping, etc.)
     print("\n--- Running the full pipeline (headless) ---")
-    logs = run_full_pipeline_headless(db_path="db/news.db")
+    logs = run_full_pipeline_headless(api_key=api_key, db_path="db/news.db")
     for line in logs:
         print(line)
-    print("--- Finished pipeline ---")
+    print("--- Finished pipeline cycle ---")
 
-    # 5) Launch Streamlit UI for browsing
+def background_loop(api_key):
+    """
+    Background loop that repeats the entire pipeline every 15 minutes.
+    """
+    while True:
+        run_full_cycle(api_key)
+        # Sleep 15 minutes
+        time.sleep(15 * 60)
+
+def main():
+    # 1) Read API key from environment
+    api_key = os.getenv('OPENAI_API_KEY')
+    if not api_key:
+        print("Error: OPENAI_API_KEY environment variable not found")
+        sys.exit(1)
+
+    # 2) Launch the background thread that continuously updates everything
+    t = threading.Thread(target=background_loop, args=(api_key,), daemon=True)
+    t.start()
+
+    # 3) Immediately run Streamlit so the UI is up right away
     print("\n--- Starting Streamlit interface ---")
     try:
         subprocess.run(["streamlit", "run", "app.py"], check=True)
