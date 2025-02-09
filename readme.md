@@ -13,7 +13,8 @@ This repository includes:
   - Two-phase article grouping (high-level category, then subgroups)
 - **Streamlit** application (`app.py`) for interactive browsing
 - **Docker** configuration for easy deployment
-
+![image](https://github.com/user-attachments/assets/931f947c-329c-4e0b-bfce-26a5d29bd5c2)
+Mermaid Graph showing the scripts logic.
 ---
 
 ## Features
