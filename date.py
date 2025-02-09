@@ -19,7 +19,7 @@ def convert_dates(conn):
             dt_utc = dt.astimezone(datetime.timezone.utc)
             new_date = dt_utc.strftime("%Y-%m-%dT%H:%M:%SZ")
         except Exception as e:
-            print(f"Error parsing date '{published_date}' for article with link '{link}': {e}")
+            print(f"Error parsing date '{published_date}' for link '{link}': {e}")
             continue
 
         cur.execute("UPDATE articles SET published_date = ? WHERE link = ?", (new_date, link))
@@ -28,7 +28,7 @@ def convert_dates(conn):
     conn.commit()
 
 def main():
-    conn = sqlite3.connect("news.db")
+    conn = sqlite3.connect("db/news.db")
     try:
         convert_dates(conn)
     finally:

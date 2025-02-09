@@ -1,21 +1,17 @@
-# Start from a minimal Python image
+# Dockerfile
 FROM python:3.9-slim
 
-# Create a working directory
 WORKDIR /app
 
-# Copy in requirements and install
+# Copy and install Python dependencies
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy the entire codebase into the container
+# Copy your entire codebase into /app
 COPY . /app
 
-# Expose the default Streamlit port
+# Expose the port Streamlit runs on
 EXPOSE 8501
 
-# By default, run "main.py" which:
-#  - Spawns scraper threads
-#  - Runs date.py
-#  - Launches the Streamlit app
+# Default command to run your main script (which launches Streamlit)
 CMD ["python", "main.py"]

@@ -1,405 +1,213 @@
-2025-02-08 12:22:41,490 - INFO - Database initialized successfully.
-2025-02-08 12:22:41,682 - INFO - Found 50 entries in feed
-2025-02-08 12:22:41,684 - INFO - Processing article: Malicious ML Models on Hugging Face Leverage Broken Pickle Format to Evade Detection
-2025-02-08 12:22:41,905 - INFO - Successfully inserted article: Malicious ML Models on Hugging Face Leverage Broken Pickle Format to Evade Detection
-2025-02-08 12:22:43,917 - INFO - Processing article: DeepSeek App Transmits Sensitive User and Device Data Without Encryption
-2025-02-08 12:22:43,983 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/deepseek-app-transmits-sensitive-user.html
-2025-02-08 12:22:43,985 - INFO - Skipping duplicate article
-2025-02-08 12:22:43,985 - INFO - Processing article: CISA Warns of Active Exploits Targeting Trimble Cityworks Vulnerability
-2025-02-08 12:22:44,058 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/cisa-warns-of-active-exploitation-in.html
-2025-02-08 12:22:44,058 - INFO - Skipping duplicate article
-2025-02-08 12:22:44,058 - INFO - Processing article: AI-Powered Social Engineering: Reinvented Threats
-2025-02-08 12:22:44,135 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/ai-powered-social-engineering.html
-2025-02-08 12:22:44,136 - INFO - Skipping duplicate article
-2025-02-08 12:22:44,136 - INFO - Processing article: Microsoft Identifies 3,000 Leaked ASP.NET Keys Enabling Code Injection Attacks
-2025-02-08 12:22:44,203 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/microsoft-identifies-3000-publicly.html
-2025-02-08 12:22:44,204 - INFO - Skipping duplicate article
-2025-02-08 12:22:44,204 - INFO - Processing article: India’s RBI Introduces Exclusive "bank.in" Domain to Combat Digital Banking Fraud
-2025-02-08 12:22:44,273 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/indias-rbi-introduces-exclusive-bankin.html
-2025-02-08 12:22:44,273 - INFO - Skipping duplicate article
-2025-02-08 12:22:44,273 - INFO - Processing article: Hackers Exploiting SimpleHelp RMM Flaws for Persistent Access and Ransomware
-2025-02-08 12:22:44,352 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/hackers-exploit-simplehelp-rmm-flaws.html
-2025-02-08 12:22:44,352 - INFO - Skipping duplicate article
-2025-02-08 12:22:44,352 - INFO - Processing article: Fake Google Chrome Sites Distribute ValleyRAT Malware via DLL Hijacking
-2025-02-08 12:22:44,426 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/fake-google-chrome-sites-distribute.html
-2025-02-08 12:22:44,426 - INFO - Skipping duplicate article
-2025-02-08 12:22:44,426 - INFO - Processing article: Ransomware Extortion Drops to $813.5M in 2024, Down from $1.25B in 2023
-2025-02-08 12:22:44,496 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/ransomware-extortion-drops-to-8135m-in.html
-2025-02-08 12:22:44,497 - INFO - Skipping duplicate article
-2025-02-08 12:22:44,497 - INFO - Processing article: SparkCat Malware Uses OCR to Extract Crypto Wallet Recovery Phrases from Images
-2025-02-08 12:22:44,573 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/sparkcat-malware-uses-ocr-to-extract.html
-2025-02-08 12:22:44,573 - INFO - Skipping duplicate article
-2025-02-08 12:22:44,573 - INFO - Processing article: The Evolving Role of PAM in Cybersecurity Leadership Agendas for 2025
-2025-02-08 12:22:44,637 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/the-evolving-role-of-pam-in.html
-2025-02-08 12:22:44,637 - INFO - Skipping duplicate article
-2025-02-08 12:22:44,637 - INFO - Processing article: North Korean APT Kimsuky Uses forceCopy Malware to Steal Browser-Stored Credentials
-2025-02-08 12:22:44,710 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/north-korean-apt-kimsuky-uses-lnk-files.html
-2025-02-08 12:22:44,710 - INFO - Skipping duplicate article
-2025-02-08 12:22:44,710 - INFO - Processing article: Top 3 Ransomware Threats Active in 2025
-2025-02-08 12:22:44,782 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/top-3-ransomware-threats-active-in-2025.html
-2025-02-08 12:22:44,782 - INFO - Skipping duplicate article
-2025-02-08 12:22:44,782 - INFO - Processing article: Cisco Patches Critical ISE Vulnerabilities Enabling Root CmdExec and PrivEsc
-2025-02-08 12:22:44,870 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/cisco-patches-critical-ise.html
-2025-02-08 12:22:44,870 - INFO - Skipping duplicate article
-2025-02-08 12:22:44,870 - INFO - Processing article: Cross-Platform JavaScript Stealer Targets Crypto Wallets in New Lazarus Group Campaign
-2025-02-08 12:22:44,940 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/cross-platform-javascript-stealer.html
-2025-02-08 12:22:44,941 - INFO - Skipping duplicate article
-2025-02-08 12:22:44,941 - INFO - Processing article: Cybercriminals Use Go Resty and Node Fetch in 13 Million Password Spraying Attempts
-2025-02-08 12:22:45,022 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/cybercriminals-use-axios-and-node-fetch.html
-2025-02-08 12:22:45,022 - INFO - Skipping duplicate article
-2025-02-08 12:22:45,022 - INFO - Processing article: Silent Lynx Using PowerShell, Golang, and C++ Loaders in Multi-Stage Cyberattacks
-2025-02-08 12:22:45,078 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/silent-lynx-using-powershell-golang-and.html
-2025-02-08 12:22:45,078 - INFO - Skipping duplicate article
-2025-02-08 12:22:45,078 - INFO - Processing article: New Veeam Flaw Allows Arbitrary Code Execution via Man-in-the-Middle Attack
-2025-02-08 12:22:45,144 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/new-veeam-flaw-allows-arbitrary-code.html
-2025-02-08 12:22:45,144 - INFO - Skipping duplicate article
-2025-02-08 12:22:45,144 - INFO - Processing article: Navigating the Future: Key IT Vulnerability Management Trends 
-2025-02-08 12:22:45,214 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/navigating-future-key-it-vulnerability.html
-2025-02-08 12:22:45,214 - INFO - Skipping duplicate article
-2025-02-08 12:22:45,214 - INFO - Processing article: AsyncRAT Campaign Uses Python Payloads and TryCloudflare Tunnels for Stealth Attacks
-2025-02-08 12:22:45,272 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/asyncrat-campaign-uses-python-payloads.html
-2025-02-08 12:22:45,272 - INFO - Skipping duplicate article
-2025-02-08 12:22:45,273 - INFO - Processing article: CISA Adds Four Actively Exploited Vulnerabilities to KEV Catalog, Urges Fixes by Feb 25
-2025-02-08 12:22:45,347 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/cisa-adds-four-actively-exploited.html
-2025-02-08 12:22:45,347 - INFO - Skipping duplicate article
-2025-02-08 12:22:45,347 - INFO - Processing article: Malicious Go Package Exploits Module Mirror Caching for Persistent Remote Access
-2025-02-08 12:22:45,429 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/malicious-go-package-exploits-module.html
-2025-02-08 12:22:45,429 - INFO - Skipping duplicate article
-2025-02-08 12:22:45,429 - INFO - Processing article: Russian Cybercrime Groups Exploiting 7-Zip Flaw to Bypass Windows MotW Protections
-2025-02-08 12:22:45,493 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/russian-cybercrime-groups-exploiting-7.html
-2025-02-08 12:22:45,494 - INFO - Skipping duplicate article
-2025-02-08 12:22:45,494 - INFO - Processing article: North Korean Hackers Deploy FERRET Malware via Fake Job Interviews on macOS
-2025-02-08 12:22:45,564 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/north-korean-hackers-deploy-ferret.html
-2025-02-08 12:22:45,564 - INFO - Skipping duplicate article
-2025-02-08 12:22:45,564 - INFO - Processing article: Watch Out For These 8 Cloud Security Shifts in 2025
-2025-02-08 12:22:45,657 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/watch-out-for-these-8-cloud-security.html
-2025-02-08 12:22:45,657 - INFO - Skipping duplicate article
-2025-02-08 12:22:45,657 - INFO - Processing article: Taiwan Bans DeepSeek AI Over National Security Concerns, Citing Data Leakage Risks
-2025-02-08 12:22:45,722 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/taiwan-bans-deepseek-ai-over-national.html
-2025-02-08 12:22:45,722 - INFO - Skipping duplicate article
-2025-02-08 12:22:45,722 - INFO - Processing article: AMD SEV-SNP Vulnerability Allows Malicious Microcode Injection with Admin Access
-2025-02-08 12:22:45,788 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/amd-sev-snp-vulnerability-allows.html
-2025-02-08 12:22:45,788 - INFO - Skipping duplicate article
-2025-02-08 12:22:45,788 - INFO - Processing article: Microsoft Patches Critical Azure AI Face Service Vulnerability with CVSS 9.9 Score
-2025-02-08 12:22:45,849 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/microsoft-patches-critical-azure-ai.html
-2025-02-08 12:22:45,849 - INFO - Skipping duplicate article
-2025-02-08 12:22:45,849 - INFO - Processing article: Google Patches 47 Android Security Flaws, Including Actively Exploited CVE-2024-53104
-2025-02-08 12:22:45,922 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/google-patches-47-android-security.html
-2025-02-08 12:22:45,922 - INFO - Skipping duplicate article
-2025-02-08 12:22:45,922 - INFO - Processing article: Microsoft SharePoint Connector Flaw Could've Enabled Credential Theft Across Power Platform
-2025-02-08 12:22:45,994 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/microsoft-sharepoint-connector-flaw.html
-2025-02-08 12:22:45,994 - INFO - Skipping duplicate article
-2025-02-08 12:22:45,994 - INFO - Processing article: 768 CVEs Exploited in 2024, Reflecting a 20% Increase from 639 in 2023
-2025-02-08 12:22:46,061 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/768-cves-exploited-in-2024-reflecting.html
-2025-02-08 12:22:46,061 - INFO - Skipping duplicate article
-2025-02-08 12:22:46,061 - INFO - Processing article: PyPI Introduces Archival Status to Alert Users About Unmaintained Python Packages
-2025-02-08 12:22:46,128 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/pypi-introduces-archival-status-to.html
-2025-02-08 12:22:46,129 - INFO - Skipping duplicate article
-2025-02-08 12:22:46,129 - INFO - Processing article:  THN Weekly Recap: Top Cybersecurity Threats, Tools and Tips [3 February]
-2025-02-08 12:22:46,197 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/thn-weekly-recap-top-cybersecurity.html
-2025-02-08 12:22:46,197 - INFO - Skipping duplicate article
-2025-02-08 12:22:46,197 - INFO - Processing article: Coyote Malware Expands Reach: Now Targets 1,030 Sites and 73 Financial Institutions
-2025-02-08 12:22:46,267 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/coyote-malware-expands-reach-now.html
-2025-02-08 12:22:46,267 - INFO - Skipping duplicate article
-2025-02-08 12:22:46,267 - INFO - Processing article: What Is Attack Surface Management?
-2025-02-08 12:22:46,335 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/what-is-attack-surface-management.html
-2025-02-08 12:22:46,335 - INFO - Skipping duplicate article
-2025-02-08 12:22:46,335 - INFO - Processing article: Crazy Evil Gang Targets Crypto with StealC, AMOS, and Angel Drainer Malware
-2025-02-08 12:22:46,400 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/crazy-evil-gang-targets-crypto-with.html
-2025-02-08 12:22:46,400 - INFO - Skipping duplicate article
-2025-02-08 12:22:46,400 - INFO - Processing article: U.S. and Dutch Authorities Dismantle 39 Domains Linked to BEC Fraud Network
-2025-02-08 12:22:46,462 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/us-and-dutch-authorities-dismantle-39.html
-2025-02-08 12:22:46,462 - INFO - Skipping duplicate article
-2025-02-08 12:22:46,463 - INFO - Processing article: BeyondTrust Zero-Day Breach Exposed 17 SaaS Customers via Compromised API Key
-2025-02-08 12:22:46,523 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/beyondtrust-zero-day-breach-exposes-17.html
-2025-02-08 12:22:46,523 - INFO - Skipping duplicate article
-2025-02-08 12:22:46,523 - INFO - Processing article: Meta Confirms Zero-Click WhatsApp Spyware Attack Targeting 90 Journalists, Activists
-2025-02-08 12:22:46,591 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/meta-confirms-zero-click-whatsapp.html
-2025-02-08 12:22:46,591 - INFO - Skipping duplicate article
-2025-02-08 12:22:46,591 - INFO - Processing article: Malvertising Scam Uses Fake Google Ads to Hijack Microsoft Advertising Accounts
-2025-02-08 12:22:46,655 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/malvertising-scam-uses-fake-google-ads.html
-2025-02-08 12:22:46,655 - INFO - Skipping duplicate article
-2025-02-08 12:22:46,656 - INFO - Processing article: CISA and FDA Warn of Critical Backdoor in Contec CMS8000 Patient Monitors
-2025-02-08 12:22:46,758 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/01/cisa-and-fda-warn-of-critical-backdoor.html
-2025-02-08 12:22:46,758 - INFO - Skipping duplicate article
-2025-02-08 12:22:46,758 - INFO - Processing article: Top 5 AI-Powered Social Engineering Attacks
-2025-02-08 12:22:46,864 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/01/top-5-ai-powered-social-engineering.html
-2025-02-08 12:22:46,864 - INFO - Skipping duplicate article
-2025-02-08 12:22:46,864 - INFO - Processing article: Italy Bans Chinese DeepSeek AI Over Data Privacy and Ethical Concerns
-2025-02-08 12:22:46,922 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/01/italy-bans-chinese-deepseek-ai-over.html
-2025-02-08 12:22:46,923 - INFO - Skipping duplicate article
-2025-02-08 12:22:46,923 - INFO - Processing article: Google Bans 158,000 Malicious Android App Developer Accounts in 2024
-2025-02-08 12:22:46,996 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/01/google-bans-158000-malicious-android.html
-2025-02-08 12:22:46,997 - INFO - Skipping duplicate article
-2025-02-08 12:22:46,997 - INFO - Processing article: Broadcom Patches VMware Aria Flaws – Exploits May Lead to Credential Theft
-2025-02-08 12:22:47,057 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/01/broadcom-patches-vmware-aria-flaws.html
-2025-02-08 12:22:47,057 - INFO - Skipping duplicate article
-2025-02-08 12:22:47,057 - INFO - Processing article: Google: Over 57 Nation-State Threat Groups Using AI for Cyber Operations
-2025-02-08 12:22:47,120 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/01/google-over-57-nation-state-threat.html
-2025-02-08 12:22:47,120 - INFO - Skipping duplicate article
-2025-02-08 12:22:47,120 - INFO - Processing article: Authorities Seize Domains of Popular Hacking Forums in Major Cybercrime Crackdown
-2025-02-08 12:22:47,179 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/01/authorities-seize-domains-of-popular.html
-2025-02-08 12:22:47,179 - INFO - Skipping duplicate article
-2025-02-08 12:22:47,179 - INFO - Processing article: Lightning AI Studio Vulnerability Could've Allowed RCE via Hidden URL Parameter
-2025-02-08 12:22:47,251 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/01/lightning-ai-studio-vulnerability.html
-2025-02-08 12:22:47,251 - INFO - Skipping duplicate article
-2025-02-08 12:22:47,251 - INFO - Processing article: SOC Analysts - Reimagining Their Role Using AI
-2025-02-08 12:22:47,329 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/01/soc-analysts-reimagining-their-role.html
-2025-02-08 12:22:47,329 - INFO - Skipping duplicate article
-2025-02-08 12:22:47,329 - INFO - Processing article: DeepSeek AI Database Exposed: Over 1 Million Log Lines, Secret Keys Leaked
-2025-02-08 12:22:47,398 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/01/deepseek-ai-database-exposed-over-1.html
-2025-02-08 12:22:47,399 - INFO - Skipping duplicate article
-2025-02-08 15:24:08,457 - INFO - Database initialized successfully.
-2025-02-08 15:24:08,649 - INFO - Found 50 entries in feed
-2025-02-08 15:24:08,651 - INFO - Processing article: Malicious ML Models on Hugging Face Leverage Broken Pickle Format to Evade Detection
-2025-02-08 15:24:08,820 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/malicious-ml-models-found-on-hugging.html
-2025-02-08 15:24:08,820 - INFO - Skipping duplicate article
-2025-02-08 15:24:08,820 - INFO - Processing article: DeepSeek App Transmits Sensitive User and Device Data Without Encryption
-2025-02-08 15:24:08,892 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/deepseek-app-transmits-sensitive-user.html
-2025-02-08 15:24:08,892 - INFO - Skipping duplicate article
-2025-02-08 15:24:08,892 - INFO - Processing article: CISA Warns of Active Exploits Targeting Trimble Cityworks Vulnerability
-2025-02-08 15:24:08,960 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/cisa-warns-of-active-exploitation-in.html
-2025-02-08 15:24:08,961 - INFO - Skipping duplicate article
-2025-02-08 15:24:08,961 - INFO - Processing article: AI-Powered Social Engineering: Reinvented Threats
-2025-02-08 15:24:09,039 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/ai-powered-social-engineering.html
-2025-02-08 15:24:09,039 - INFO - Skipping duplicate article
-2025-02-08 15:24:09,040 - INFO - Processing article: Microsoft Identifies 3,000 Leaked ASP.NET Keys Enabling Code Injection Attacks
-2025-02-08 15:24:09,116 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/microsoft-identifies-3000-publicly.html
-2025-02-08 15:24:09,116 - INFO - Skipping duplicate article
-2025-02-08 15:24:09,116 - INFO - Processing article: India’s RBI Introduces Exclusive "bank.in" Domain to Combat Digital Banking Fraud
-2025-02-08 15:24:09,190 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/indias-rbi-introduces-exclusive-bankin.html
-2025-02-08 15:24:09,190 - INFO - Skipping duplicate article
-2025-02-08 15:24:09,191 - INFO - Processing article: Hackers Exploiting SimpleHelp RMM Flaws for Persistent Access and Ransomware
-2025-02-08 15:24:09,271 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/hackers-exploit-simplehelp-rmm-flaws.html
-2025-02-08 15:24:09,272 - INFO - Skipping duplicate article
-2025-02-08 15:24:09,272 - INFO - Processing article: Fake Google Chrome Sites Distribute ValleyRAT Malware via DLL Hijacking
-2025-02-08 15:24:09,358 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/fake-google-chrome-sites-distribute.html
-2025-02-08 15:24:09,358 - INFO - Skipping duplicate article
-2025-02-08 15:24:09,359 - INFO - Processing article: Ransomware Extortion Drops to $813.5M in 2024, Down from $1.25B in 2023
-2025-02-08 15:24:09,436 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/ransomware-extortion-drops-to-8135m-in.html
-2025-02-08 15:24:09,436 - INFO - Skipping duplicate article
-2025-02-08 15:24:09,436 - INFO - Processing article: SparkCat Malware Uses OCR to Extract Crypto Wallet Recovery Phrases from Images
-2025-02-08 15:24:09,512 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/sparkcat-malware-uses-ocr-to-extract.html
-2025-02-08 15:24:09,512 - INFO - Skipping duplicate article
-2025-02-08 15:24:09,512 - INFO - Processing article: The Evolving Role of PAM in Cybersecurity Leadership Agendas for 2025
-2025-02-08 15:24:09,763 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/the-evolving-role-of-pam-in.html
-2025-02-08 15:24:09,763 - INFO - Skipping duplicate article
-2025-02-08 15:24:09,763 - INFO - Processing article: North Korean APT Kimsuky Uses forceCopy Malware to Steal Browser-Stored Credentials
-2025-02-08 15:24:09,994 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/north-korean-apt-kimsuky-uses-lnk-files.html
-2025-02-08 15:24:09,994 - INFO - Skipping duplicate article
-2025-02-08 15:24:09,994 - INFO - Processing article: Top 3 Ransomware Threats Active in 2025
-2025-02-08 15:24:10,095 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/top-3-ransomware-threats-active-in-2025.html
-2025-02-08 15:24:10,096 - INFO - Skipping duplicate article
-2025-02-08 15:24:10,096 - INFO - Processing article: Cisco Patches Critical ISE Vulnerabilities Enabling Root CmdExec and PrivEsc
-2025-02-08 15:24:10,175 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/cisco-patches-critical-ise.html
-2025-02-08 15:24:10,175 - INFO - Skipping duplicate article
-2025-02-08 15:24:10,175 - INFO - Processing article: Cross-Platform JavaScript Stealer Targets Crypto Wallets in New Lazarus Group Campaign
-2025-02-08 15:24:10,350 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/cross-platform-javascript-stealer.html
-2025-02-08 15:24:10,350 - INFO - Skipping duplicate article
-2025-02-08 15:24:10,351 - INFO - Processing article: Cybercriminals Use Go Resty and Node Fetch in 13 Million Password Spraying Attempts
-2025-02-08 15:24:10,556 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/cybercriminals-use-axios-and-node-fetch.html
-2025-02-08 15:24:10,556 - INFO - Skipping duplicate article
-2025-02-08 15:24:10,556 - INFO - Processing article: Silent Lynx Using PowerShell, Golang, and C++ Loaders in Multi-Stage Cyberattacks
-2025-02-08 15:24:10,627 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/silent-lynx-using-powershell-golang-and.html
-2025-02-08 15:24:10,627 - INFO - Skipping duplicate article
-2025-02-08 15:24:10,627 - INFO - Processing article: New Veeam Flaw Allows Arbitrary Code Execution via Man-in-the-Middle Attack
-2025-02-08 15:24:10,717 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/new-veeam-flaw-allows-arbitrary-code.html
-2025-02-08 15:24:10,717 - INFO - Skipping duplicate article
-2025-02-08 15:24:10,717 - INFO - Processing article: Navigating the Future: Key IT Vulnerability Management Trends 
-2025-02-08 15:24:10,921 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/navigating-future-key-it-vulnerability.html
-2025-02-08 15:24:10,921 - INFO - Skipping duplicate article
-2025-02-08 15:24:10,921 - INFO - Processing article: AsyncRAT Campaign Uses Python Payloads and TryCloudflare Tunnels for Stealth Attacks
-2025-02-08 15:24:11,003 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/asyncrat-campaign-uses-python-payloads.html
-2025-02-08 15:24:11,003 - INFO - Skipping duplicate article
-2025-02-08 15:24:11,003 - INFO - Processing article: CISA Adds Four Actively Exploited Vulnerabilities to KEV Catalog, Urges Fixes by Feb 25
-2025-02-08 15:24:11,189 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/cisa-adds-four-actively-exploited.html
-2025-02-08 15:24:11,189 - INFO - Skipping duplicate article
-2025-02-08 15:24:11,189 - INFO - Processing article: Malicious Go Package Exploits Module Mirror Caching for Persistent Remote Access
-2025-02-08 15:24:11,413 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/malicious-go-package-exploits-module.html
-2025-02-08 15:24:11,413 - INFO - Skipping duplicate article
-2025-02-08 15:24:11,414 - INFO - Processing article: Russian Cybercrime Groups Exploiting 7-Zip Flaw to Bypass Windows MotW Protections
-2025-02-08 15:24:11,509 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/russian-cybercrime-groups-exploiting-7.html
-2025-02-08 15:24:11,509 - INFO - Skipping duplicate article
-2025-02-08 15:24:11,509 - INFO - Processing article: North Korean Hackers Deploy FERRET Malware via Fake Job Interviews on macOS
-2025-02-08 15:24:11,747 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/north-korean-hackers-deploy-ferret.html
-2025-02-08 15:24:11,747 - INFO - Skipping duplicate article
-2025-02-08 15:24:11,748 - INFO - Processing article: Watch Out For These 8 Cloud Security Shifts in 2025
-2025-02-08 15:24:11,926 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/watch-out-for-these-8-cloud-security.html
-2025-02-08 15:24:11,926 - INFO - Skipping duplicate article
-2025-02-08 15:24:11,926 - INFO - Processing article: Taiwan Bans DeepSeek AI Over National Security Concerns, Citing Data Leakage Risks
-2025-02-08 15:24:12,117 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/taiwan-bans-deepseek-ai-over-national.html
-2025-02-08 15:24:12,117 - INFO - Skipping duplicate article
-2025-02-08 15:24:12,117 - INFO - Processing article: AMD SEV-SNP Vulnerability Allows Malicious Microcode Injection with Admin Access
-2025-02-08 15:24:12,195 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/amd-sev-snp-vulnerability-allows.html
-2025-02-08 15:24:12,195 - INFO - Skipping duplicate article
-2025-02-08 15:24:12,195 - INFO - Processing article: Microsoft Patches Critical Azure AI Face Service Vulnerability with CVSS 9.9 Score
-2025-02-08 15:24:12,363 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/microsoft-patches-critical-azure-ai.html
-2025-02-08 15:24:12,363 - INFO - Skipping duplicate article
-2025-02-08 15:24:12,363 - INFO - Processing article: Google Patches 47 Android Security Flaws, Including Actively Exploited CVE-2024-53104
-2025-02-08 15:24:12,436 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/google-patches-47-android-security.html
-2025-02-08 15:24:12,436 - INFO - Skipping duplicate article
-2025-02-08 15:24:12,436 - INFO - Processing article: Microsoft SharePoint Connector Flaw Could've Enabled Credential Theft Across Power Platform
-2025-02-08 15:24:12,505 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/microsoft-sharepoint-connector-flaw.html
-2025-02-08 15:24:12,505 - INFO - Skipping duplicate article
-2025-02-08 15:24:12,505 - INFO - Processing article: 768 CVEs Exploited in 2024, Reflecting a 20% Increase from 639 in 2023
-2025-02-08 15:24:12,579 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/768-cves-exploited-in-2024-reflecting.html
-2025-02-08 15:24:12,579 - INFO - Skipping duplicate article
-2025-02-08 15:24:12,580 - INFO - Processing article: PyPI Introduces Archival Status to Alert Users About Unmaintained Python Packages
-2025-02-08 15:24:12,641 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/pypi-introduces-archival-status-to.html
-2025-02-08 15:24:12,642 - INFO - Skipping duplicate article
-2025-02-08 15:24:12,642 - INFO - Processing article:  THN Weekly Recap: Top Cybersecurity Threats, Tools and Tips [3 February]
-2025-02-08 15:24:12,716 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/thn-weekly-recap-top-cybersecurity.html
-2025-02-08 15:24:12,716 - INFO - Skipping duplicate article
-2025-02-08 15:24:12,716 - INFO - Processing article: Coyote Malware Expands Reach: Now Targets 1,030 Sites and 73 Financial Institutions
-2025-02-08 15:24:12,785 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/coyote-malware-expands-reach-now.html
-2025-02-08 15:24:12,785 - INFO - Skipping duplicate article
-2025-02-08 15:24:12,785 - INFO - Processing article: What Is Attack Surface Management?
-2025-02-08 15:24:12,860 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/what-is-attack-surface-management.html
-2025-02-08 15:24:12,860 - INFO - Skipping duplicate article
-2025-02-08 15:24:12,860 - INFO - Processing article: Crazy Evil Gang Targets Crypto with StealC, AMOS, and Angel Drainer Malware
-2025-02-08 15:24:13,103 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/crazy-evil-gang-targets-crypto-with.html
-2025-02-08 15:24:13,103 - INFO - Skipping duplicate article
-2025-02-08 15:24:13,103 - INFO - Processing article: U.S. and Dutch Authorities Dismantle 39 Domains Linked to BEC Fraud Network
-2025-02-08 15:24:13,188 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/us-and-dutch-authorities-dismantle-39.html
-2025-02-08 15:24:13,188 - INFO - Skipping duplicate article
-2025-02-08 15:24:13,188 - INFO - Processing article: BeyondTrust Zero-Day Breach Exposed 17 SaaS Customers via Compromised API Key
-2025-02-08 15:24:13,266 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/beyondtrust-zero-day-breach-exposes-17.html
-2025-02-08 15:24:13,266 - INFO - Skipping duplicate article
-2025-02-08 15:24:13,266 - INFO - Processing article: Meta Confirms Zero-Click WhatsApp Spyware Attack Targeting 90 Journalists, Activists
-2025-02-08 15:24:13,350 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/meta-confirms-zero-click-whatsapp.html
-2025-02-08 15:24:13,350 - INFO - Skipping duplicate article
-2025-02-08 15:24:13,350 - INFO - Processing article: Malvertising Scam Uses Fake Google Ads to Hijack Microsoft Advertising Accounts
-2025-02-08 15:24:13,424 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/malvertising-scam-uses-fake-google-ads.html
-2025-02-08 15:24:13,424 - INFO - Skipping duplicate article
-2025-02-08 15:24:13,425 - INFO - Processing article: CISA and FDA Warn of Critical Backdoor in Contec CMS8000 Patient Monitors
-2025-02-08 15:24:13,650 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/01/cisa-and-fda-warn-of-critical-backdoor.html
-2025-02-08 15:24:13,650 - INFO - Skipping duplicate article
-2025-02-08 15:24:13,650 - INFO - Processing article: Top 5 AI-Powered Social Engineering Attacks
-2025-02-08 15:24:13,745 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/01/top-5-ai-powered-social-engineering.html
-2025-02-08 15:24:13,746 - INFO - Skipping duplicate article
-2025-02-08 15:24:13,746 - INFO - Processing article: Italy Bans Chinese DeepSeek AI Over Data Privacy and Ethical Concerns
-2025-02-08 15:24:13,819 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/01/italy-bans-chinese-deepseek-ai-over.html
-2025-02-08 15:24:13,819 - INFO - Skipping duplicate article
-2025-02-08 15:24:13,820 - INFO - Processing article: Google Bans 158,000 Malicious Android App Developer Accounts in 2024
-2025-02-08 15:24:13,929 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/01/google-bans-158000-malicious-android.html
-2025-02-08 15:24:13,930 - INFO - Skipping duplicate article
-2025-02-08 15:24:13,930 - INFO - Processing article: Broadcom Patches VMware Aria Flaws – Exploits May Lead to Credential Theft
-2025-02-08 15:24:14,154 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/01/broadcom-patches-vmware-aria-flaws.html
-2025-02-08 15:24:14,154 - INFO - Skipping duplicate article
-2025-02-08 15:24:14,154 - INFO - Processing article: Google: Over 57 Nation-State Threat Groups Using AI for Cyber Operations
-2025-02-08 15:24:14,366 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/01/google-over-57-nation-state-threat.html
-2025-02-08 15:24:14,367 - INFO - Skipping duplicate article
-2025-02-08 15:24:14,367 - INFO - Processing article: Authorities Seize Domains of Popular Hacking Forums in Major Cybercrime Crackdown
-2025-02-08 15:24:14,448 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/01/authorities-seize-domains-of-popular.html
-2025-02-08 15:24:14,448 - INFO - Skipping duplicate article
-2025-02-08 15:24:14,448 - INFO - Processing article: Lightning AI Studio Vulnerability Could've Allowed RCE via Hidden URL Parameter
-2025-02-08 15:24:14,633 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/01/lightning-ai-studio-vulnerability.html
-2025-02-08 15:24:14,633 - INFO - Skipping duplicate article
-2025-02-08 15:24:14,633 - INFO - Processing article: SOC Analysts - Reimagining Their Role Using AI
-2025-02-08 15:24:14,828 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/01/soc-analysts-reimagining-their-role.html
-2025-02-08 15:24:14,828 - INFO - Skipping duplicate article
-2025-02-08 15:24:14,828 - INFO - Processing article: DeepSeek AI Database Exposed: Over 1 Million Log Lines, Secret Keys Leaked
-2025-02-08 15:24:14,894 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/01/deepseek-ai-database-exposed-over-1.html
-2025-02-08 15:24:14,895 - INFO - Skipping duplicate article
-2025-02-08 18:11:35,419 - INFO - Database initialized successfully.
-2025-02-08 18:11:35,644 - INFO - Found 50 entries in feed
-2025-02-08 18:11:35,646 - INFO - Processing article: Malicious ML Models on Hugging Face Leverage Broken Pickle Format to Evade Detection
-2025-02-08 18:11:35,816 - INFO - Successfully inserted article: Malicious ML Models on Hugging Face Leverage Broken Pickle Format to Evade Detection
-2025-02-08 18:11:37,830 - INFO - Processing article: DeepSeek App Transmits Sensitive User and Device Data Without Encryption
-2025-02-08 18:11:37,901 - INFO - Successfully inserted article: DeepSeek App Transmits Sensitive User and Device Data Without Encryption
-2025-02-08 18:11:39,913 - INFO - Processing article: CISA Warns of Active Exploits Targeting Trimble Cityworks Vulnerability
-2025-02-08 18:11:39,986 - INFO - Successfully inserted article: CISA Warns of Active Exploits Targeting Trimble Cityworks Vulnerability
-2025-02-08 18:11:41,997 - INFO - Processing article: AI-Powered Social Engineering: Reinvented Threats
-2025-02-08 18:11:42,066 - INFO - Successfully inserted article: AI-Powered Social Engineering: Reinvented Threats
-2025-02-08 18:11:44,083 - INFO - Processing article: Microsoft Identifies 3,000 Leaked ASP.NET Keys Enabling Code Injection Attacks
-2025-02-08 18:11:44,153 - INFO - Successfully inserted article: Microsoft Identifies 3,000 Leaked ASP.NET Keys Enabling Code Injection Attacks
-2025-02-08 18:11:46,165 - INFO - Processing article: India’s RBI Introduces Exclusive "bank.in" Domain to Combat Digital Banking Fraud
-2025-02-08 18:11:46,248 - INFO - Successfully inserted article: India’s RBI Introduces Exclusive "bank.in" Domain to Combat Digital Banking Fraud
-2025-02-08 18:11:48,263 - INFO - Processing article: Hackers Exploiting SimpleHelp RMM Flaws for Persistent Access and Ransomware
-2025-02-08 18:11:48,342 - INFO - Successfully inserted article: Hackers Exploiting SimpleHelp RMM Flaws for Persistent Access and Ransomware
-2025-02-08 18:11:50,346 - INFO - Processing article: Fake Google Chrome Sites Distribute ValleyRAT Malware via DLL Hijacking
-2025-02-08 18:11:50,438 - INFO - Successfully inserted article: Fake Google Chrome Sites Distribute ValleyRAT Malware via DLL Hijacking
-2025-02-08 18:11:52,446 - INFO - Processing article: Ransomware Extortion Drops to $813.5M in 2024, Down from $1.25B in 2023
-2025-02-08 18:11:52,538 - INFO - Successfully inserted article: Ransomware Extortion Drops to $813.5M in 2024, Down from $1.25B in 2023
-2025-02-08 18:11:54,545 - INFO - Processing article: SparkCat Malware Uses OCR to Extract Crypto Wallet Recovery Phrases from Images
-2025-02-08 18:11:54,635 - INFO - Successfully inserted article: SparkCat Malware Uses OCR to Extract Crypto Wallet Recovery Phrases from Images
-2025-02-08 18:11:56,645 - INFO - Processing article: The Evolving Role of PAM in Cybersecurity Leadership Agendas for 2025
-2025-02-08 18:11:56,734 - INFO - Successfully inserted article: The Evolving Role of PAM in Cybersecurity Leadership Agendas for 2025
-2025-02-08 18:11:58,748 - INFO - Processing article: North Korean APT Kimsuky Uses forceCopy Malware to Steal Browser-Stored Credentials
-2025-02-08 18:11:58,825 - INFO - Successfully inserted article: North Korean APT Kimsuky Uses forceCopy Malware to Steal Browser-Stored Credentials
-2025-02-08 18:12:00,833 - INFO - Processing article: Top 3 Ransomware Threats Active in 2025
-2025-02-08 18:12:00,909 - INFO - Successfully inserted article: Top 3 Ransomware Threats Active in 2025
-2025-02-08 18:12:02,920 - INFO - Processing article: Cisco Patches Critical ISE Vulnerabilities Enabling Root CmdExec and PrivEsc
-2025-02-08 18:12:03,004 - INFO - Successfully inserted article: Cisco Patches Critical ISE Vulnerabilities Enabling Root CmdExec and PrivEsc
-2025-02-08 18:12:05,007 - INFO - Processing article: Cross-Platform JavaScript Stealer Targets Crypto Wallets in New Lazarus Group Campaign
-2025-02-08 18:12:05,088 - INFO - Successfully inserted article: Cross-Platform JavaScript Stealer Targets Crypto Wallets in New Lazarus Group Campaign
-2025-02-08 18:12:07,092 - INFO - Processing article: Cybercriminals Use Go Resty and Node Fetch in 13 Million Password Spraying Attempts
-2025-02-08 18:12:07,175 - INFO - Successfully inserted article: Cybercriminals Use Go Resty and Node Fetch in 13 Million Password Spraying Attempts
-2025-02-08 18:12:09,182 - INFO - Processing article: Silent Lynx Using PowerShell, Golang, and C++ Loaders in Multi-Stage Cyberattacks
-2025-02-08 18:12:09,255 - INFO - Successfully inserted article: Silent Lynx Using PowerShell, Golang, and C++ Loaders in Multi-Stage Cyberattacks
-2025-02-08 18:12:11,267 - INFO - Processing article: New Veeam Flaw Allows Arbitrary Code Execution via Man-in-the-Middle Attack
-2025-02-08 18:12:11,349 - INFO - Successfully inserted article: New Veeam Flaw Allows Arbitrary Code Execution via Man-in-the-Middle Attack
-2025-02-08 18:12:13,358 - INFO - Processing article: Navigating the Future: Key IT Vulnerability Management Trends 
-2025-02-08 18:12:13,429 - INFO - Successfully inserted article: Navigating the Future: Key IT Vulnerability Management Trends 
-2025-02-08 18:12:15,431 - INFO - Processing article: AsyncRAT Campaign Uses Python Payloads and TryCloudflare Tunnels for Stealth Attacks
-2025-02-08 18:12:15,514 - INFO - Successfully inserted article: AsyncRAT Campaign Uses Python Payloads and TryCloudflare Tunnels for Stealth Attacks
-2025-02-08 18:12:17,516 - INFO - Processing article: CISA Adds Four Actively Exploited Vulnerabilities to KEV Catalog, Urges Fixes by Feb 25
-2025-02-08 18:12:17,602 - INFO - Successfully inserted article: CISA Adds Four Actively Exploited Vulnerabilities to KEV Catalog, Urges Fixes by Feb 25
-2025-02-08 18:12:19,616 - INFO - Processing article: Malicious Go Package Exploits Module Mirror Caching for Persistent Remote Access
-2025-02-08 18:12:19,693 - INFO - Successfully inserted article: Malicious Go Package Exploits Module Mirror Caching for Persistent Remote Access
-2025-02-08 18:12:21,697 - INFO - Processing article: Russian Cybercrime Groups Exploiting 7-Zip Flaw to Bypass Windows MotW Protections
-2025-02-08 18:12:21,777 - INFO - Successfully inserted article: Russian Cybercrime Groups Exploiting 7-Zip Flaw to Bypass Windows MotW Protections
-2025-02-08 18:12:23,780 - INFO - Processing article: North Korean Hackers Deploy FERRET Malware via Fake Job Interviews on macOS
-2025-02-08 18:12:23,862 - INFO - Successfully inserted article: North Korean Hackers Deploy FERRET Malware via Fake Job Interviews on macOS
-2025-02-08 18:12:25,862 - INFO - Processing article: Watch Out For These 8 Cloud Security Shifts in 2025
-2025-02-08 18:12:25,962 - INFO - Successfully inserted article: Watch Out For These 8 Cloud Security Shifts in 2025
-2025-02-08 18:12:27,966 - INFO - Processing article: Taiwan Bans DeepSeek AI Over National Security Concerns, Citing Data Leakage Risks
-2025-02-08 18:12:28,036 - INFO - Successfully inserted article: Taiwan Bans DeepSeek AI Over National Security Concerns, Citing Data Leakage Risks
-2025-02-08 18:12:30,048 - INFO - Processing article: AMD SEV-SNP Vulnerability Allows Malicious Microcode Injection with Admin Access
-2025-02-08 18:12:30,126 - INFO - Successfully inserted article: AMD SEV-SNP Vulnerability Allows Malicious Microcode Injection with Admin Access
-2025-02-08 18:12:32,134 - INFO - Processing article: Microsoft Patches Critical Azure AI Face Service Vulnerability with CVSS 9.9 Score
-2025-02-08 18:12:32,208 - INFO - Successfully inserted article: Microsoft Patches Critical Azure AI Face Service Vulnerability with CVSS 9.9 Score
-2025-02-08 18:12:34,218 - INFO - Processing article: Google Patches 47 Android Security Flaws, Including Actively Exploited CVE-2024-53104
-2025-02-08 18:12:34,301 - INFO - Successfully inserted article: Google Patches 47 Android Security Flaws, Including Actively Exploited CVE-2024-53104
-2025-02-08 18:12:36,317 - INFO - Processing article: Microsoft SharePoint Connector Flaw Could've Enabled Credential Theft Across Power Platform
-2025-02-08 18:12:36,395 - INFO - Successfully inserted article: Microsoft SharePoint Connector Flaw Could've Enabled Credential Theft Across Power Platform
-2025-02-08 18:12:38,399 - INFO - Processing article: 768 CVEs Exploited in 2024, Reflecting a 20% Increase from 639 in 2023
-2025-02-08 18:12:38,493 - INFO - Successfully inserted article: 768 CVEs Exploited in 2024, Reflecting a 20% Increase from 639 in 2023
-2025-02-08 18:12:40,494 - INFO - Processing article: PyPI Introduces Archival Status to Alert Users About Unmaintained Python Packages
-2025-02-08 18:12:40,583 - INFO - Successfully inserted article: PyPI Introduces Archival Status to Alert Users About Unmaintained Python Packages
-2025-02-08 18:12:42,591 - INFO - Processing article:  THN Weekly Recap: Top Cybersecurity Threats, Tools and Tips [3 February]
-2025-02-08 18:12:42,678 - INFO - Successfully inserted article:  THN Weekly Recap: Top Cybersecurity Threats, Tools and Tips [3 February]
-2025-02-08 18:12:44,690 - INFO - Processing article: Coyote Malware Expands Reach: Now Targets 1,030 Sites and 73 Financial Institutions
-2025-02-08 18:12:44,770 - INFO - Successfully inserted article: Coyote Malware Expands Reach: Now Targets 1,030 Sites and 73 Financial Institutions
-2025-02-08 18:12:46,780 - INFO - Processing article: What Is Attack Surface Management?
-2025-02-08 18:12:46,851 - INFO - Successfully inserted article: What Is Attack Surface Management?
-2025-02-08 18:12:48,863 - INFO - Processing article: Crazy Evil Gang Targets Crypto with StealC, AMOS, and Angel Drainer Malware
-2025-02-08 18:12:48,946 - INFO - Successfully inserted article: Crazy Evil Gang Targets Crypto with StealC, AMOS, and Angel Drainer Malware
-2025-02-08 18:12:50,949 - INFO - Processing article: U.S. and Dutch Authorities Dismantle 39 Domains Linked to BEC Fraud Network
-2025-02-08 18:12:51,025 - INFO - Successfully inserted article: U.S. and Dutch Authorities Dismantle 39 Domains Linked to BEC Fraud Network
-2025-02-08 18:12:53,031 - INFO - Processing article: BeyondTrust Zero-Day Breach Exposed 17 SaaS Customers via Compromised API Key
-2025-02-08 18:12:53,104 - INFO - Successfully inserted article: BeyondTrust Zero-Day Breach Exposed 17 SaaS Customers via Compromised API Key
-2025-02-08 18:12:55,118 - INFO - Processing article: Meta Confirms Zero-Click WhatsApp Spyware Attack Targeting 90 Journalists, Activists
-2025-02-08 18:12:55,201 - INFO - Successfully inserted article: Meta Confirms Zero-Click WhatsApp Spyware Attack Targeting 90 Journalists, Activists
-2025-02-08 18:12:57,205 - INFO - Processing article: Malvertising Scam Uses Fake Google Ads to Hijack Microsoft Advertising Accounts
-2025-02-08 18:12:57,292 - INFO - Successfully inserted article: Malvertising Scam Uses Fake Google Ads to Hijack Microsoft Advertising Accounts
-2025-02-08 18:12:59,302 - INFO - Processing article: CISA and FDA Warn of Critical Backdoor in Contec CMS8000 Patient Monitors
-2025-02-08 18:12:59,387 - INFO - Successfully inserted article: CISA and FDA Warn of Critical Backdoor in Contec CMS8000 Patient Monitors
-2025-02-08 18:13:01,389 - INFO - Processing article: Top 5 AI-Powered Social Engineering Attacks
-2025-02-08 18:13:01,493 - INFO - Successfully inserted article: Top 5 AI-Powered Social Engineering Attacks
-2025-02-08 18:13:03,498 - INFO - Processing article: Italy Bans Chinese DeepSeek AI Over Data Privacy and Ethical Concerns
-2025-02-08 18:13:03,586 - INFO - Successfully inserted article: Italy Bans Chinese DeepSeek AI Over Data Privacy and Ethical Concerns
-2025-02-08 18:13:05,596 - INFO - Processing article: Google Bans 158,000 Malicious Android App Developer Accounts in 2024
-2025-02-08 18:13:05,677 - INFO - Successfully inserted article: Google Bans 158,000 Malicious Android App Developer Accounts in 2024
-2025-02-08 18:13:07,690 - INFO - Processing article: Broadcom Patches VMware Aria Flaws – Exploits May Lead to Credential Theft
-2025-02-08 18:13:07,769 - INFO - Successfully inserted article: Broadcom Patches VMware Aria Flaws – Exploits May Lead to Credential Theft
-2025-02-08 18:13:09,775 - INFO - Processing article: Google: Over 57 Nation-State Threat Groups Using AI for Cyber Operations
-2025-02-08 18:13:09,860 - INFO - Successfully inserted article: Google: Over 57 Nation-State Threat Groups Using AI for Cyber Operations
-2025-02-08 18:13:11,863 - INFO - Processing article: Authorities Seize Domains of Popular Hacking Forums in Major Cybercrime Crackdown
-2025-02-08 18:13:11,940 - INFO - Successfully inserted article: Authorities Seize Domains of Popular Hacking Forums in Major Cybercrime Crackdown
-2025-02-08 18:13:13,951 - INFO - Processing article: Lightning AI Studio Vulnerability Could've Allowed RCE via Hidden URL Parameter
-2025-02-08 18:13:14,034 - INFO - Successfully inserted article: Lightning AI Studio Vulnerability Could've Allowed RCE via Hidden URL Parameter
-2025-02-08 18:13:16,036 - INFO - Processing article: SOC Analysts - Reimagining Their Role Using AI
-2025-02-08 18:13:16,113 - INFO - Successfully inserted article: SOC Analysts - Reimagining Their Role Using AI
-2025-02-08 18:13:18,121 - INFO - Processing article: DeepSeek AI Database Exposed: Over 1 Million Log Lines, Secret Keys Leaked
-2025-02-08 18:13:18,215 - INFO - Successfully inserted article: DeepSeek AI Database Exposed: Over 1 Million Log Lines, Secret Keys Leaked
+2025-02-09 10:22:00,273 - INFO - Database initialized successfully.
+2025-02-09 10:22:00,470 - INFO - Found 50 entries in feed
+2025-02-09 10:22:00,472 - INFO - Processing article: Malicious ML Models on Hugging Face Leverage Broken Pickle Format to Evade Detection
+2025-02-09 10:22:00,702 - INFO - Successfully inserted article: Malicious ML Models on Hugging Face Leverage Broken Pickle Format to Evade Detection
+2025-02-09 10:22:02,714 - INFO - Processing article: DeepSeek App Transmits Sensitive User and Device Data Without Encryption
+2025-02-09 10:22:02,810 - INFO - Successfully inserted article: DeepSeek App Transmits Sensitive User and Device Data Without Encryption
+2025-02-09 10:22:04,816 - INFO - Processing article: CISA Warns of Active Exploits Targeting Trimble Cityworks Vulnerability
+2025-02-09 10:22:04,899 - INFO - Successfully inserted article: CISA Warns of Active Exploits Targeting Trimble Cityworks Vulnerability
+2025-02-09 10:22:06,900 - INFO - Processing article: AI-Powered Social Engineering: Reinvented Threats
+2025-02-09 10:22:07,001 - INFO - Successfully inserted article: AI-Powered Social Engineering: Reinvented Threats
+2025-02-09 10:22:09,002 - INFO - Processing article: Microsoft Identifies 3,000 Leaked ASP.NET Keys Enabling Code Injection Attacks
+2025-02-09 10:22:09,120 - INFO - Successfully inserted article: Microsoft Identifies 3,000 Leaked ASP.NET Keys Enabling Code Injection Attacks
+2025-02-09 10:22:11,130 - INFO - Processing article: India’s RBI Introduces Exclusive "bank.in" Domain to Combat Digital Banking Fraud
+2025-02-09 10:22:11,209 - INFO - Successfully inserted article: India’s RBI Introduces Exclusive "bank.in" Domain to Combat Digital Banking Fraud
+2025-02-09 10:22:13,218 - INFO - Processing article: Hackers Exploiting SimpleHelp RMM Flaws for Persistent Access and Ransomware
+2025-02-09 10:22:13,307 - INFO - Successfully inserted article: Hackers Exploiting SimpleHelp RMM Flaws for Persistent Access and Ransomware
+2025-02-09 10:22:15,321 - INFO - Processing article: Fake Google Chrome Sites Distribute ValleyRAT Malware via DLL Hijacking
+2025-02-09 10:22:15,402 - INFO - Successfully inserted article: Fake Google Chrome Sites Distribute ValleyRAT Malware via DLL Hijacking
+2025-02-09 10:22:17,406 - INFO - Processing article: Ransomware Extortion Drops to $813.5M in 2024, Down from $1.25B in 2023
+2025-02-09 10:22:17,485 - INFO - Successfully inserted article: Ransomware Extortion Drops to $813.5M in 2024, Down from $1.25B in 2023
+2025-02-09 10:22:19,495 - INFO - Processing article: SparkCat Malware Uses OCR to Extract Crypto Wallet Recovery Phrases from Images
+2025-02-09 10:22:19,588 - INFO - Successfully inserted article: SparkCat Malware Uses OCR to Extract Crypto Wallet Recovery Phrases from Images
+2025-02-09 10:22:21,591 - INFO - Processing article: The Evolving Role of PAM in Cybersecurity Leadership Agendas for 2025
+2025-02-09 10:22:21,674 - INFO - Successfully inserted article: The Evolving Role of PAM in Cybersecurity Leadership Agendas for 2025
+2025-02-09 10:22:23,689 - INFO - Processing article: North Korean APT Kimsuky Uses forceCopy Malware to Steal Browser-Stored Credentials
+2025-02-09 10:22:23,775 - INFO - Successfully inserted article: North Korean APT Kimsuky Uses forceCopy Malware to Steal Browser-Stored Credentials
+2025-02-09 10:22:25,776 - INFO - Processing article: Top 3 Ransomware Threats Active in 2025
+2025-02-09 10:22:25,865 - INFO - Successfully inserted article: Top 3 Ransomware Threats Active in 2025
+2025-02-09 10:22:27,875 - INFO - Processing article: Cisco Patches Critical ISE Vulnerabilities Enabling Root CmdExec and PrivEsc
+2025-02-09 10:22:27,952 - INFO - Successfully inserted article: Cisco Patches Critical ISE Vulnerabilities Enabling Root CmdExec and PrivEsc
+2025-02-09 10:22:29,965 - INFO - Processing article: Cross-Platform JavaScript Stealer Targets Crypto Wallets in New Lazarus Group Campaign
+2025-02-09 10:22:30,046 - INFO - Successfully inserted article: Cross-Platform JavaScript Stealer Targets Crypto Wallets in New Lazarus Group Campaign
+2025-02-09 10:22:32,050 - INFO - Processing article: Cybercriminals Use Go Resty and Node Fetch in 13 Million Password Spraying Attempts
+2025-02-09 10:22:32,131 - INFO - Successfully inserted article: Cybercriminals Use Go Resty and Node Fetch in 13 Million Password Spraying Attempts
+2025-02-09 10:22:34,133 - INFO - Processing article: Silent Lynx Using PowerShell, Golang, and C++ Loaders in Multi-Stage Cyberattacks
+2025-02-09 10:22:34,214 - INFO - Successfully inserted article: Silent Lynx Using PowerShell, Golang, and C++ Loaders in Multi-Stage Cyberattacks
+2025-02-09 10:22:36,219 - INFO - Processing article: New Veeam Flaw Allows Arbitrary Code Execution via Man-in-the-Middle Attack
+2025-02-09 10:22:36,297 - INFO - Successfully inserted article: New Veeam Flaw Allows Arbitrary Code Execution via Man-in-the-Middle Attack
+2025-02-09 10:22:38,301 - INFO - Processing article: Navigating the Future: Key IT Vulnerability Management Trends 
+2025-02-09 10:22:38,383 - INFO - Successfully inserted article: Navigating the Future: Key IT Vulnerability Management Trends 
+2025-02-09 10:22:40,385 - INFO - Processing article: AsyncRAT Campaign Uses Python Payloads and TryCloudflare Tunnels for Stealth Attacks
+2025-02-09 10:22:40,473 - INFO - Successfully inserted article: AsyncRAT Campaign Uses Python Payloads and TryCloudflare Tunnels for Stealth Attacks
+2025-02-09 10:22:42,487 - INFO - Processing article: CISA Adds Four Actively Exploited Vulnerabilities to KEV Catalog, Urges Fixes by Feb 25
+2025-02-09 10:22:42,567 - INFO - Successfully inserted article: CISA Adds Four Actively Exploited Vulnerabilities to KEV Catalog, Urges Fixes by Feb 25
+2025-02-09 10:22:44,573 - INFO - Processing article: Malicious Go Package Exploits Module Mirror Caching for Persistent Remote Access
+2025-02-09 10:22:44,656 - INFO - Successfully inserted article: Malicious Go Package Exploits Module Mirror Caching for Persistent Remote Access
+2025-02-09 10:22:46,663 - INFO - Processing article: Russian Cybercrime Groups Exploiting 7-Zip Flaw to Bypass Windows MotW Protections
+2025-02-09 10:22:46,744 - INFO - Successfully inserted article: Russian Cybercrime Groups Exploiting 7-Zip Flaw to Bypass Windows MotW Protections
+2025-02-09 10:22:48,753 - INFO - Processing article: North Korean Hackers Deploy FERRET Malware via Fake Job Interviews on macOS
+2025-02-09 10:22:48,869 - INFO - Successfully inserted article: North Korean Hackers Deploy FERRET Malware via Fake Job Interviews on macOS
+2025-02-09 10:22:50,882 - INFO - Processing article: Watch Out For These 8 Cloud Security Shifts in 2025
+2025-02-09 10:22:50,983 - INFO - Successfully inserted article: Watch Out For These 8 Cloud Security Shifts in 2025
+2025-02-09 10:22:52,993 - INFO - Processing article: Taiwan Bans DeepSeek AI Over National Security Concerns, Citing Data Leakage Risks
+2025-02-09 10:22:53,079 - INFO - Successfully inserted article: Taiwan Bans DeepSeek AI Over National Security Concerns, Citing Data Leakage Risks
+2025-02-09 10:22:55,081 - INFO - Processing article: AMD SEV-SNP Vulnerability Allows Malicious Microcode Injection with Admin Access
+2025-02-09 10:22:55,176 - INFO - Successfully inserted article: AMD SEV-SNP Vulnerability Allows Malicious Microcode Injection with Admin Access
+2025-02-09 10:22:57,180 - INFO - Processing article: Microsoft Patches Critical Azure AI Face Service Vulnerability with CVSS 9.9 Score
+2025-02-09 10:22:57,263 - INFO - Successfully inserted article: Microsoft Patches Critical Azure AI Face Service Vulnerability with CVSS 9.9 Score
+2025-02-09 10:22:59,264 - INFO - Processing article: Google Patches 47 Android Security Flaws, Including Actively Exploited CVE-2024-53104
+2025-02-09 10:22:59,354 - INFO - Successfully inserted article: Google Patches 47 Android Security Flaws, Including Actively Exploited CVE-2024-53104
+2025-02-09 10:23:01,370 - INFO - Processing article: Microsoft SharePoint Connector Flaw Could've Enabled Credential Theft Across Power Platform
+2025-02-09 10:23:01,481 - INFO - Successfully inserted article: Microsoft SharePoint Connector Flaw Could've Enabled Credential Theft Across Power Platform
+2025-02-09 10:23:03,489 - INFO - Processing article: 768 CVEs Exploited in 2024, Reflecting a 20% Increase from 639 in 2023
+2025-02-09 10:23:03,610 - INFO - Successfully inserted article: 768 CVEs Exploited in 2024, Reflecting a 20% Increase from 639 in 2023
+2025-02-09 10:23:05,615 - INFO - Processing article: PyPI Introduces Archival Status to Alert Users About Unmaintained Python Packages
+2025-02-09 10:23:05,705 - INFO - Successfully inserted article: PyPI Introduces Archival Status to Alert Users About Unmaintained Python Packages
+2025-02-09 10:23:07,706 - INFO - Processing article:  THN Weekly Recap: Top Cybersecurity Threats, Tools and Tips [3 February]
+2025-02-09 10:23:07,798 - INFO - Successfully inserted article:  THN Weekly Recap: Top Cybersecurity Threats, Tools and Tips [3 February]
+2025-02-09 10:23:09,813 - INFO - Processing article: Coyote Malware Expands Reach: Now Targets 1,030 Sites and 73 Financial Institutions
+2025-02-09 10:23:09,912 - INFO - Successfully inserted article: Coyote Malware Expands Reach: Now Targets 1,030 Sites and 73 Financial Institutions
+2025-02-09 10:23:11,928 - INFO - Processing article: What Is Attack Surface Management?
+2025-02-09 10:23:12,012 - INFO - Successfully inserted article: What Is Attack Surface Management?
+2025-02-09 10:23:14,016 - INFO - Processing article: Crazy Evil Gang Targets Crypto with StealC, AMOS, and Angel Drainer Malware
+2025-02-09 10:23:14,117 - INFO - Successfully inserted article: Crazy Evil Gang Targets Crypto with StealC, AMOS, and Angel Drainer Malware
+2025-02-09 10:23:16,119 - INFO - Processing article: U.S. and Dutch Authorities Dismantle 39 Domains Linked to BEC Fraud Network
+2025-02-09 10:23:16,205 - INFO - Successfully inserted article: U.S. and Dutch Authorities Dismantle 39 Domains Linked to BEC Fraud Network
+2025-02-09 10:23:18,210 - INFO - Processing article: BeyondTrust Zero-Day Breach Exposed 17 SaaS Customers via Compromised API Key
+2025-02-09 10:23:18,314 - INFO - Successfully inserted article: BeyondTrust Zero-Day Breach Exposed 17 SaaS Customers via Compromised API Key
+2025-02-09 10:23:20,315 - INFO - Processing article: Meta Confirms Zero-Click WhatsApp Spyware Attack Targeting 90 Journalists, Activists
+2025-02-09 10:23:20,423 - INFO - Successfully inserted article: Meta Confirms Zero-Click WhatsApp Spyware Attack Targeting 90 Journalists, Activists
+2025-02-09 10:23:22,429 - INFO - Processing article: Malvertising Scam Uses Fake Google Ads to Hijack Microsoft Advertising Accounts
+2025-02-09 10:23:22,521 - INFO - Successfully inserted article: Malvertising Scam Uses Fake Google Ads to Hijack Microsoft Advertising Accounts
+2025-02-09 10:23:24,527 - INFO - Processing article: CISA and FDA Warn of Critical Backdoor in Contec CMS8000 Patient Monitors
+2025-02-09 10:23:24,609 - INFO - Successfully inserted article: CISA and FDA Warn of Critical Backdoor in Contec CMS8000 Patient Monitors
+2025-02-09 10:23:26,618 - INFO - Processing article: Top 5 AI-Powered Social Engineering Attacks
+2025-02-09 10:23:26,708 - INFO - Successfully inserted article: Top 5 AI-Powered Social Engineering Attacks
+2025-02-09 10:23:28,717 - INFO - Processing article: Italy Bans Chinese DeepSeek AI Over Data Privacy and Ethical Concerns
+2025-02-09 10:23:28,799 - INFO - Successfully inserted article: Italy Bans Chinese DeepSeek AI Over Data Privacy and Ethical Concerns
+2025-02-09 10:23:30,805 - INFO - Processing article: Google Bans 158,000 Malicious Android App Developer Accounts in 2024
+2025-02-09 10:23:30,898 - INFO - Successfully inserted article: Google Bans 158,000 Malicious Android App Developer Accounts in 2024
+2025-02-09 10:23:32,908 - INFO - Processing article: Broadcom Patches VMware Aria Flaws – Exploits May Lead to Credential Theft
+2025-02-09 10:23:32,982 - INFO - Successfully inserted article: Broadcom Patches VMware Aria Flaws – Exploits May Lead to Credential Theft
+2025-02-09 10:23:34,993 - INFO - Processing article: Google: Over 57 Nation-State Threat Groups Using AI for Cyber Operations
+2025-02-09 10:23:35,082 - INFO - Successfully inserted article: Google: Over 57 Nation-State Threat Groups Using AI for Cyber Operations
+2025-02-09 10:23:37,096 - INFO - Processing article: Authorities Seize Domains of Popular Hacking Forums in Major Cybercrime Crackdown
+2025-02-09 10:23:37,178 - INFO - Successfully inserted article: Authorities Seize Domains of Popular Hacking Forums in Major Cybercrime Crackdown
+2025-02-09 10:23:39,181 - INFO - Processing article: Lightning AI Studio Vulnerability Could've Allowed RCE via Hidden URL Parameter
+2025-02-09 10:23:39,273 - INFO - Successfully inserted article: Lightning AI Studio Vulnerability Could've Allowed RCE via Hidden URL Parameter
+2025-02-09 10:23:41,285 - INFO - Processing article: SOC Analysts - Reimagining Their Role Using AI
+2025-02-09 10:23:41,372 - INFO - Successfully inserted article: SOC Analysts - Reimagining Their Role Using AI
+2025-02-09 10:23:43,387 - INFO - Processing article: DeepSeek AI Database Exposed: Over 1 Million Log Lines, Secret Keys Leaked
+2025-02-09 10:23:43,472 - INFO - Successfully inserted article: DeepSeek AI Database Exposed: Over 1 Million Log Lines, Secret Keys Leaked
+2025-02-09 11:34:32,228 - INFO - Database initialized successfully.
+2025-02-09 11:34:32,454 - INFO - Found 50 entries in feed
+2025-02-09 11:34:32,456 - INFO - Processing article: Malicious ML Models on Hugging Face Leverage Broken Pickle Format to Evade Detection
+2025-02-09 11:34:32,625 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/malicious-ml-models-found-on-hugging.html
+2025-02-09 11:34:32,625 - INFO - Skipping duplicate article
+2025-02-09 11:34:32,625 - INFO - Processing article: DeepSeek App Transmits Sensitive User and Device Data Without Encryption
+2025-02-09 11:34:32,703 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/deepseek-app-transmits-sensitive-user.html
+2025-02-09 11:34:32,703 - INFO - Skipping duplicate article
+2025-02-09 11:34:32,703 - INFO - Processing article: CISA Warns of Active Exploits Targeting Trimble Cityworks Vulnerability
+2025-02-09 11:34:32,768 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/cisa-warns-of-active-exploitation-in.html
+2025-02-09 11:34:32,768 - INFO - Skipping duplicate article
+2025-02-09 11:34:32,768 - INFO - Processing article: AI-Powered Social Engineering: Reinvented Threats
+2025-02-09 11:34:32,840 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/ai-powered-social-engineering.html
+2025-02-09 11:34:32,840 - INFO - Skipping duplicate article
+2025-02-09 11:34:32,840 - INFO - Processing article: Microsoft Identifies 3,000 Leaked ASP.NET Keys Enabling Code Injection Attacks
+2025-02-09 11:34:32,913 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/microsoft-identifies-3000-publicly.html
+2025-02-09 11:34:32,913 - INFO - Skipping duplicate article
+2025-02-09 11:34:32,913 - INFO - Processing article: India’s RBI Introduces Exclusive "bank.in" Domain to Combat Digital Banking Fraud
+2025-02-09 11:34:32,984 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/indias-rbi-introduces-exclusive-bankin.html
+2025-02-09 11:34:32,984 - INFO - Skipping duplicate article
+2025-02-09 11:34:32,984 - INFO - Processing article: Hackers Exploiting SimpleHelp RMM Flaws for Persistent Access and Ransomware
+2025-02-09 11:34:33,069 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/hackers-exploit-simplehelp-rmm-flaws.html
+2025-02-09 11:34:33,069 - INFO - Skipping duplicate article
+2025-02-09 11:34:33,069 - INFO - Processing article: Fake Google Chrome Sites Distribute ValleyRAT Malware via DLL Hijacking
+2025-02-09 11:34:33,143 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/fake-google-chrome-sites-distribute.html
+2025-02-09 11:34:33,143 - INFO - Skipping duplicate article
+2025-02-09 11:34:33,143 - INFO - Processing article: Ransomware Extortion Drops to $813.5M in 2024, Down from $1.25B in 2023
+2025-02-09 11:34:33,235 - INFO - Duplicate found (exact link match): https://thehackernews.com/2025/02/ransomware-extortion-drops-to-8135m-in.html
+2025-02-09 11:34:33,235 - INFO - Skipping duplicate article
+2025-02-09 11:34:33,235 - INFO - Processing article: SparkCat Malware Uses OCR to Extract Crypto Wallet Recovery Phrases from Images
+2025-02-09 11:34:33,315 - INFO - Successfully inserted article: SparkCat Malware Uses OCR to Extract Crypto Wallet Recovery Phrases from Images
+2025-02-09 11:34:35,320 - INFO - Processing article: The Evolving Role of PAM in Cybersecurity Leadership Agendas for 2025
+2025-02-09 11:34:35,516 - INFO - Successfully inserted article: The Evolving Role of PAM in Cybersecurity Leadership Agendas for 2025
+2025-02-09 11:34:37,528 - INFO - Processing article: North Korean APT Kimsuky Uses forceCopy Malware to Steal Browser-Stored Credentials
+2025-02-09 11:34:37,726 - INFO - Successfully inserted article: North Korean APT Kimsuky Uses forceCopy Malware to Steal Browser-Stored Credentials
+2025-02-09 11:34:39,726 - INFO - Processing article: Top 3 Ransomware Threats Active in 2025
+2025-02-09 11:34:39,802 - INFO - Successfully inserted article: Top 3 Ransomware Threats Active in 2025
+2025-02-09 11:34:41,803 - INFO - Processing article: Cisco Patches Critical ISE Vulnerabilities Enabling Root CmdExec and PrivEsc
+2025-02-09 11:34:41,963 - INFO - Successfully inserted article: Cisco Patches Critical ISE Vulnerabilities Enabling Root CmdExec and PrivEsc
+2025-02-09 11:34:43,967 - INFO - Processing article: Cross-Platform JavaScript Stealer Targets Crypto Wallets in New Lazarus Group Campaign
+2025-02-09 11:34:44,164 - INFO - Successfully inserted article: Cross-Platform JavaScript Stealer Targets Crypto Wallets in New Lazarus Group Campaign
+2025-02-09 11:34:46,168 - INFO - Processing article: Cybercriminals Use Go Resty and Node Fetch in 13 Million Password Spraying Attempts
+2025-02-09 11:34:46,254 - INFO - Successfully inserted article: Cybercriminals Use Go Resty and Node Fetch in 13 Million Password Spraying Attempts
+2025-02-09 11:34:48,255 - INFO - Processing article: Silent Lynx Using PowerShell, Golang, and C++ Loaders in Multi-Stage Cyberattacks
+2025-02-09 11:34:48,329 - INFO - Successfully inserted article: Silent Lynx Using PowerShell, Golang, and C++ Loaders in Multi-Stage Cyberattacks
+2025-02-09 11:34:50,340 - INFO - Processing article: New Veeam Flaw Allows Arbitrary Code Execution via Man-in-the-Middle Attack
+2025-02-09 11:34:50,549 - INFO - Successfully inserted article: New Veeam Flaw Allows Arbitrary Code Execution via Man-in-the-Middle Attack
+2025-02-09 11:34:52,556 - INFO - Processing article: Navigating the Future: Key IT Vulnerability Management Trends 
+2025-02-09 11:34:52,758 - INFO - Successfully inserted article: Navigating the Future: Key IT Vulnerability Management Trends 
+2025-02-09 11:34:54,762 - INFO - Processing article: AsyncRAT Campaign Uses Python Payloads and TryCloudflare Tunnels for Stealth Attacks
+2025-02-09 11:34:54,847 - INFO - Successfully inserted article: AsyncRAT Campaign Uses Python Payloads and TryCloudflare Tunnels for Stealth Attacks
+2025-02-09 11:34:56,859 - INFO - Processing article: CISA Adds Four Actively Exploited Vulnerabilities to KEV Catalog, Urges Fixes by Feb 25
+2025-02-09 11:34:57,091 - INFO - Successfully inserted article: CISA Adds Four Actively Exploited Vulnerabilities to KEV Catalog, Urges Fixes by Feb 25
+2025-02-09 11:34:59,104 - INFO - Processing article: Malicious Go Package Exploits Module Mirror Caching for Persistent Remote Access
+2025-02-09 11:34:59,308 - INFO - Successfully inserted article: Malicious Go Package Exploits Module Mirror Caching for Persistent Remote Access
+2025-02-09 11:35:01,318 - INFO - Processing article: Russian Cybercrime Groups Exploiting 7-Zip Flaw to Bypass Windows MotW Protections
+2025-02-09 11:35:01,407 - INFO - Successfully inserted article: Russian Cybercrime Groups Exploiting 7-Zip Flaw to Bypass Windows MotW Protections
+2025-02-09 11:35:03,408 - INFO - Processing article: North Korean Hackers Deploy FERRET Malware via Fake Job Interviews on macOS
+2025-02-09 11:35:03,647 - INFO - Successfully inserted article: North Korean Hackers Deploy FERRET Malware via Fake Job Interviews on macOS
+2025-02-09 11:35:05,651 - INFO - Processing article: Watch Out For These 8 Cloud Security Shifts in 2025
+2025-02-09 11:35:05,902 - INFO - Successfully inserted article: Watch Out For These 8 Cloud Security Shifts in 2025
+2025-02-09 11:35:07,911 - INFO - Processing article: Taiwan Bans DeepSeek AI Over National Security Concerns, Citing Data Leakage Risks
+2025-02-09 11:35:08,093 - INFO - Successfully inserted article: Taiwan Bans DeepSeek AI Over National Security Concerns, Citing Data Leakage Risks
+2025-02-09 11:35:10,104 - INFO - Processing article: AMD SEV-SNP Vulnerability Allows Malicious Microcode Injection with Admin Access
+2025-02-09 11:35:10,180 - INFO - Successfully inserted article: AMD SEV-SNP Vulnerability Allows Malicious Microcode Injection with Admin Access
+2025-02-09 11:35:12,189 - INFO - Processing article: Microsoft Patches Critical Azure AI Face Service Vulnerability with CVSS 9.9 Score
+2025-02-09 11:35:12,363 - INFO - Successfully inserted article: Microsoft Patches Critical Azure AI Face Service Vulnerability with CVSS 9.9 Score
+2025-02-09 11:35:14,365 - INFO - Processing article: Google Patches 47 Android Security Flaws, Including Actively Exploited CVE-2024-53104
+2025-02-09 11:35:14,446 - INFO - Successfully inserted article: Google Patches 47 Android Security Flaws, Including Actively Exploited CVE-2024-53104
+2025-02-09 11:35:16,456 - INFO - Processing article: Microsoft SharePoint Connector Flaw Could've Enabled Credential Theft Across Power Platform
+2025-02-09 11:35:16,622 - INFO - Successfully inserted article: Microsoft SharePoint Connector Flaw Could've Enabled Credential Theft Across Power Platform
+2025-02-09 11:35:18,637 - INFO - Processing article: 768 CVEs Exploited in 2024, Reflecting a 20% Increase from 639 in 2023
+2025-02-09 11:35:18,708 - INFO - Successfully inserted article: 768 CVEs Exploited in 2024, Reflecting a 20% Increase from 639 in 2023
+2025-02-09 11:35:20,713 - INFO - Processing article: PyPI Introduces Archival Status to Alert Users About Unmaintained Python Packages
+2025-02-09 11:35:20,793 - INFO - Successfully inserted article: PyPI Introduces Archival Status to Alert Users About Unmaintained Python Packages
+2025-02-09 11:35:22,808 - INFO - Processing article:  THN Weekly Recap: Top Cybersecurity Threats, Tools and Tips [3 February]
+2025-02-09 11:35:23,024 - INFO - Successfully inserted article:  THN Weekly Recap: Top Cybersecurity Threats, Tools and Tips [3 February]
+2025-02-09 11:35:25,027 - INFO - Processing article: Coyote Malware Expands Reach: Now Targets 1,030 Sites and 73 Financial Institutions
+2025-02-09 11:35:25,232 - INFO - Successfully inserted article: Coyote Malware Expands Reach: Now Targets 1,030 Sites and 73 Financial Institutions
+2025-02-09 11:35:27,238 - INFO - Processing article: What Is Attack Surface Management?
+2025-02-09 11:35:27,316 - INFO - Successfully inserted article: What Is Attack Surface Management?
+2025-02-09 11:35:29,326 - INFO - Processing article: Crazy Evil Gang Targets Crypto with StealC, AMOS, and Angel Drainer Malware
+2025-02-09 11:35:29,539 - INFO - Successfully inserted article: Crazy Evil Gang Targets Crypto with StealC, AMOS, and Angel Drainer Malware
+2025-02-09 11:35:31,547 - INFO - Processing article: U.S. and Dutch Authorities Dismantle 39 Domains Linked to BEC Fraud Network
+2025-02-09 11:35:31,758 - INFO - Successfully inserted article: U.S. and Dutch Authorities Dismantle 39 Domains Linked to BEC Fraud Network
+2025-02-09 11:35:33,772 - INFO - Processing article: BeyondTrust Zero-Day Breach Exposed 17 SaaS Customers via Compromised API Key
+2025-02-09 11:35:33,976 - INFO - Successfully inserted article: BeyondTrust Zero-Day Breach Exposed 17 SaaS Customers via Compromised API Key
+2025-02-09 11:35:35,980 - INFO - Processing article: Meta Confirms Zero-Click WhatsApp Spyware Attack Targeting 90 Journalists, Activists
+2025-02-09 11:35:36,058 - INFO - Successfully inserted article: Meta Confirms Zero-Click WhatsApp Spyware Attack Targeting 90 Journalists, Activists
+2025-02-09 11:35:38,065 - INFO - Processing article: Malvertising Scam Uses Fake Google Ads to Hijack Microsoft Advertising Accounts
+2025-02-09 11:35:38,285 - INFO - Successfully inserted article: Malvertising Scam Uses Fake Google Ads to Hijack Microsoft Advertising Accounts
+2025-02-09 11:35:40,301 - INFO - Processing article: CISA and FDA Warn of Critical Backdoor in Contec CMS8000 Patient Monitors
+2025-02-09 11:35:40,529 - INFO - Successfully inserted article: CISA and FDA Warn of Critical Backdoor in Contec CMS8000 Patient Monitors
+2025-02-09 11:35:42,540 - INFO - Processing article: Top 5 AI-Powered Social Engineering Attacks
+2025-02-09 11:35:42,755 - INFO - Successfully inserted article: Top 5 AI-Powered Social Engineering Attacks
+2025-02-09 11:35:44,768 - INFO - Processing article: Italy Bans Chinese DeepSeek AI Over Data Privacy and Ethical Concerns
+2025-02-09 11:35:44,843 - INFO - Successfully inserted article: Italy Bans Chinese DeepSeek AI Over Data Privacy and Ethical Concerns
+2025-02-09 11:35:46,852 - INFO - Processing article: Google Bans 158,000 Malicious Android App Developer Accounts in 2024
+2025-02-09 11:35:47,065 - INFO - Successfully inserted article: Google Bans 158,000 Malicious Android App Developer Accounts in 2024
+2025-02-09 11:35:49,075 - INFO - Processing article: Broadcom Patches VMware Aria Flaws – Exploits May Lead to Credential Theft
+2025-02-09 11:35:49,265 - INFO - Successfully inserted article: Broadcom Patches VMware Aria Flaws – Exploits May Lead to Credential Theft
+2025-02-09 11:35:51,270 - INFO - Processing article: Google: Over 57 Nation-State Threat Groups Using AI for Cyber Operations
+2025-02-09 11:35:51,465 - INFO - Successfully inserted article: Google: Over 57 Nation-State Threat Groups Using AI for Cyber Operations
+2025-02-09 11:35:53,480 - INFO - Processing article: Authorities Seize Domains of Popular Hacking Forums in Major Cybercrime Crackdown
+2025-02-09 11:35:53,685 - INFO - Successfully inserted article: Authorities Seize Domains of Popular Hacking Forums in Major Cybercrime Crackdown
+2025-02-09 11:35:55,688 - INFO - Processing article: Lightning AI Studio Vulnerability Could've Allowed RCE via Hidden URL Parameter
+2025-02-09 11:35:55,764 - INFO - Successfully inserted article: Lightning AI Studio Vulnerability Could've Allowed RCE via Hidden URL Parameter
+2025-02-09 11:35:57,772 - INFO - Processing article: SOC Analysts - Reimagining Their Role Using AI
+2025-02-09 11:35:57,976 - INFO - Successfully inserted article: SOC Analysts - Reimagining Their Role Using AI
+2025-02-09 11:35:59,981 - INFO - Processing article: DeepSeek AI Database Exposed: Over 1 Million Log Lines, Secret Keys Leaked
+2025-02-09 11:36:00,154 - INFO - Successfully inserted article: DeepSeek AI Database Exposed: Over 1 Million Log Lines, Secret Keys Leaked

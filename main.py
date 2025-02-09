@@ -1,17 +1,24 @@
 # main.py
 import subprocess
-import threading
-import time
 import sys
+import threading
 import os
 
+# Import the pipeline function from pipeline.py
+from pipeline import run_full_pipeline_headless
+
+import os
+api_key = os.getenv('OPENAI_API_KEY')
+if not api_key:
+    print("Error: OPENAI_API_KEY environment variable not found")
+    sys.exit(1)
+logs = run_full_pipeline_headless(api_key=api_key, db_path="db/news.db")
+
 def run_scraper(script_path: str):
-    """Helper to run a scraper script. Raises CalledProcessError on failure."""
     print(f"--- Running {script_path} ---")
     subprocess.run([sys.executable, script_path], check=True)
 
 def run_all_scrapers_in_threads(scraper_scripts):
-    """Spawn each scraper in its own thread, wait for them all to finish."""
     threads = []
 
     def wrapper(script):
@@ -25,46 +32,47 @@ def run_all_scrapers_in_threads(scraper_scripts):
         t.start()
         threads.append(t)
 
-    # Join all threads
     for t in threads:
         t.join()
 
 def main():
-    # 1. Define the scripts you want to run.
-    #    These are the newly refactored files from above.
-    #    Adjust paths as needed if they are in a subfolder.
+    # 1) Define the scraper scripts
     scraper_scripts = [
-        "bleepingcomputer.py",
-        "darkreading-scraper.py",
-        "krebsonsecurityscraper.py",
-        "nist.py",
-        "register-scraper.py",
-        "schneier-scraper.py",
-        "Scrapinghackernews.py",
-        "securelist-scraper.py",
-        "Slashdotit.py",
-        "sophos.py",
-        "techcrunch.py",
-        "techradar.py"
+        "scrapers/bleepingcomputer.py",
+        "scrapers/darkreading-scraper.py",
+        "scrapers/krebsonsecurityscraper.py",
+        "scrapers/nist.py",
+        "scrapers/register-scraper.py",
+        "scrapers/schneier-scraper.py",
+        "scrapers/Scrapinghackernews.py",
+        "scrapers/securelist-scraper.py",
+        "scrapers/Slashdotit.py",
+        "scrapers/sophos.py",
+        "scrapers/techcrunch.py",
+        "scrapers/techradar.py",
     ]
 
-    # 2. Run all scrapers (in parallel or sequentially).
+    # 2) Run all scrapers
     run_all_scrapers_in_threads(scraper_scripts)
 
-    # 3. Run date.py to standardize all published_date columns.
+    # 3) Run date.py to standardize publication dates
     print("\n--- Running date.py to standardize publication dates ---")
     try:
         run_scraper("date.py")
     except subprocess.CalledProcessError as e:
         print(f"Error running date.py: {e}")
 
-    # 4. Launch the Streamlit app.
-    #    You can do so by calling `streamlit run streamlit_app.py`.
+    # 4) Automatically run the pipeline (assuming your pipeline doesn’t need an API key now)
+    print("\n--- Running the full pipeline (headless) ---")
+    logs = run_full_pipeline_headless(db_path="db/news.db")
+    for line in logs:
+        print(line)
+    print("--- Finished pipeline ---")
+
+    # 5) Launch Streamlit UI for browsing
     print("\n--- Starting Streamlit interface ---")
-    # On some systems you might need 'python -m streamlit ...'
-    # Or simply 'streamlit run ...' if it's in your PATH.
     try:
-        subprocess.run(["streamlit", "run", "streamlit_app.py"], check=True)
+        subprocess.run(["streamlit", "run", "app.py"], check=True)
     except subprocess.CalledProcessError as e:
         print(f"Error launching Streamlit app: {e}")
 
