@@ -12,88 +12,81 @@ from datetime import datetime, timedelta
 # Constants
 # --------------------------------------------------------------------------------
 
-MODEL = "o3-mini"          # Used for the initial grouping of articles
-MERGE_MODEL_1 = "o3-mini"  # First model for merges/refinements
-MERGE_MODEL_2 = "o1-mini"  # Second model for merges/refinements
+MODEL = "o3-mini"          # Model used for grouping and extraction
 MAX_RETRIES = 3
 REQUEST_TIMEOUT = 240
 DEFAULT_API_KEY = ""
 
-# For time filtering in the "View" tabs
-TIME_FILTER_OPTIONS = {
-    "Last 36 hours": 36,
+# Up to ~70k tokens in a single chunk for LLM calls
+MAX_TOKEN_CHUNK = 70000
+
+# Date filter options in the sidebar
+DATE_FILTER_OPTIONS = {
+    "All time": None,
+    "Last 24 hours": 24,
     "Last 7 days": 24*7,
-    "Last 30 days": 24*30,
-    "All time": None
+    "Last 30 days": 24*30
 }
+
+# Predefined categories for two-phase approach
+PREDEFINED_CATEGORIES = [
+    "Science & Environment",
+    "Business, Finance & Trade",
+    "Artificial Intelligence & Machine Learning",
+    "Software Development & Open Source",
+    "Cybersecurity & Data Privacy",
+    "Politics & Government",
+    "Consumer Technology & Gadgets",
+    "Automotive, Space & Transportation",
+    "Enterprise Technology & Cloud Computing",
+    "Other"
+]
 
 # --------------------------------------------------------------------------------
 # Utility Functions
 # --------------------------------------------------------------------------------
 
 def generate_content_hash(text):
-    """Generate a hash for content to avoid duplicates."""
+    """Generate a hash for content (if you need dedup checks)."""
     return hashlib.md5(text.encode()).hexdigest()
 
 def call_gpt_api(messages, api_key, model=MODEL):
     """
-    Call OpenAI API with retry logic and error handling.
-
-    1) If calling 'o1-mini', we transform system messages into user messages 
-       (because 'o1-mini' might not support system role).
-    2) Then we pass the final messages to the OpenAI client.
-    3) We handle token estimates, retries, etc.
+    Call OpenAI API with retry logic and basic error handling.
     """
     if not api_key:
         st.error("Please provide an API key in the sidebar.")
         return None
 
-    final_messages = []
-    if model == "o1-mini":
-        # Transform system → user
-        for m in messages:
-            if m["role"] == "system":
-                final_messages.append({
-                    "role": "user",
-                    "content": "System Instruction:\n" + m["content"]
-                })
-            else:
-                final_messages.append(m)
-    else:
-        final_messages = messages
+    # Estimate tokens (very rough)
+    total_token_estimate = int(sum(len(m['content'].split()) for m in messages) * 1.3)
+    st.write("API Request Details:")
+    st.write(f"- Model: {model}")
+    st.write(f"- Timeout: {REQUEST_TIMEOUT}s")
+    st.write(f"- Message count: {len(messages)}")
+    st.write(f"- Approx token count: {total_token_estimate}")
 
-    try:
-        total_token_estimate = int(sum(len(m['content'].split()) for m in final_messages) * 1.3)
-        st.write("API Request Details:")
-        st.write(f"- Model: {model}")
-        st.write(f"- Timeout: {REQUEST_TIMEOUT}s")
-        st.write(f"- Message count: {len(final_messages)}")
-        st.write(f"- Approx token count: {total_token_estimate}")
-        
-        client = OpenAI(api_key=api_key)
-        for attempt in range(MAX_RETRIES):
-            try:
-                st.info(f"Making API call (attempt {attempt+1}/{MAX_RETRIES}) to {model}...")
-                start_time = time.time()
-                response = client.chat.completions.create(
-                    model=model,
-                    messages=final_messages,
-                    timeout=REQUEST_TIMEOUT
-                )
-                elapsed_time = time.time() - start_time
-                st.success(f"API call successful in {elapsed_time:.2f}s with model='{model}'")
-                return response.choices[0].message.content.strip()
-            except Exception as e:
-                elapsed_time = time.time() - start_time
-                st.error(f"Error on attempt {attempt+1}: {type(e).__name__}: {e}")
-                if attempt < MAX_RETRIES - 1:
-                    st.warning("Retrying in 2 seconds...")
-                    time.sleep(2)
-                else:
-                    return None
-    except Exception as e:
-        st.error(f"Client error: {type(e).__name__} -> {str(e)}")
-        return None
+    client = OpenAI(api_key=api_key)
+    for attempt in range(MAX_RETRIES):
+        try:
+            st.info(f"Making API call (attempt {attempt+1}/{MAX_RETRIES}) to {model}...")
+            start_time = time.time()
+            response = client.chat.completions.create(
+                model=model,
+                messages=messages,
+                timeout=REQUEST_TIMEOUT
+            )
+            elapsed_time = time.time() - start_time
+            st.success(f"API call successful in {elapsed_time:.2f}s with model='{model}'")
+            return response.choices[0].message.content.strip()
+        except Exception as e:
+            elapsed_time = time.time() - start_time
+            st.error(f"Error on attempt {attempt+1}: {type(e).__name__}: {e}")
+            if attempt < MAX_RETRIES - 1:
+                st.warning("Retrying in 2 seconds...")
+                time.sleep(2)
+            else:
+                return None
 
 # --------------------------------------------------------------------------------
 # Database Setup
@@ -101,34 +94,12 @@ def call_gpt_api(messages, api_key, model=MODEL):
 
 def setup_database():
     """
-    Create the necessary tables for article grouping if they don't exist.
-    Single-step approach uses article_groups / article_group_memberships.
-    Two-phase approach uses two_phase_article_groups / two_phase_article_group_memberships.
+    Create the necessary tables for the two-phase approach if they don't exist.
+    Also create the article_companies table for storing extracted company tags.
     """
     conn = sqlite3.connect("news.db")
     cursor = conn.cursor()
     
-    # Single-step grouping tables
-    cursor.execute("""
-    CREATE TABLE IF NOT EXISTS article_groups (
-        group_id INTEGER PRIMARY KEY AUTOINCREMENT,
-        main_topic TEXT NOT NULL,
-        sub_topic TEXT NOT NULL,
-        group_label TEXT NOT NULL,
-        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-        updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-    )
-    """)
-    cursor.execute("""
-    CREATE TABLE IF NOT EXISTS article_group_memberships (
-        article_link TEXT NOT NULL,
-        group_id INTEGER NOT NULL,
-        added_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-        FOREIGN KEY (group_id) REFERENCES article_groups (group_id),
-        PRIMARY KEY (article_link, group_id)
-    )
-    """)
-
     # Two-phase grouping tables
     cursor.execute("""
     CREATE TABLE IF NOT EXISTS two_phase_article_groups (
@@ -150,25 +121,99 @@ def setup_database():
     )
     """)
 
+    # Subgroup tables (fine-grained grouping inside each category)
+    cursor.execute("""
+    CREATE TABLE IF NOT EXISTS two_phase_subgroups (
+        subgroup_id INTEGER PRIMARY KEY AUTOINCREMENT,
+        category TEXT NOT NULL,
+        group_label TEXT NOT NULL,
+        summary TEXT,
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    )
+    """)
+    cursor.execute("""
+    CREATE TABLE IF NOT EXISTS two_phase_subgroup_memberships (
+        article_link TEXT NOT NULL,
+        subgroup_id INTEGER NOT NULL,
+        added_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        FOREIGN KEY (subgroup_id) REFERENCES two_phase_subgroups (subgroup_id),
+        PRIMARY KEY (article_link, subgroup_id)
+    )
+    """)
+
+    # Table for storing company references extracted by the LLM
+    cursor.execute("""
+    CREATE TABLE IF NOT EXISTS article_companies (
+        article_link TEXT NOT NULL,
+        company_name TEXT NOT NULL,
+        PRIMARY KEY(article_link, company_name)
+    )
+    """)
+
     conn.commit()
     conn.close()
 
 # --------------------------------------------------------------------------------
-# Data Retrieval
+# Approximate Tokens & Chunk Summaries
 # --------------------------------------------------------------------------------
 
-def get_ungrouped_articles_single_step():
-    """Articles not assigned to single-step grouping."""
+def approximate_tokens(text):
+    """Rough heuristic for token count."""
+    return int(len(text.split()) * 1.3)
+
+def chunk_summaries(summaries_dict, max_token_chunk=MAX_TOKEN_CHUNK):
+    """
+    Splits articles into chunks without exceeding max_token_chunk (~70k).
+    If a single article itself exceeds the chunk limit, we yield it alone.
+    """
+    current_chunk = {}
+    current_tokens = 0
+
+    for link, summary in summaries_dict.items():
+        tokens_for_article = approximate_tokens(summary)
+
+        # If an article alone exceeds the chunk limit, yield it separately
+        if tokens_for_article > max_token_chunk:
+            if current_chunk:
+                yield current_chunk
+                current_chunk = {}
+                current_tokens = 0
+            # yield this article alone
+            yield {link: summary}
+            continue
+
+        # Otherwise see if we can add it to the current chunk
+        if current_tokens + tokens_for_article > max_token_chunk:
+            if current_chunk:
+                yield current_chunk
+            current_chunk = {link: summary}
+            current_tokens = tokens_for_article
+        else:
+            current_chunk[link] = summary
+            current_tokens += tokens_for_article
+
+    if current_chunk:
+        yield current_chunk
+
+# --------------------------------------------------------------------------------
+# Article + Company Queries
+# --------------------------------------------------------------------------------
+
+def get_articles_missing_company_extraction():
+    """
+    Returns articles that do NOT have any existing entry in article_companies.
+    We can run LLM to extract company names for these.
+    """
     conn = sqlite3.connect("news.db")
     query = """
     SELECT 
-        a.link as article_link,
-        a.title || ' - ' || a.content as expanded_summary,
-        a.published_date as created_at
+        a.link,
+        a.title || ' - ' || a.content AS expanded_summary
     FROM articles a
     WHERE NOT EXISTS (
-        SELECT 1 FROM article_group_memberships agm
-        WHERE agm.article_link = a.link
+        SELECT 1 FROM article_companies ac
+        WHERE ac.article_link = a.link
     )
     ORDER BY a.published_date DESC
     """
@@ -176,8 +221,161 @@ def get_ungrouped_articles_single_step():
     conn.close()
     return df
 
+def extract_company_names_for_all_articles(api_key):
+    """
+    1. Identify articles with no company extractions yet.
+    2. Chunk them up to 70k tokens.
+    3. LLM: "Extract all company names from each article."
+    4. Store results in article_companies table.
+    """
+    df = get_articles_missing_company_extraction()
+    if df.empty:
+        st.info("All articles already have company extractions.")
+        return
+
+    # Build dictionary: {link: summary_text}
+    summaries_dict = {}
+    for _, row in df.iterrows():
+        link = row["link"]
+        content = row["expanded_summary"].strip()
+        summaries_dict[link] = content
+
+    chunked_articles = list(chunk_summaries(summaries_dict, max_token_chunk=MAX_TOKEN_CHUNK))
+    total_extractions = 0
+
+    for idx, chunk_dict in enumerate(chunked_articles, start=1):
+        st.write(f"Extracting company names for chunk {idx}/{len(chunked_articles)} with {len(chunk_dict)} articles.")
+
+        prompt = (
+            "You are a named-entity recognition AI. For each article, extract all company names mentioned. "
+            "Return only JSON with the format:\n"
+            "{ \"extractions\": [ {\"article_id\": \"...\", \"companies\": [\"CompanyA\", \"CompanyB\"]}, ... ] }\n\n"
+        )
+        for art_id, text in chunk_dict.items():
+            prompt += f"Article ID={art_id}:\n{text[:5000]}\n\n"
+
+        messages = [
+            {
+                "role": "system",
+                "content": "Extract company names from the provided article texts."
+            },
+            {
+                "role": "user",
+                "content": prompt
+            }
+        ]
+
+        resp = call_gpt_api(messages, api_key, model=MODEL)
+        if not resp:
+            st.warning("No response from GPT for this chunk.")
+            continue
+
+        # Try parse
+        cleaned = resp.strip().strip("```")
+        cleaned = re.sub(r'^json\s+', '', cleaned, flags=re.IGNORECASE)
+        try:
+            data = json.loads(cleaned)
+            extractions = data.get("extractions", [])
+        except json.JSONDecodeError as e:
+            st.error(f"Error parsing extraction JSON:\n{cleaned}\n{e}")
+            extractions = []
+
+        conn = sqlite3.connect("news.db")
+        c = conn.cursor()
+        try:
+            for item in extractions:
+                article_id = item.get("article_id")
+                companies = item.get("companies", [])
+                if not article_id or not isinstance(companies, list):
+                    continue
+                for comp in companies:
+                    comp_name = comp.strip()
+                    if comp_name:
+                        c.execute("""
+                            INSERT OR IGNORE INTO article_companies (article_link, company_name)
+                            VALUES (?, ?)
+                        """, (article_id, comp_name))
+                        total_extractions += 1
+            conn.commit()
+        except Exception as e:
+            conn.rollback()
+            st.error(f"DB error saving company extraction: {e}")
+        finally:
+            conn.close()
+
+    st.success(f"Finished extracting company names. Inserted {total_extractions} new (article, company) pairs.")
+
+def get_companies_in_article_list(article_links):
+    """
+    Given a list of article links, return distinct company names in article_companies
+    that match those links.
+    """
+    if not article_links:
+        return []
+    conn = sqlite3.connect("news.db")
+    placeholders = ",".join("?" for _ in article_links)
+    query = f"""
+        SELECT DISTINCT company_name 
+        FROM article_companies
+        WHERE article_link IN ({placeholders})
+        ORDER BY company_name ASC
+    """
+    rows = conn.execute(query, article_links).fetchall()
+    conn.close()
+    return [r[0] for r in rows]
+
+def filter_articles_by_company(df_articles, company_name):
+    """
+    Return only articles that mention 'company_name' in article_companies.
+    If company_name is (All) or empty, return the original df_articles.
+    """
+    if not company_name or company_name == "(All)":
+        return df_articles
+
+    if df_articles.empty:
+        return df_articles
+
+    conn = sqlite3.connect("news.db")
+    placeholders = ",".join("?" for _ in df_articles["link"])
+    query = f"""
+        SELECT article_link 
+        FROM article_companies
+        WHERE company_name = ?
+          AND article_link IN ({placeholders})
+    """
+    params = [company_name] + list(df_articles["link"])
+    matched = conn.execute(query, params).fetchall()
+    conn.close()
+
+    valid_links = {row[0] for row in matched}
+    return df_articles[df_articles["link"].isin(valid_links)].copy()
+
+# --------------------------------------------------------------------------------
+# Date-Filtering Helpers
+# --------------------------------------------------------------------------------
+
+def get_articles_for_date_range(df_articles, hours):
+    if hours is None:
+        return df_articles
+
+    # Make a naive cutoff
+    cutoff = datetime.utcnow() - timedelta(hours=hours)
+
+    # Parse as UTC, then remove the timezone => naive
+    temp = pd.to_datetime(df_articles["published_date"], utc=True, errors="coerce")
+    df_articles["published_date"] = temp.dt.tz_convert(None)
+
+    return df_articles.loc[df_articles["published_date"] >= cutoff].copy()
+
+
+# --------------------------------------------------------------------------------
+# Two-Phase Group Queries
+# --------------------------------------------------------------------------------
+
 def get_ungrouped_articles_two_phase():
-    """Articles not assigned to two-phase grouping."""
+    """
+    Articles not assigned to any two-phase category.
+    """
     conn = sqlite3.connect("news.db")
     query = """
     SELECT 
@@ -195,31 +393,11 @@ def get_ungrouped_articles_two_phase():
     conn.close()
     return df
 
-def get_existing_groups_single_step():
-    """Fetch all single-step groups with their articles."""
-    conn = sqlite3.connect("news.db")
-    query = """
-    SELECT 
-        ag.group_id,
-        ag.main_topic,
-        ag.sub_topic,
-        ag.group_label,
-        GROUP_CONCAT(agm.article_link) as article_links,
-        COUNT(agm.article_link) as article_count,
-        ag.created_at,
-        ag.updated_at
-    FROM article_groups ag
-    LEFT JOIN article_group_memberships agm ON ag.group_id = agm.group_id
-    GROUP BY ag.group_id
-    ORDER BY ag.updated_at DESC
-    """
-    df = pd.read_sql_query(query, conn)
-    conn.close()
-    df['article_links'] = df['article_links'].apply(lambda x: x.split(',') if x else [])
-    return df
-
 def get_existing_groups_two_phase():
-    """Fetch all two-phase groups with their articles."""
+    """
+    Fetch all first-level categories (two_phase_article_groups)
+    along with a count of assigned articles (ignoring date).
+    """
     conn = sqlite3.connect("news.db")
     query = """
     SELECT 
@@ -241,26 +419,10 @@ def get_existing_groups_two_phase():
     df['article_links'] = df['article_links'].apply(lambda x: x.split(',') if x else [])
     return df
 
-def get_articles_for_group_single_step(group_id):
-    """Return all articles for a single-step group_id."""
-    conn = sqlite3.connect("news.db")
-    query = """
-    SELECT 
-        a.link,
-        a.title,
-        a.content,
-        a.published_date
-    FROM articles a
-    JOIN article_group_memberships agm ON a.link = agm.article_link
-    WHERE agm.group_id = ?
-    ORDER BY a.published_date DESC
-    """
-    df = pd.read_sql_query(query, conn, params=(group_id,))
-    conn.close()
-    return df
-
 def get_articles_for_group_two_phase(group_id):
-    """Return all articles for a two-phase group_id."""
+    """
+    Return all articles for a top-level two_phase group_id.
+    """
     conn = sqlite3.connect("news.db")
     query = """
     SELECT 
@@ -277,221 +439,145 @@ def get_articles_for_group_two_phase(group_id):
     conn.close()
     return df
 
-# --------------------------------------------------------------------------------
-# Representative Article Selection (Single-Step Only)
-# --------------------------------------------------------------------------------
-
-def select_representative_articles(group_id, max_articles=3):
+def get_articles_in_category_not_subgrouped(category: str):
     """
-    Heuristic to pick 2-3 representative articles from a single-step group,
-    by published_date DESC.
-    """
-    articles_df = get_articles_for_group_single_step(group_id)
-    if articles_df.empty:
-        return []
-    return articles_df.head(max_articles).to_dict(orient="records")
-
-# --------------------------------------------------------------------------------
-# Approximate Tokens & Chunk Summaries
-# --------------------------------------------------------------------------------
-
-def approximate_tokens(text):
-    return int(len(text.split()) * 1.3)
-
-def chunk_summaries(summaries_dict, max_token_chunk=70000):
-    current_chunk = {}
-    current_tokens = 0
-    for link, summary in summaries_dict.items():
-        tokens_for_article = approximate_tokens(summary)
-        if current_tokens + tokens_for_article > max_token_chunk and current_chunk:
-            yield current_chunk
-            current_chunk = {}
-            current_tokens = 0
-        current_chunk[link] = summary
-        current_tokens += tokens_for_article
-    if current_chunk:
-        yield current_chunk
-
-# --------------------------------------------------------------------------------
-# Single-Step Grouping Logic
-# --------------------------------------------------------------------------------
-
-def generate_grouping(summaries_dict, api_key):
-    """
-    Single-step approach: Group articles by topic using one LLM prompt.
-    """
-    st.write("Starting single-step grouping process...")
-    st.write(f"Number of summaries to group: {len(summaries_dict)}")
-    
-    if not summaries_dict:
-        st.error("No summaries provided for grouping.")
-        return {"groups": []}
-    
-    summaries_text = "\n".join(
-        f"Article {key}: {str(summary).strip()}"
-        for key, summary in summaries_dict.items()
-    )
-    
-    messages = [
-        {
-            "role": "system",
-            "content": (
-                "You are an AI assistant that groups news articles based on their semantic content. "
-                "You must return valid JSON with a 'groups' key. Do not add extra commentary."
-            )
-        },
-        {
-            "role": "user",
-            "content": (
-                "Below are news article summaries with their article IDs. Please group them. "
-                "Use JSON format with 'main_topic', 'sub_topic', 'group_label', and 'articles'.\n\n"
-                f"{summaries_text}\n"
-                "Return only JSON, no extra keys or text."
-            )
-        }
-    ]
-    
-    grouping_response = call_gpt_api(messages, api_key, model=MODEL)
-    if not grouping_response:
-        st.error("No response from the LLM.")
-        return {"groups": []}
-    
-    # Attempt parse
-    try:
-        data = json.loads(grouping_response)
-        if not isinstance(data, dict) or "groups" not in data:
-            st.error("Did not find 'groups' in JSON.")
-            return {"groups": []}
-        return data
-    except Exception as e:
-        st.error(f"Error parsing grouping JSON: {e}")
-        return {"groups": []}
-
-def save_groups(grouped_results, summaries_dict):
-    """
-    Save the single-step groups to article_groups / article_group_memberships.
+    Return articles assigned to 'category' but NOT in any subgroups for that category.
     """
     conn = sqlite3.connect("news.db")
-    c = conn.cursor()
-    try:
-        for group in grouped_results["groups"]:
-            c.execute("""
-            INSERT INTO article_groups (main_topic, sub_topic, group_label)
-            VALUES (?, ?, ?)
-            """, (group['main_topic'], group['sub_topic'], group['group_label']))
-            group_id = c.lastrowid
-            for article_id in group['articles']:
-                c.execute("""
-                INSERT INTO article_group_memberships (article_link, group_id)
-                VALUES (?, ?)
-                """, (article_id, group_id))
-        conn.commit()
-        st.success("Saved single-step groups to DB.")
-    except Exception as e:
-        conn.rollback()
-        st.error(f"Error saving single-step groups: {e}")
-    finally:
-        conn.close()
+    query = """
+    SELECT a.link, a.title || ' - ' || a.content AS expanded_summary, a.published_date
+    FROM articles a
+    JOIN two_phase_article_group_memberships tgm ON tgm.article_link = a.link
+    JOIN two_phase_article_groups tg ON tg.group_id = tgm.group_id
+    WHERE tg.main_topic = ?
+      AND NOT EXISTS (
+          SELECT 1 
+          FROM two_phase_subgroup_memberships tsgm
+          JOIN two_phase_subgroups tsg ON tsg.subgroup_id = tsgm.subgroup_id
+          WHERE tsgm.article_link = a.link
+            AND tsg.category = ?
+      )
+    ORDER BY a.published_date DESC
+    """
+    df = pd.read_sql_query(query, conn, params=(category, category))
+    conn.close()
+    return df
+
+def get_subgroups_for_category(category: str):
+    """
+    Fetch subgroups in a given category from two_phase_subgroups,
+    along with a count of assigned articles (ignoring date).
+    """
+    conn = sqlite3.connect("news.db")
+    query = """
+    SELECT 
+        tsg.subgroup_id,
+        tsg.category,
+        tsg.group_label,
+        tsg.summary,
+        tsg.created_at,
+        tsg.updated_at,
+        COUNT(tsgm.article_link) as article_count
+    FROM two_phase_subgroups tsg
+    LEFT JOIN two_phase_subgroup_memberships tsgm ON tsg.subgroup_id = tsgm.subgroup_id
+    WHERE tsg.category = ?
+    GROUP BY tsg.subgroup_id
+    ORDER BY tsg.updated_at DESC
+    """
+    df = pd.read_sql_query(query, conn, params=(category,))
+    conn.close()
+    return df
+
+def get_articles_for_subgroup(subgroup_id: int):
+    """
+    Return articles for a given subgroup within a two-phase category.
+    """
+    conn = sqlite3.connect("news.db")
+    query = """
+    SELECT a.link, a.title, a.content, a.published_date
+    FROM articles a
+    JOIN two_phase_subgroup_memberships tsgm ON a.link = tsgm.article_link
+    WHERE tsgm.subgroup_id = ?
+    ORDER BY a.published_date DESC
+    """
+    df = pd.read_sql_query(query, conn, params=(subgroup_id,))
+    conn.close()
+    return df
 
 # --------------------------------------------------------------------------------
-# Two-Phase Grouping
+# Two-Phase Grouping Logic (High-Level)
 # --------------------------------------------------------------------------------
 
-def generate_labels_phase(summaries_dict, api_key):
-    snippet_text = ""
-    for i, (link, summary) in enumerate(summaries_dict.items(), start=1):
-        snippet_text += f"Article {i} (ID={link}): {summary[:300]}\n\n"
-
-    system_msg = {
-        "role": "system",
-        "content": "You are an AI that proposes a short set of broad labels in JSON."
-    }
-    user_msg = {
-        "role": "user",
-        "content": (
-            "Below are article snippets. Suggest 5-10 broad topic labels. "
-            "Return JSON: {\"proposed_labels\":[\"Label1\",\"Label2\"]}.\n\n"
-            f"{snippet_text}"
-        )
-    }
-
-    resp = call_gpt_api([system_msg, user_msg], api_key, model=MODEL)
-    if not resp:
-        return []
-    cleaned = resp.strip().strip("```")
-    try:
-        data = json.loads(cleaned)
-        return data.get("proposed_labels", [])
-    except Exception:
-        return []
-
-def assign_articles_phase(summaries_dict, labels, api_key):
-    label_list = "\n".join(f"- {lbl}" for lbl in labels)
-    snippet_text = ""
-    for i, (link, summary) in enumerate(summaries_dict.items(), start=1):
-        snippet_text += f"Article {i} (ID={link}): {summary[:300]}\n\n"
-
-    system_msg = {
-        "role": "system",
-        "content": "You are an AI that assigns articles to existing labels or creates a new label if none fit."
-    }
-    user_msg = {
-        "role": "user",
-        "content": (
-            f"Labels:\n{label_list}\n\n"
-            "Return JSON: {\"assignments\":[{\"article_id\":\"...\",\"label\":\"...\"},...]}\n\n"
-            f"{snippet_text}"
-        )
-    }
-
-    resp = call_gpt_api([system_msg, user_msg], api_key, model=MODEL)
-    if not resp:
-        return []
-    try:
-        data = json.loads(resp)
-        return data.get("assignments", [])
-    except Exception:
-        return []
-
-def two_phase_grouping(summaries_dict, api_key):
+def two_phase_grouping_with_predefined_categories(summaries_dict, api_key):
+    """
+    Assign articles to one of the predefined categories or 'Other', up to 70k tokens of context.
+    """
     if not summaries_dict:
         return {"groups": []}
 
-    labels = generate_labels_phase(summaries_dict, api_key)
-    if not labels:
-        st.warning("No labels from Phase 1.")
-        return {"groups": []}
+    all_assignments = []
+    for chunk_dict in chunk_summaries(summaries_dict, max_token_chunk=MAX_TOKEN_CHUNK):
+        categories_text = "\n".join(f"- {cat}" for cat in PREDEFINED_CATEGORIES)
+        snippet_text = ""
+        for link, summary in chunk_dict.items():
+            snippet_text += f"Article ID={link}:\n{summary}\n\n"
 
-    assignments = assign_articles_phase(summaries_dict, labels, api_key)
-    if not assignments:
-        st.warning("No assignments from Phase 2.")
-        return {"groups": []}
+        system_msg = {
+            "role": "system",
+            "content": (
+                "You are an AI that assigns each article to exactly one category from the list. "
+                "If no category fits, choose 'Other'. Return valid JSON only."
+            )
+        }
+        user_msg = {
+            "role": "user",
+            "content": (
+                f"Here is the list of valid categories:\n\n{categories_text}\n\n"
+                "Below are article summaries. For each article, pick one category (or 'Other'). "
+                "Return JSON only, in this format:\n"
+                "{ \"assignments\": [ {\"article_id\": \"...\", \"category\": \"...\"}, ... ] }\n\n"
+                f"{snippet_text}"
+            )
+        }
 
-    group_map = {lbl: [] for lbl in labels}
-    new_labels = set(labels)
+        response = call_gpt_api([system_msg, user_msg], api_key, model=MODEL)
+        if not response:
+            st.warning("No response from GPT for this chunk.")
+            continue
 
-    for assn in assignments:
+        cleaned = response.strip().strip("```")
+        cleaned = re.sub(r'^json\s+', '', cleaned, flags=re.IGNORECASE)
+        try:
+            data = json.loads(cleaned)
+            chunk_assignments = data.get("assignments", [])
+        except Exception as e:
+            st.error(f"Could not parse JSON:\n{cleaned}\nError: {e}")
+            chunk_assignments = []
+
+        all_assignments.extend(chunk_assignments)
+
+    grouped_data = {cat: [] for cat in PREDEFINED_CATEGORIES}
+    for assn in all_assignments:
         art_id = assn.get("article_id")
-        lbl = assn.get("label", "Unlabeled")
-        if lbl not in group_map:
-            group_map[lbl] = []
-            new_labels.add(lbl)
-        group_map[lbl].append(art_id)
+        cat = assn.get("category", "Other")
+        if cat not in grouped_data:
+            cat = "Other"
+        grouped_data[cat].append(art_id)
 
     result = {"groups": []}
-    for lbl in new_labels:
-        result["groups"].append({
-            "main_topic": lbl,
-            "sub_topic": "",
-            "group_label": lbl,
-            "articles": group_map[lbl]
-        })
+    for cat in PREDEFINED_CATEGORIES:
+        articles = [a for a in grouped_data[cat] if a]  # filter out None
+        if articles:
+            result["groups"].append({
+                "main_topic": cat,
+                "sub_topic": "",
+                "group_label": cat,
+                "articles": articles
+            })
     return result
 
 def save_two_phase_groups(grouped_results):
-    """
-    Save the two-phase groups to two_phase_article_groups / two_phase_article_group_memberships.
-    """
+    """Save the two-phase groups (categories) to DB."""
     conn = sqlite3.connect("news.db")
     c = conn.cursor()
     try:
@@ -501,11 +587,14 @@ def save_two_phase_groups(grouped_results):
                 VALUES (?, ?, ?)
             """, (grp["main_topic"], grp["sub_topic"], grp["group_label"]))
             new_gid = c.lastrowid
+
             for art_id in grp["articles"]:
-                c.execute("""
-                    INSERT INTO two_phase_article_group_memberships (article_link, group_id)
-                    VALUES (?, ?)
-                """, (art_id, new_gid))
+                if art_id:
+                    c.execute("""
+                        INSERT OR IGNORE INTO two_phase_article_group_memberships (article_link, group_id)
+                        VALUES (?, ?)
+                    """, (art_id, new_gid))
+
         conn.commit()
         st.success("Saved two-phase groups to DB.")
     except Exception as e:
@@ -515,404 +604,129 @@ def save_two_phase_groups(grouped_results):
         conn.close()
 
 # --------------------------------------------------------------------------------
-# Merging Logic for Single-Step Groups
+# Second-Phase Subgrouping
 # --------------------------------------------------------------------------------
 
-def chunk_groups_for_merging(groups_data, max_token_chunk=70000):
-    current_batch = []
-    current_tokens = 0
-    for group_info in groups_data:
-        meta_text = (
-            f"GroupID: {group_info['group_id']}, "
-            f"Main Topic: {group_info['main_topic']}, "
-            f"Sub Topic: {group_info['sub_topic']}, "
-            f"Group Label: {group_info['group_label']}"
-        )
-        tokens_for_meta = approximate_tokens(meta_text)
-        tokens_for_articles = 0
-        for art in group_info['representative_articles']:
-            tokens_for_articles += approximate_tokens(art['title'] + " " + art['content'])
-        group_tokens = tokens_for_meta + tokens_for_articles
-        if current_tokens + group_tokens > max_token_chunk and current_batch:
-            yield current_batch
-            current_batch = []
-            current_tokens = 0
-        current_batch.append(group_info)
-        current_tokens += group_tokens
-    if current_batch:
-        yield current_batch
-
-def merge_existing_groups(api_key):
+def group_articles_within_category(category: str, api_key: str):
     """
-    Merge logic for single-step groups only.
+    Gather articles that belong to this category but have NOT been subgrouped yet,
+    then cluster them by sub-topic (also up to 70k tokens).
     """
-    groups_df = get_existing_groups_single_step()
-    if groups_df.empty or len(groups_df) < 2:
-        st.info("No groups or only one group found—nothing to merge.")
+    df = get_articles_in_category_not_subgrouped(category)
+    if df.empty:
+        st.info(f"No un-subgrouped articles found for category '{category}'.")
         return
 
-    groups_data = []
-    for _, row in groups_df.iterrows():
-        group_id = row['group_id']
-        rep_arts = select_representative_articles(group_id, max_articles=3)
-        groups_data.append({
-            "group_id": group_id,
-            "main_topic": row['main_topic'],
-            "sub_topic": row['sub_topic'],
-            "group_label": row['group_label'],
-            "representative_articles": rep_arts
-        })
+    summaries_dict = {}
+    for _, row in df.iterrows():
+        link = row["link"]
+        summary = row["expanded_summary"]
+        if summary:
+            summaries_dict[link] = summary.strip()
 
-    all_batches = list(chunk_groups_for_merging(groups_data, max_token_chunk=70000))
-    st.write(f"Total groups: {len(groups_data)}, batches needed: {len(all_batches)}")
+    if not summaries_dict:
+        st.warning("No valid summaries for these articles.")
+        return
 
-    for batch_index, batch_groups in enumerate(all_batches, start=1):
-        st.write(f"Processing merge batch {batch_index}/{len(all_batches)} with {len(batch_groups)} groups")
+    total_new_subgroups = 0
+    chunked = list(chunk_summaries(summaries_dict, max_token_chunk=MAX_TOKEN_CHUNK))
 
-        user_content = (
-            "We have several groups below. Each group has:\n"
-            "- group_id\n"
-            "- main_topic\n"
-            "- sub_topic\n"
-            "- group_label\n"
-            "- representative_articles\n\n"
-            "Decide if any groups should be merged. Return JSON:\n"
-            "{ \"merge_instructions\": [ {\"group_ids\":[1,2],\"new_main_topic\":\"...\",\"new_sub_topic\":\"...\",\"new_group_label\":\"...\"}, ... ] }"
+    # LLM prompt to create subgroups
+    for i, chunk_dict in enumerate(chunked, start=1):
+        st.write(f"Processing chunk {i}/{len(chunked)} for category: {category}")
+
+        prompt_text = (
+            "Below are articles assigned to this category. Group them by specific sub-topic.\n"
+            "For each subgroup, return:\n"
+            "  - group_label: a short descriptive title\n"
+            "  - summary: a 2-3 sentence summary of these articles\n"
+            "  - articles: an array of article IDs\n\n"
+            "Return JSON only, with the structure:\n"
+            "{ \"groups\": [ {\"group_label\": \"...\", \"summary\": \"...\", \"articles\": [ ... ]}, ... ] }\n\n"
         )
-        
-        for g in batch_groups:
-            rep_texts = []
-            for art in g['representative_articles']:
-                excerpt = art['content'][:300]
-                rep_texts.append(f"Title: {art['title']}, Content Excerpt: {excerpt}")
-            group_block = (
-                f"Group ID: {g['group_id']}\n"
-                f"Main Topic: {g['main_topic']}\n"
-                f"Sub Topic: {g['sub_topic']}\n"
-                f"Group Label: {g['group_label']}\n"
-                f"Articles:\n" + "\n".join(rep_texts) + "\n\n"
-            )
-            user_content += group_block
+        for art_id, art_summary in chunk_dict.items():
+            prompt_text += f"Article {art_id}: {art_summary}\n\n"
 
-        system_msg = {
-            "role": "system",
-            "content": (
-                "You are an AI that merges single-step groups if necessary. Return only valid JSON."
-            )
-        }
-        messages = [system_msg, {"role": "user", "content": user_content}]
+        messages = [
+            {
+                "role": "system",
+                "content": f"You are grouping articles specifically for category '{category}'."
+            },
+            {
+                "role": "user",
+                "content": prompt_text
+            }
+        ]
 
-        response1 = call_gpt_api(messages, api_key, model=MERGE_MODEL_1)
-        merges1 = parse_merge_response(response1)
-
-        response2 = call_gpt_api(messages, api_key, model=MERGE_MODEL_2)
-        merges2 = parse_merge_response(response2)
-
-        final_merges = combine_merge_instructions(merges1, merges2)
-        if not final_merges:
-            st.info("No concurrent merges found for this batch.")
+        response = call_gpt_api(messages, api_key, model=MODEL)
+        if not response:
+            st.warning("No response from GPT for subgroup chunk.")
             continue
 
-        apply_merge_instructions(final_merges)
+        cleaned = response.strip().strip("```")
+        cleaned = re.sub(r'^json\s+', '', cleaned, flags=re.IGNORECASE)
+        try:
+            data = json.loads(cleaned)
+        except json.JSONDecodeError as e:
+            st.error(f"Could not parse JSON for subgrouping:\n{cleaned}\nError: {e}")
+            continue
+        
+        groups = data.get("groups", [])
+        if not groups:
+            st.info("No subgroups returned for this chunk.")
+            continue
 
-def parse_merge_response(response):
-    if not response:
-        return []
-    cleaned = response.strip()
-    if cleaned.startswith("```") and cleaned.endswith("```"):
-        cleaned = cleaned.strip("```").strip()
-    pattern = r'^json\s+'
-    cleaned = re.sub(pattern, '', cleaned, flags=re.IGNORECASE)
-    if cleaned.startswith('"') and cleaned.endswith('"'):
-        cleaned = cleaned[1:-1]
-    try:
-        merges_json = json.loads(cleaned)
-        return merges_json.get("merge_instructions", [])
-    except json.JSONDecodeError as e:
-        st.error(f"Error parsing merge response:\n{e}\nResponse:\n{repr(cleaned)}")
-        return []
+        conn = sqlite3.connect("news.db")
+        c = conn.cursor()
+        try:
+            for grp in groups:
+                label = grp.get("group_label", "Untitled Subgroup")
+                summary = grp.get("summary", "")
+                articles = grp.get("articles", [])
 
-def combine_merge_instructions(merges_model1, merges_model2):
-    dict1 = {}
-    for m in merges_model1:
-        key = tuple(sorted(m.get("group_ids", [])))
-        dict1[key] = m
-    dict2 = {}
-    for m in merges_model2:
-        key = tuple(sorted(m.get("group_ids", [])))
-        dict2[key] = m
-    intersection = dict1.keys() & dict2.keys()
-    final = []
-    for key in intersection:
-        final.append(dict1[key])
-    return final
-
-def apply_merge_instructions(merge_instructions):
-    """
-    Applies merge instructions for single-step groups. 
-    Uses a safer approach to avoid UNIQUE constraint failures:
-      1) Collect all article_links from the groups to be merged
-      2) Create the new group
-      3) INSERT OR IGNORE each article_link into the new group
-      4) DELETE all old memberships for the merged groups
-      5) DELETE the old groups themselves
-      6) Update the new group’s updated_at
-    """
-    if not merge_instructions:
-        return
-
-    conn = sqlite3.connect("news.db")
-    c = conn.cursor()
-    try:
-        for instruction in merge_instructions:
-            group_ids = instruction.get("group_ids", [])
-            if not group_ids or len(group_ids) < 2:
-                continue
-
-            main_topic = instruction.get("new_main_topic", "Merged Topic")
-            sub_topic = instruction.get("new_sub_topic", "Merged SubTopic")
-            group_label = instruction.get("new_group_label", "Merged Group")
-
-            # 1) Gather all article_links from the old groups
-            placeholders = ",".join(["?"] * len(group_ids))
-            rows = c.execute(
-                f"SELECT article_link FROM article_group_memberships WHERE group_id IN ({placeholders})",
-                group_ids
-            ).fetchall()
-            article_links = {row[0] for row in rows}
-
-            # 2) Create the new group
-            c.execute("""
-                INSERT INTO article_groups (main_topic, sub_topic, group_label)
+                # Insert new subgroup
+                c.execute("""
+                INSERT INTO two_phase_subgroups (category, group_label, summary)
                 VALUES (?, ?, ?)
-            """, (main_topic, sub_topic, group_label))
-            new_gid = c.lastrowid
+                """, (category, label, summary))
+                new_subgroup_id = c.lastrowid
 
-            # 3) INSERT OR IGNORE each article_link into the new group
-            for link in article_links:
-                c.execute("""
-                    INSERT OR IGNORE INTO article_group_memberships (article_link, group_id)
+                # Insert memberships
+                for art_link in articles:
+                    c.execute("""
+                    INSERT OR IGNORE INTO two_phase_subgroup_memberships (article_link, subgroup_id)
                     VALUES (?, ?)
-                """, (link, new_gid))
+                    """, (art_link, new_subgroup_id))
 
-            # 4) DELETE all old memberships for the merged groups
-            c.execute(
-                f"DELETE FROM article_group_memberships WHERE group_id IN ({placeholders})",
-                group_ids
-            )
+                total_new_subgroups += 1
+            conn.commit()
+            st.success(f"Saved {len(groups)} new subgroups for chunk {i} in category '{category}'.")
+        except Exception as e:
+            conn.rollback()
+            st.error(f"Error saving subgroups: {e}")
+        finally:
+            conn.close()
 
-            # 5) DELETE the old groups themselves
-            c.execute(
-                f"DELETE FROM article_groups WHERE group_id IN ({placeholders})",
-                group_ids
-            )
-
-            # 6) Update the new group’s updated_at
-            c.execute("""
-                UPDATE article_groups
-                SET updated_at = CURRENT_TIMESTAMP
-                WHERE group_id = ?
-            """, (new_gid,))
-
-            st.write(f"Merged group IDs {group_ids} into new group {new_gid}")
-
-        conn.commit()
-
-    except Exception as e:
-        conn.rollback()
-        st.error(f"Error applying merges: {e}")
-    finally:
-        conn.close()
-
-# --------------------------------------------------------------------------------
-# Single-Step "Process New Articles"
-# --------------------------------------------------------------------------------
-
-def process_new_articles():
-    api_key = st.session_state.get('api_key', '')
-    if not api_key:
-        st.error("Please provide an API key.")
-        return
-    
-    df = get_ungrouped_articles_single_step()
-    if df.empty:
-        st.info("No new articles to process.")
-        return
-
-    st.write(f"Processing {len(df)} new articles (single-step).")
-    existing_df = get_existing_groups_single_step()
-    groups_data = []
-    for _, row in existing_df.iterrows():
-        group_id = row['group_id']
-        rep_arts = select_representative_articles(group_id, max_articles=3)
-        groups_data.append({
-            "group_id": group_id,
-            "main_topic": row['main_topic'],
-            "sub_topic": row['sub_topic'],
-            "group_label": row['group_label'],
-            "representative_articles": rep_arts
-        })
-
-    conn = sqlite3.connect("news.db")
-    c = conn.cursor()
-    try:
-        progress_bar = st.progress(0)
-        total_articles = len(df)
-
-        for idx, row in df.iterrows():
-            progress_bar.progress((idx+1)/total_articles)
-            article_link = row['article_link']
-            summary = row['expanded_summary']
-            assigned_group_id = None
-
-            all_batches = list(chunk_groups_for_merging(groups_data))
-            for batch in all_batches:
-                system_msg = {
-                    "role":"system",
-                    "content":"You categorize a single new article vs existing groups."
-                }
-                user_content = (
-                    f"New article:\n{summary[:7000]}\n\n"
-                    "Existing groups in this batch:\n"
-                )
-                for g in batch:
-                    rep_texts = []
-                    for art in g['representative_articles']:
-                        excerpt = art['content'][:300]
-                        rep_texts.append(f"Title: {art['title']}, excerpt: {excerpt}")
-                    user_content += (
-                        f"Group ID: {g['group_id']}\n"
-                        f"Main Topic: {g['main_topic']}\n"
-                        f"Sub Topic: {g['sub_topic']}\n"
-                        f"Group Label: {g['group_label']}\n"
-                        "Representative Articles:\n" + "\n".join(rep_texts) + "\n\n"
-                    )
-                user_content += (
-                    "Decide if the new article belongs in any group_id above. If yes, return JSON:\n"
-                    "{\"should_add_to_existing\": true, \"group_id\": X, \"reason\": \"...\"}\n"
-                    "Else:\n"
-                    "{\"should_add_to_existing\": false, \"group_id\": null, \"reason\":\"...\"}\n"
-                )
-                messages = [system_msg, {"role":"user","content":user_content}]
-                response = call_gpt_api(messages, api_key, model=MODEL)
-                if not response:
-                    continue
-                try:
-                    suggestion = json.loads(response.strip())
-                except json.JSONDecodeError:
-                    alt_suggestion = parse_merge_response(response)
-                    if isinstance(alt_suggestion, list) or not alt_suggestion:
-                        st.error(f"Could not parse JSON for {article_link}:\n{response}")
-                        continue
-                    else:
-                        suggestion = alt_suggestion
-                if isinstance(suggestion, list):
-                    st.warning(f"Response isn't single-article. Skipping. Raw:\n{response}")
-                    continue
-                if suggestion.get("should_add_to_existing"):
-                    assigned_group_id = suggestion.get("group_id")
-                    if assigned_group_id is not None:
-                        c.execute("""
-                        INSERT INTO article_group_memberships (article_link, group_id)
-                        VALUES (?, ?)
-                        """, (article_link, assigned_group_id))
-                        c.execute("""
-                        UPDATE article_groups
-                        SET updated_at=CURRENT_TIMESTAMP
-                        WHERE group_id=?
-                        """, (assigned_group_id,))
-                        st.write(f"Article {article_link} assigned to group {assigned_group_id}")
-                        break
-            if assigned_group_id is None:
-                # Create new group
-                new_main_topic = "New Main Topic"
-                new_sub_topic = "New Sub Topic"
-                new_label = "New Group Label"
-                c.execute("""
-                INSERT INTO article_groups (main_topic, sub_topic, group_label)
-                VALUES (?,?,?)
-                """,(new_main_topic,new_sub_topic,new_label))
-                new_id = c.lastrowid
-                c.execute("""
-                INSERT INTO article_group_memberships (article_link,group_id)
-                VALUES (?,?)
-                """,(article_link,new_id))
-                st.write(f"Created new group {new_id} for article {article_link}")
-
-        conn.commit()
-        st.success("Finished processing new articles (single-step).")
-    except Exception as e:
-        conn.rollback()
-        st.error(f"Error processing new articles: {e}")
-    finally:
-        conn.close()
-
-# --------------------------------------------------------------------------------
-# Filtering & Viewing
-# --------------------------------------------------------------------------------
-
-def filter_single_step_groups_by_date_and_sort(df, hours: int=None, sort_by_size=False):
-    """
-    Return only groups that have at least 1 article in the time window if hours != None.
-    Optionally sort by article_count descending.
-    """
-    if hours is None:
-        # All time
-        df_filtered = df.copy()
-    else:
-        cut_off = (datetime.utcnow() - timedelta(hours=hours)).isoformat()
-        conn = sqlite3.connect("news.db")
-        group_ids_in_range = conn.execute("""
-        SELECT DISTINCT gm.group_id
-        FROM article_groups g
-        JOIN article_group_memberships gm ON g.group_id=gm.group_id
-        JOIN articles a ON a.link=gm.article_link
-        WHERE datetime(a.published_date) >= datetime(?)
-        """,(cut_off,)).fetchall()
-        conn.close()
-        valid = {r[0] for r in group_ids_in_range}
-        df_filtered = df[df["group_id"].isin(valid)].copy()
-    if sort_by_size:
-        df_filtered = df_filtered.sort_values(by="article_count", ascending=False)
-    return df_filtered
-
-def filter_two_phase_groups_by_date_and_sort(df, hours: int=None, sort_by_size=False):
-    """
-    Similar filter for two_phase_article_groups.
-    """
-    if hours is None:
-        df_filtered = df.copy()
-    else:
-        cut_off = (datetime.utcnow() - timedelta(hours=hours)).isoformat()
-        conn = sqlite3.connect("news.db")
-        group_ids_in_range = conn.execute("""
-        SELECT DISTINCT gm.group_id
-        FROM two_phase_article_groups g
-        JOIN two_phase_article_group_memberships gm ON g.group_id=gm.group_id
-        JOIN articles a ON a.link=gm.article_link
-        WHERE datetime(a.published_date) >= datetime(?)
-        """,(cut_off,)).fetchall()
-        conn.close()
-        valid = {r[0] for r in group_ids_in_range}
-        df_filtered = df[df["group_id"].isin(valid)].copy()
-    if sort_by_size:
-        df_filtered = df_filtered.sort_values(by="article_count", ascending=False)
-    return df_filtered
+    st.success(f"Done grouping articles for category '{category}'. Total new subgroups created: {total_new_subgroups}")
 
 # --------------------------------------------------------------------------------
 # Main Streamlit Interface
 # --------------------------------------------------------------------------------
 
 def main():
-    st.title("Article Grouping & Merging Tool")
+    st.title("Two-Phase Article Grouping with Date & Company Filters")
 
     # 1) DB Setup
     setup_database()
 
-    # 2) Sidebar
+    # 2) Left Sidebar: Global Input
     with st.sidebar:
         api_key = st.text_input("Enter OpenAI API Key:", value=DEFAULT_API_KEY, type="password")
         st.session_state["api_key"] = api_key
+
+        # Global date filter
+        selected_date_range = st.selectbox("Date Filter", list(DATE_FILTER_OPTIONS.keys()))
+        date_hours = DATE_FILTER_OPTIONS[selected_date_range]
 
         # Show overall stats
         conn = sqlite3.connect("news.db")
@@ -921,21 +735,7 @@ def main():
         c.execute("SELECT COUNT(*) FROM articles")
         total_articles = c.fetchone()[0]
 
-        # Single-step
-        c.execute("""
-        SELECT COUNT(*) FROM articles a
-        WHERE NOT EXISTS (
-            SELECT 1 FROM article_group_memberships m
-            WHERE m.article_link=a.link
-        )
-        """)
-        ungrouped_single = c.fetchone()[0]
-        c.execute("SELECT COUNT(*) FROM article_group_memberships")
-        grouped_single = c.fetchone()[0]
-        c.execute("SELECT COUNT(*) FROM article_groups")
-        total_groups_single = c.fetchone()[0]
-
-        # Two-phase
+        # Two-phase stats
         c.execute("""
         SELECT COUNT(*) FROM articles a
         WHERE NOT EXISTS (
@@ -954,166 +754,259 @@ def main():
         st.markdown("### Overall Stats")
         st.write(f"Total Articles: {total_articles}")
 
-        st.markdown("### Single-Step Stats")
-        st.write(f"Ungrouped: {ungrouped_single}")
-        st.write(f"Grouped: {grouped_single}")
-        st.write(f"Total Groups: {total_groups_single}")
-
         st.markdown("### Two-Phase Stats")
-        st.write(f"Ungrouped: {ungrouped_two}")
-        st.write(f"Grouped: {grouped_two}")
-        st.write(f"Total Groups: {total_groups_two}")
+        st.write(f"Ungrouped (awaiting category): {ungrouped_two}")
+        st.write(f"Grouped (in categories): {grouped_two}")
+        st.write(f"Total Two-Phase Groups: {total_groups_two}")
 
-        # -- Vertical Page Navigation --
+        # Button to extract company names across all articles (LLM)
+        st.write("---")
+        if st.button("Extract Company Names (LLM)"):
+            if not api_key:
+                st.error("Please enter your API key above.")
+            else:
+                extract_company_names_for_all_articles(api_key)
+
+        # Navigation
         pages = [
-            "Single-Step Grouping",
             "Two-Phase Grouping",
-            "Process New Articles (Single)",
-            "Merge Single Groups",
-            "View Single Groups",
             "View Two-Phase Groups"
         ]
+        for cat in PREDEFINED_CATEGORIES:
+            pages.append(f"Category: {cat}")
+
         selected_page = st.radio("Navigation", pages)
 
-    # 3) Show the page content based on selected_page
-    if selected_page == "Single-Step Grouping":
-        st.header("Single-Step: Initial Grouping")
-        st.write("Collect all ungrouped articles (single-step) and group them with one LLM pass per chunk.")
-        if st.button("Generate Single-Step Groups"):
-            with st.spinner("Grouping single-step..."):
-                df = get_ungrouped_articles_single_step()
-                if df.empty:
-                    st.info("No ungrouped single-step articles found.")
-                else:
-                    st.write(f"Found {len(df)} ungrouped single-step articles.")
-                    summaries_dict = {}
-                    progress_bar = st.progress(0)
-                    for i, row in df.iterrows():
-                        progress_bar.progress((i+1)/len(df))
-                        summ = str(row['expanded_summary']).strip()
-                        if summ:
-                            summaries_dict[row['article_link']] = summ
-                    if not summaries_dict:
-                        st.warning("No valid summaries.")
-                    else:
-                        chunked = list(chunk_summaries(summaries_dict))
-                        total_groups_created = 0
-                        chunk_idx = 1
-                        for chunk_dict in chunked:
-                            st.write(f"Chunk {chunk_idx}/{len(chunked)} with {len(chunk_dict)} articles.")
-                            chunk_idx+=1
-                            group_res = generate_grouping(chunk_dict, api_key)
-                            if group_res["groups"]:
-                                save_groups(group_res, chunk_dict)
-                                total_groups_created += len(group_res["groups"])
-                        st.success(f"Created {total_groups_created} new single-step groups.")
+    # 3) Two columns: main (wide) & right (narrow) for the Company Filter
+    col_main, col_right = st.columns([3,1], gap="large")
 
-    elif selected_page == "Two-Phase Grouping":
-        st.header("Two-Phase: Initial Grouping")
-        st.write("Collect ungrouped (two-phase) articles, do a two-phase grouping.")
-        if st.button("Generate Two-Phase Groups"):
-            with st.spinner("Grouping two-phase..."):
-                df = get_ungrouped_articles_two_phase()
-                if df.empty:
-                    st.info("No ungrouped two-phase articles found.")
-                else:
-                    st.write(f"Found {len(df)} ungrouped two-phase articles.")
-                    summaries_dict = {}
-                    p_bar = st.progress(0)
-                    for i, row in df.iterrows():
-                        p_bar.progress((i+1)/len(df))
-                        s = str(row['expanded_summary']).strip()
-                        if s:
-                            summaries_dict[row['article_link']] = s
-                    if not summaries_dict:
-                        st.warning("No valid summaries for two-phase.")
+    with col_main:
+        # Render pages that don't require immediate company filtering
+        if selected_page == "Two-Phase Grouping":
+            st.header("Two-Phase Grouping with Predefined Categories")
+            st.write(f"**Date Filter:** {selected_date_range}")
+            st.write("Collect all ungrouped articles, then assign them to one of the fixed categories.")
+            if st.button("Generate/Update Two-Phase Groups"):
+                with st.spinner("Assigning categories..."):
+                    df = get_ungrouped_articles_two_phase()
+                    if df.empty:
+                        st.info("No ungrouped articles found.")
                     else:
-                        result = two_phase_grouping(summaries_dict, api_key)
-                        if result["groups"]:
-                            save_two_phase_groups(result)
+                        st.write(f"Found {len(df)} ungrouped articles.")
+                        summaries_dict = {}
+                        p_bar = st.progress(0)
+                        for i, row in df.iterrows():
+                            p_bar.progress((i+1)/len(df))
+                            s = str(row['expanded_summary']).strip()
+                            if s:
+                                summaries_dict[row['article_link']] = s
+                        if not summaries_dict:
+                            st.warning("No valid summaries for two-phase grouping.")
                         else:
-                            st.warning("No groups created in two-phase approach.")
+                            result = two_phase_grouping_with_predefined_categories(summaries_dict, api_key)
+                            if result["groups"]:
+                                save_two_phase_groups(result)
+                            else:
+                                st.warning("No groups created in the two-phase approach.")
 
-    elif selected_page == "Process New Articles (Single)":
-        st.header("Process New Articles (Single-Step Only)")
-        if st.button("Process New Articles Now"):
-            process_new_articles()
+        elif selected_page == "View Two-Phase Groups":
+            st.header("View Two-Phase Groups")
+            st.write(f"**Date Filter:** {selected_date_range}")
 
-    elif selected_page == "Merge Single Groups":
-        st.header("Merge Existing Groups (Single-Step, Dual-Model Concurrence)")
-        st.write("Refine/merge single-step groups. Compares representative articles with both o3-mini and o1-mini.")
-        if st.button("Run Merging (Single-Step)"):
-            merge_existing_groups(api_key)
-
-    elif selected_page == "View Single Groups":
-        st.header("View Single-Step Groups")
-        # Time filter
-        time_filter = st.selectbox("Time Filter", list(TIME_FILTER_OPTIONS.keys()))
-        sort_by_size = st.checkbox("Sort by largest group size?")
-        df = get_existing_groups_single_step()
-        if df.empty:
-            st.info("No single-step groups in DB.")
-        else:
-            hours = TIME_FILTER_OPTIONS[time_filter]
-            filtered = filter_single_step_groups_by_date_and_sort(df, hours, sort_by_size)
-            if filtered.empty:
-                st.warning("No groups found with that filter.")
+            df2 = get_existing_groups_two_phase()
+            if df2.empty:
+                st.info("No two-phase groups found.")
             else:
-                st.write(f"Showing {len(filtered)} single-step groups.")
-                st.dataframe(filtered[["group_id","main_topic","sub_topic","group_label","article_count"]])
-                group_ids = filtered["group_id"].tolist()
-                if group_ids:
-                    chosen = st.selectbox("Select a group to view details", group_ids)
-                    if chosen:
-                        # Show articles
-                        st.subheader(f"Group {chosen}")
-                        articles = get_articles_for_group_single_step(chosen)
-                        # If hours is not None, filter articles themselves
-                        if hours is not None:
-                            cutoff = pd.Timestamp.now(tz="UTC") - pd.Timedelta(hours=hours)
-                            articles["parsed_dt"] = pd.to_datetime(articles["published_date"], utc=True, errors="coerce")
-                            articles_in_range = articles[articles["parsed_dt"] >= cutoff]
-                        else:
-                            articles_in_range = articles
-                        for _, row in articles_in_range.iterrows():
-                            with st.expander(f"{row['title']} ({row['published_date']})"):
-                                st.write(row["content"])
-                                st.write(f"Link: {row['link']}")
+                # Filter groups by date: only keep if they have > 0 articles in the range
+                valid_groups = []
+                for idx, row in df2.iterrows():
+                    group_id = row["group_id"]
+                    articles_df = get_articles_for_group_two_phase(group_id)
+                    articles_df = get_articles_for_date_range(articles_df, date_hours)
+                    if not articles_df.empty:
+                        valid_groups.append(row)
 
-    elif selected_page == "View Two-Phase Groups":
-        st.header("View Two-Phase Groups")
-        time_filter_2 = st.selectbox("Time Filter (Two-Phase)", list(TIME_FILTER_OPTIONS.keys()))
-        sort_by_size_2 = st.checkbox("Sort by largest group size? (Two-Phase)")
+                if not valid_groups:
+                    st.warning("No groups found under this date filter.")
+                else:
+                    filtered2 = pd.DataFrame(valid_groups)
+                    # Recalc article counts for the date filter
+                    new_counts = []
+                    for _, r in filtered2.iterrows():
+                        g_id = r["group_id"]
+                        arts = get_articles_for_group_two_phase(g_id)
+                        arts = get_articles_for_date_range(arts, date_hours)
+                        new_counts.append(len(arts))
+                    filtered2["article_count"] = new_counts
 
+                    sort_by_size_2 = st.checkbox("Sort by largest group size?")
+                    if sort_by_size_2:
+                        filtered2 = filtered2.sort_values(by="article_count", ascending=False)
+
+                    st.write(f"Showing {len(filtered2)} groups after date filter.")
+                    st.dataframe(filtered2[["group_id","main_topic","sub_topic","group_label","article_count"]])
+                    group_ids_2 = filtered2["group_id"].tolist()
+
+                    if group_ids_2:
+                        chosen_2 = st.selectbox("Select a group to view details", group_ids_2, key="chosen_2_val")
+                        if chosen_2:
+                            st.subheader(f"Group {chosen_2}")
+                            articles_2p = get_articles_for_group_two_phase(chosen_2)
+                            articles_2p = get_articles_for_date_range(articles_2p, date_hours)
+
+                            if articles_2p.empty:
+                                st.warning("No articles found in this date filter.")
+                            else:
+                                # Company filter is handled in col_right below
+                                pass
+
+        else:
+            # If "Category: X"
+            category_name = selected_page.replace("Category: ", "")
+            st.header(f"Fine-Grained Subgroups in Category: {category_name}")
+            st.write(f"**Date Filter:** {selected_date_range}")
+
+            if st.button(f"Group Articles in {category_name}"):
+                group_articles_within_category(category_name, st.session_state["api_key"])
+
+            st.write("---")
+            st.write("**View existing subgroups** for this category:")
+
+            sub_df = get_subgroups_for_category(category_name)
+            if sub_df.empty:
+                st.info("No subgroups found. Try grouping some articles first.")
+            else:
+                # We'll finalize display after we read the company filter in col_right
+                pass
+
+    # 4) Right Column: dynamic "Company Filter" based on the page/context
+    with col_right:
+        selected_company = "(All)"
+
+        if selected_page == "View Two-Phase Groups":
+            # Re-check which group user selected
+            chosen_2_val = st.session_state.get("chosen_2_val", None)
+            if chosen_2_val:
+                # gather articles in that group for the chosen date range
+                arts_df = get_articles_for_group_two_phase(chosen_2_val)
+                arts_df = get_articles_for_date_range(arts_df, date_hours)
+                if arts_df.empty:
+                    st.write("No articles in this group for this date range.")
+                else:
+                    # find distinct companies in those articles
+                    comp_list = get_companies_in_article_list(arts_df["link"].tolist())
+                    if comp_list:
+                        selected_company = st.selectbox("Company Filter", ["(All)"] + comp_list)
+                    else:
+                        st.write("No companies found in this group/date range.")
+                        selected_company = "(All)"
+            else:
+                st.write("Select a group on the left to filter by company.")
+
+        elif selected_page.startswith("Category: "):
+            category_name = selected_page.replace("Category: ", "")
+            # gather all articles for that category (top-level groups) in the date range
+            conn = sqlite3.connect("news.db")
+            cat_groups = conn.execute(
+                "SELECT group_id FROM two_phase_article_groups WHERE main_topic = ?",
+                (category_name,)
+            ).fetchall()
+            conn.close()
+
+            group_ids = [r[0] for r in cat_groups]
+            all_links = set()
+            for g_id in group_ids:
+                arts_df = get_articles_for_group_two_phase(g_id)
+                arts_df = get_articles_for_date_range(arts_df, date_hours)
+                for link in arts_df["link"]:
+                    all_links.add(link)
+
+            if not all_links:
+                st.write("No articles in this category for the chosen date filter.")
+            else:
+                comp_list = get_companies_in_article_list(list(all_links))
+                if comp_list:
+                    selected_company = st.selectbox("Company Filter", ["(All)"] + comp_list)
+                else:
+                    st.write("No companies found in this category/date range.")
+                    selected_company = "(All)"
+
+        else:
+            # "Two-Phase Grouping" or default
+            st.write("No company filter on this page.")
+            selected_company = "(All)"
+
+    # 5) Final pass: Show articles or subgroups with the selected date + company filter
+    if selected_page == "View Two-Phase Groups":
+        # Re-show the chosen group with company filtering
         df2 = get_existing_groups_two_phase()
-        if df2.empty:
-            st.info("No two-phase groups found.")
-        else:
-            hours_2 = TIME_FILTER_OPTIONS[time_filter_2]
-            filtered2 = filter_two_phase_groups_by_date_and_sort(df2, hours_2, sort_by_size_2)
-            if filtered2.empty:
-                st.warning("No two-phase groups found with that filter.")
+        valid_groups = []
+        for _, row in df2.iterrows():
+            group_id = row["group_id"]
+            arts_df = get_articles_for_group_two_phase(group_id)
+            arts_df = get_articles_for_date_range(arts_df, date_hours)
+            if not arts_df.empty:
+                valid_groups.append(row)
+
+        if valid_groups:
+            filtered2 = pd.DataFrame(valid_groups)
+            group_ids_2 = filtered2["group_id"].tolist()
+            chosen_2_val = st.session_state.get("chosen_2_val", None)
+            if chosen_2_val:
+                st.subheader(f"Group {chosen_2_val}")
+                articles_2p = get_articles_for_group_two_phase(chosen_2_val)
+                articles_2p = get_articles_for_date_range(articles_2p, date_hours)
+                articles_2p = filter_articles_by_company(articles_2p, selected_company)
+
+                if articles_2p.empty:
+                    st.warning("No articles found under this date + company filter.")
+                else:
+                    for _, row in articles_2p.iterrows():
+                        with st.expander(f"{row['title']} ({row['published_date']})"):
+                            st.write(row["content"])
+                            st.write(f"Link: {row['link']}")
+
+    elif selected_page.startswith("Category: "):
+        category_name = selected_page.replace("Category: ", "")
+        sub_df = get_subgroups_for_category(category_name)
+        if not sub_df.empty:
+            valid_subgroups = []
+            for _, srow in sub_df.iterrows():
+                sg_id = srow["subgroup_id"]
+                arts_df = get_articles_for_subgroup(sg_id)
+                arts_df = get_articles_for_date_range(arts_df, date_hours)
+                arts_df = filter_articles_by_company(arts_df, selected_company)
+                if not arts_df.empty:
+                    new_row = dict(srow)
+                    new_row["filtered_article_count"] = len(arts_df)
+                    valid_subgroups.append(new_row)
+
+            if not valid_subgroups:
+                st.warning("No subgroups match this date + company filter.")
             else:
-                st.write(f"Showing {len(filtered2)} two-phase groups.")
-                st.dataframe(filtered2[["group_id","main_topic","sub_topic","group_label","article_count"]])
-                group_ids_2 = filtered2["group_id"].tolist()
-                if group_ids_2:
-                    chosen_2 = st.selectbox("Select a two-phase group", group_ids_2)
-                    if chosen_2:
-                        st.subheader(f"Two-Phase Group {chosen_2}")
-                        articles_2p = get_articles_for_group_two_phase(chosen_2)
-                        if hours_2 is not None:
-                            cutoff2 = datetime.utcnow() - timedelta(hours=hours_2)
-                            articles_2p["parsed_dt"] = pd.to_datetime(
-                                articles_2p["published_date"], utc=True, errors="coerce"
-                            )
-                            arts_in_range_2 = articles_2p[articles_2p["parsed_dt"] >= cutoff2]
-                        else:
-                            arts_in_range_2 = articles_2p
-                        for _, row in arts_in_range_2.iterrows():
-                            with st.expander(f"{row['title']} ({row['published_date']})"):
-                                st.write(row["content"])
-                                st.write(f"Link: {row['link']}")
+                sub_filtered = pd.DataFrame(valid_subgroups)
+                # Sort subgroups by descending article count after filtering
+                sub_filtered = sub_filtered.sort_values(by="filtered_article_count", ascending=False)
+
+                for _, row in sub_filtered.iterrows():
+                    subgroup_id = row["subgroup_id"]
+                    group_label = row["group_label"]
+                    summary = row["summary"] or "(No summary)"
+                    article_count = row["filtered_article_count"]
+
+                    with st.expander(f"{group_label} (Articles: {article_count})"):
+                        st.write(summary)
+                        arts_in_subgroup = get_articles_for_subgroup(subgroup_id)
+                        arts_in_subgroup = get_articles_for_date_range(arts_in_subgroup, date_hours)
+                        arts_in_subgroup = filter_articles_by_company(arts_in_subgroup, selected_company)
+
+                        for _, arow in arts_in_subgroup.iterrows():
+                            st.write(f"- **{arow['title']}** ({arow['published_date']})")
+                            st.caption(f"[Link]({arow['link']})")
+
+# --------------------------------------------------------------------------------
+# Run App
+# --------------------------------------------------------------------------------
 
 if __name__ == "__main__":
     main()

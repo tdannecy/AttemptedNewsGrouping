@@ -37,3 +37,14 @@
 2025-02-08 15:24:08,608 - INFO - Skipping duplicate article: https://www.schneier.com/blog/archives/2025/01/fake-reddit-and-wetransfer-sites-are-pushing-malware.html
 2025-02-08 15:24:08,609 - INFO - Duplicate found (exact link match): https://www.schneier.com/blog/archives/2025/01/exxonmobil-lobbyist-caught-hacking-climate-activists.html
 2025-02-08 15:24:08,609 - INFO - Skipping duplicate article: https://www.schneier.com/blog/archives/2025/01/exxonmobil-lobbyist-caught-hacking-climate-activists.html
+2025-02-08 18:11:35,570 - INFO - Duplicate found (exact link match): https://www.schneier.com/blog/archives/2025/02/uk-is-ordering-apple-to-break-its-own-encryption.html
+2025-02-08 18:11:35,571 - INFO - Skipping duplicate article: https://www.schneier.com/blog/archives/2025/02/uk-is-ordering-apple-to-break-its-own-encryption.html
+2025-02-08 18:11:35,580 - INFO - Stored article: Friday Squid Blogging: The Colossal Squid
+2025-02-08 18:11:36,589 - INFO - Stored article: Screenshot-Reading Malware
+2025-02-08 18:11:37,606 - INFO - Stored article: AIs and Robots Should Sound Robotic
+2025-02-08 18:11:38,636 - INFO - Stored article: On Generative AI Security
+2025-02-08 18:11:39,660 - INFO - Stored article: Deepfakes and the 2024 US Election
+2025-02-08 18:11:40,688 - INFO - Stored article: Journalists and Civil Society Members Using WhatsApp Targeted by Paragon Spyware
+2025-02-08 18:11:41,712 - INFO - Stored article: Friday Squid Blogging: On Squid Brains
+2025-02-08 18:11:42,727 - INFO - Stored article: Fake Reddit and WeTransfer Sites are Pushing Malware
+2025-02-08 18:11:43,755 - INFO - Stored article: ExxonMobil Lobbyist Caught Hacking Climate Activists

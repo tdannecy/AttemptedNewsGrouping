@@ -68,3 +68,28 @@ Final Statistics:
 2025-02-08 15:24:34,413 - INFO - 
 Final Statistics:
 2025-02-08 15:24:34,413 - INFO - Total articles in database from Securelist: 12
+2025-02-08 18:11:35,398 - INFO - Fetching RSS feed from https://securelist.com/feed/
+2025-02-08 18:11:36,435 - INFO - Found 10 articles in feed
+2025-02-08 18:11:36,436 - INFO - Processing: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-08 18:11:36,683 - INFO - Stored article: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-08 18:11:38,700 - INFO - Processing: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-08 18:11:39,250 - INFO - Stored article: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-08 18:11:41,265 - INFO - Processing: One policy to rule them all
+2025-02-08 18:11:41,811 - INFO - Stored article: One policy to rule them all
+2025-02-08 18:11:43,819 - INFO - Processing: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-08 18:11:44,335 - INFO - Stored article: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-08 18:11:46,337 - INFO - Processing: Threat predictions for industrial enterprises 2025
+2025-02-08 18:11:46,898 - INFO - Stored article: Threat predictions for industrial enterprises 2025
+2025-02-08 18:11:48,914 - INFO - Processing: Mercedes-Benz Head Unit security research report
+2025-02-08 18:11:49,479 - INFO - Stored article: Mercedes-Benz Head Unit security research report
+2025-02-08 18:11:51,499 - INFO - Processing: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-08 18:11:52,065 - INFO - Stored article: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-08 18:11:54,078 - INFO - Processing: Threat landscape for industrial automation systems in Q3 2024
+2025-02-08 18:11:54,602 - INFO - Stored article: Threat landscape for industrial automation systems in Q3 2024
+2025-02-08 18:11:56,613 - INFO - Processing: Cloud Atlas seen using a new tool in its attacks
+2025-02-08 18:11:57,135 - INFO - Stored article: Cloud Atlas seen using a new tool in its attacks
+2025-02-08 18:11:59,150 - INFO - Processing: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-08 18:11:59,662 - INFO - Stored article: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-08 18:12:01,685 - INFO - 
+Final Statistics:
+2025-02-08 18:12:01,685 - INFO - Total articles in database from Securelist: 10

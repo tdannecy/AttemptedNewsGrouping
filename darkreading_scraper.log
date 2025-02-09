@@ -298,3 +298,105 @@
 2025-02-08 15:24:35,369 - INFO - Processing article: Exposure Management Provider CYE Acquires Solvo
 2025-02-08 15:24:35,436 - INFO - Duplicate found (exact link match): https://www.darkreading.com/cloud-security/exposure-management-provider-cye-acquires-solvo
 2025-02-08 15:24:35,436 - INFO - Skipping duplicate article
+2025-02-08 18:11:35,858 - INFO - Processing article: LLM Hijackers Quickly Incorporate DeepSeek API Keys
+2025-02-08 18:11:35,951 - INFO - Duplicate found (exact link match): https://www.darkreading.com/application-security/llm-hijackers-deepseek-api-keys
+2025-02-08 18:11:35,951 - INFO - Skipping duplicate article
+2025-02-08 18:11:35,951 - INFO - Processing article: SolarWinds to Go Private for $4.4B
+2025-02-08 18:11:36,888 - INFO - Stored article: SolarWinds to Go Private for $4.4B
+2025-02-08 18:11:37,892 - INFO - Processing article: Microsoft: Thousands of Public ASP.NET Keys Allow Web Server RCE
+2025-02-08 18:11:37,994 - INFO - Stored article: Microsoft: Thousands of Public ASP.NET Keys Allow Web Server RCE
+2025-02-08 18:11:38,996 - INFO - Processing article: Canadian Man Charged in $65M Cryptocurrency Hacking Schemes
+2025-02-08 18:11:39,086 - INFO - Stored article: Canadian Man Charged in $65M Cryptocurrency Hacking Schemes
+2025-02-08 18:11:40,101 - INFO - Processing article: 2024 Breaks Records With Highest Ever Ransomware Attacks
+2025-02-08 18:11:40,192 - INFO - Stored article: 2024 Breaks Records With Highest Ever Ransomware Attacks
+2025-02-08 18:11:41,203 - INFO - Processing article: Databarracks Launches Air Gap Recover
+2025-02-08 18:11:41,303 - INFO - Stored article: Databarracks Launches Air Gap Recover
+2025-02-08 18:11:42,309 - INFO - Processing article: Google's DMARC Push Pays Off, but Email Security Challenges Remain
+2025-02-08 18:11:42,411 - INFO - Stored article: Google's DMARC Push Pays Off, but Email Security Challenges Remain
+2025-02-08 18:11:43,415 - INFO - Processing article: Behavioral Analytics in Cybersecurity: Who Benefits Most?
+2025-02-08 18:11:43,514 - INFO - Stored article: Behavioral Analytics in Cybersecurity: Who Benefits Most?
+2025-02-08 18:11:44,517 - INFO - Processing article: Cybercrime Forces Local Law Enforcement to Shift Focus
+2025-02-08 18:11:44,619 - INFO - Stored article: Cybercrime Forces Local Law Enforcement to Shift Focus
+2025-02-08 18:11:45,620 - INFO - Processing article: 7AI Streamlines Security Operations With Autonomous AI Agents
+2025-02-08 18:11:45,708 - INFO - Stored article: 7AI Streamlines Security Operations With Autonomous AI Agents
+2025-02-08 18:11:46,710 - INFO - Processing article: Researcher Outsmarts, Jailbreaks OpenAI's New o3-mini
+2025-02-08 18:11:46,876 - INFO - Stored article: Researcher Outsmarts, Jailbreaks OpenAI's New o3-mini
+2025-02-08 18:11:47,890 - INFO - Processing article: US Cybersecurity Efforts for Spacecraft Are Up in the Air
+2025-02-08 18:11:47,991 - INFO - Stored article: US Cybersecurity Efforts for Spacecraft Are Up in the Air
+2025-02-08 18:11:48,994 - INFO - Processing article: DeepSeek Phishing Sites Pursue User Data, Crypto Wallets
+2025-02-08 18:11:49,106 - INFO - Stored article: DeepSeek Phishing Sites Pursue User Data, Crypto Wallets
+2025-02-08 18:11:50,113 - INFO - Processing article: Agencies Sound Alarm on Patient Monitors With Hardcoded Backdoor
+2025-02-08 18:11:50,209 - INFO - Stored article: Agencies Sound Alarm on Patient Monitors With Hardcoded Backdoor
+2025-02-08 18:11:51,218 - INFO - Processing article: The Cyber Savanna: A Rigged Race You Can't Win, but Must Run Anyway
+2025-02-08 18:11:51,322 - INFO - Stored article: The Cyber Savanna: A Rigged Race You Can't Win, but Must Run Anyway
+2025-02-08 18:11:52,337 - INFO - Processing article: Basket of Bank Trojans Defraud Citizens of East India
+2025-02-08 18:11:52,440 - INFO - Stored article: Basket of Bank Trojans Defraud Citizens of East India
+2025-02-08 18:11:53,443 - INFO - Processing article: Why Cybersecurity Needs Probability — Not Predictions
+2025-02-08 18:11:53,533 - INFO - Stored article: Why Cybersecurity Needs Probability — Not Predictions
+2025-02-08 18:11:54,545 - INFO - Processing article: Abandoned AWS Cloud Storage: A Major Cyberattack Vector
+2025-02-08 18:11:54,673 - INFO - Stored article: Abandoned AWS Cloud Storage: A Major Cyberattack Vector
+2025-02-08 18:11:55,682 - INFO - Processing article: Attackers Target Education Sector, Hijack Microsoft Accounts
+2025-02-08 18:11:55,783 - INFO - Stored article: Attackers Target Education Sector, Hijack Microsoft Accounts
+2025-02-08 18:11:56,786 - INFO - Processing article: Nigeria Touts Cyber Success, Even as Cybercrime Rises in Africa
+2025-02-08 18:11:56,879 - INFO - Stored article: Nigeria Touts Cyber Success, Even as Cybercrime Rises in Africa
+2025-02-08 18:11:57,889 - INFO - Processing article: How Are Modern Fraud Groups Using GenAI and Deepfakes?
+2025-02-08 18:11:57,979 - INFO - Stored article: How Are Modern Fraud Groups Using GenAI and Deepfakes?
+2025-02-08 18:11:58,981 - INFO - Processing article: Backline Tackles Enterprise Security Backlogs With AI
+2025-02-08 18:11:59,072 - INFO - Stored article: Backline Tackles Enterprise Security Backlogs With AI
+2025-02-08 18:12:00,086 - INFO - Processing article: Credential Theft Becomes Cybercriminals' Favorite Target
+2025-02-08 18:12:00,630 - INFO - Stored article: Credential Theft Becomes Cybercriminals' Favorite Target
+2025-02-08 18:12:01,644 - INFO - Processing article: Ferret Malware Added to 'Contagious Interview' Campaign
+2025-02-08 18:12:01,768 - INFO - Stored article: Ferret Malware Added to 'Contagious Interview' Campaign
+2025-02-08 18:12:02,779 - INFO - Processing article: Cybercriminals Court Traitorous Insiders via Ransom Notes
+2025-02-08 18:12:02,893 - INFO - Stored article: Cybercriminals Court Traitorous Insiders via Ransom Notes
+2025-02-08 18:12:03,902 - INFO - Processing article: Chinese 'Infrastructure Laundering' Abuses AWS, Microsoft Cloud
+2025-02-08 18:12:04,016 - INFO - Stored article: Chinese 'Infrastructure Laundering' Abuses AWS, Microsoft Cloud
+2025-02-08 18:12:05,023 - INFO - Processing article: Managing Software Risk in a World of Exploding Vulnerabilities
+2025-02-08 18:12:05,117 - INFO - Stored article: Managing Software Risk in a World of Exploding Vulnerabilities
+2025-02-08 18:12:06,127 - INFO - Processing article: DNSFilter's Annual Security Report Reveals Worrisome Spike in Malicious DNS Requests
+2025-02-08 18:12:06,238 - INFO - Stored article: DNSFilter's Annual Security Report Reveals Worrisome Spike in Malicious DNS Requests
+2025-02-08 18:12:07,249 - INFO - Processing article: EMEA CISOs Plan 2025 Cloud Security Investment
+2025-02-08 18:12:07,339 - INFO - Stored article: EMEA CISOs Plan 2025 Cloud Security Investment
+2025-02-08 18:12:08,354 - INFO - Processing article: Interactive Online Training for Cybersecurity Professionals; Earn CPE Credits
+2025-02-08 18:12:08,466 - INFO - Stored article: Interactive Online Training for Cybersecurity Professionals; Earn CPE Credits
+2025-02-08 18:12:09,478 - INFO - Processing article: 'Constitutional Classifiers' Technique Mitigates GenAI Jailbreaks
+2025-02-08 18:12:09,580 - INFO - Stored article: 'Constitutional Classifiers' Technique Mitigates GenAI Jailbreaks
+2025-02-08 18:12:10,596 - INFO - Processing article: Name That Edge Toon: In the Cloud
+2025-02-08 18:12:10,693 - INFO - Stored article: Name That Edge Toon: In the Cloud
+2025-02-08 18:12:11,702 - INFO - Processing article: Microsoft Sets End Date for Defender VPN
+2025-02-08 18:12:11,799 - INFO - Stored article: Microsoft Sets End Date for Defender VPN
+2025-02-08 18:12:12,811 - INFO - Processing article: AI Malware Dressed Up as DeepSeek Packages Lurk in PyPi
+2025-02-08 18:12:12,908 - INFO - Stored article: AI Malware Dressed Up as DeepSeek Packages Lurk in PyPi
+2025-02-08 18:12:13,916 - INFO - Processing article: Ransomware Groups Weathered Raids, Profited in 2024
+2025-02-08 18:12:14,015 - INFO - Stored article: Ransomware Groups Weathered Raids, Profited in 2024
+2025-02-08 18:12:15,025 - INFO - Processing article: 1-Click Phishing Campaign Targets High-Profile X Accounts
+2025-02-08 18:12:15,118 - INFO - Stored article: 1-Click Phishing Campaign Targets High-Profile X Accounts
+2025-02-08 18:12:16,130 - INFO - Processing article: Black Hat USA
+2025-02-08 18:12:16,205 - WARNING - Could not find article content for https://www.darkreading.com/events/black-hat-usa
+2025-02-08 18:12:16,205 - WARNING - Failed to scrape content for https://www.darkreading.com/events/black-hat-usa
+2025-02-08 18:12:16,205 - INFO - Processing article: Proactive Vulnerability Management for Engineering Success
+2025-02-08 18:12:16,307 - INFO - Stored article: Proactive Vulnerability Management for Engineering Success
+2025-02-08 18:12:17,313 - INFO - Processing article: DeepSeek Jailbreak Reveals Its Entire System Prompt
+2025-02-08 18:12:17,412 - INFO - Stored article: DeepSeek Jailbreak Reveals Its Entire System Prompt
+2025-02-08 18:12:18,418 - INFO - Processing article: Black Hat USA 2024 Highlights
+2025-02-08 18:12:18,513 - INFO - Stored article: Black Hat USA 2024 Highlights
+2025-02-08 18:12:19,524 - INFO - Processing article: Community Health Center Data Breach Affects 1M Patients
+2025-02-08 18:12:19,662 - INFO - Stored article: Community Health Center Data Breach Affects 1M Patients
+2025-02-08 18:12:20,672 - INFO - Processing article: DoJ Shutters Cybercrime Forums Behind Attacks on 17M Americans
+2025-02-08 18:12:20,788 - INFO - Stored article: DoJ Shutters Cybercrime Forums Behind Attacks on 17M Americans
+2025-02-08 18:12:21,790 - INFO - Processing article: State Data Privacy Regulators Are Coming. What Story Will You Tell Them?
+2025-02-08 18:12:21,890 - INFO - Stored article: State Data Privacy Regulators Are Coming. What Story Will You Tell Them?
+2025-02-08 18:12:22,893 - INFO - Processing article: Tenable to Acquire Vulcan Cyber to Boost Exposure Management Focus
+2025-02-08 18:12:22,992 - INFO - Stored article: Tenable to Acquire Vulcan Cyber to Boost Exposure Management Focus
+2025-02-08 18:12:23,998 - INFO - Processing article: Code-Scanning Tool's License at Heart of Security Breakup
+2025-02-08 18:12:24,092 - INFO - Stored article: Code-Scanning Tool's License at Heart of Security Breakup
+2025-02-08 18:12:25,102 - INFO - Processing article: Can AI &amp; the Cyber Trust Mark Rebuild Endpoint Confidence?
+2025-02-08 18:12:25,204 - INFO - Stored article: Can AI &amp; the Cyber Trust Mark Rebuild Endpoint Confidence?
+2025-02-08 18:12:26,207 - INFO - Processing article: Healthcare Sector Charts 2 More Ransomware Attacks
+2025-02-08 18:12:26,303 - INFO - Stored article: Healthcare Sector Charts 2 More Ransomware Attacks
+2025-02-08 18:12:27,311 - INFO - Processing article: New Jailbreaks Allow Users to Manipulate GitHub Copilot
+2025-02-08 18:12:28,347 - INFO - Stored article: New Jailbreaks Allow Users to Manipulate GitHub Copilot
+2025-02-08 18:12:29,348 - INFO - Processing article: Automated Pen Testing Is Improving — Slowly
+2025-02-08 18:12:29,466 - INFO - Stored article: Automated Pen Testing Is Improving — Slowly
+2025-02-08 18:12:30,468 - INFO - Processing article: Exposure Management Provider CYE Acquires Solvo
+2025-02-08 18:12:30,557 - INFO - Stored article: Exposure Management Provider CYE Acquires Solvo
