@@ -3,15 +3,15 @@ FROM python:3.9-slim
 
 WORKDIR /app
 
-# Copy and install Python dependencies
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy your entire codebase into /app
+# Copy the entire codebase into the container
 COPY . /app
 
-# Expose the port Streamlit runs on
+# Expose Streamlit port
 EXPOSE 8501
 
-# Default command to run your main script (which launches Streamlit)
+# Default command to run the 'main.py' script
+# which eventually calls "streamlit run app.py"
 CMD ["python", "main.py"]

@@ -55,3 +55,1612 @@ Final Statistics:
 2025-02-09 11:34:58,439 - INFO - 
 Final Statistics:
 2025-02-09 11:34:58,439 - INFO - Total articles in database from Securelist: 10
+2025-02-09 12:16:32,988 - INFO - Fetching RSS feed from https://securelist.com/feed/
+2025-02-09 12:16:34,083 - INFO - Found 10 articles in feed
+2025-02-09 12:16:34,083 - INFO - Processing: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-09 12:16:34,297 - INFO - Duplicate found (exact link match): https://securelist.com/nigerian-scams-2024/115388/
+2025-02-09 12:16:34,298 - INFO - Skipping duplicate article: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-09 12:16:36,300 - INFO - Processing: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-09 12:16:36,844 - INFO - Duplicate found (exact link match): https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/
+2025-02-09 12:16:36,844 - INFO - Skipping duplicate article: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-09 12:16:38,859 - INFO - Processing: One policy to rule them all
+2025-02-09 12:16:39,392 - INFO - Duplicate found (exact link match): https://securelist.com/group-policies-in-cyberattacks/115331/
+2025-02-09 12:16:39,392 - INFO - Skipping duplicate article: One policy to rule them all
+2025-02-09 12:16:41,404 - INFO - Processing: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-09 12:16:41,927 - INFO - Duplicate found (exact link match): https://securelist.com/tria-stealer-collects-sms-data-from-android-devices/115295/
+2025-02-09 12:16:41,927 - INFO - Skipping duplicate article: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-09 12:16:43,933 - INFO - Processing: Threat predictions for industrial enterprises 2025
+2025-02-09 12:16:44,426 - INFO - Duplicate found (exact link match): https://securelist.com/industrial-threat-predictions-2025/115327/
+2025-02-09 12:16:44,426 - INFO - Skipping duplicate article: Threat predictions for industrial enterprises 2025
+2025-02-09 12:16:46,439 - INFO - Processing: Mercedes-Benz Head Unit security research report
+2025-02-09 12:16:46,991 - INFO - Duplicate found (exact link match): https://securelist.com/mercedes-benz-head-unit-security-research/115218/
+2025-02-09 12:16:46,991 - INFO - Skipping duplicate article: Mercedes-Benz Head Unit security research report
+2025-02-09 12:16:48,992 - INFO - Processing: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-09 12:16:49,563 - INFO - Duplicate found (exact link match): https://securelist.com/eagerbee-backdoor/115175/
+2025-02-09 12:16:49,564 - INFO - Skipping duplicate article: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-09 12:16:51,569 - INFO - Processing: Threat landscape for industrial automation systems in Q3 2024
+2025-02-09 12:16:52,060 - INFO - Duplicate found (exact link match): https://securelist.com/ics-cert-q3-2024-report/115182/
+2025-02-09 12:16:52,061 - INFO - Skipping duplicate article: Threat landscape for industrial automation systems in Q3 2024
+2025-02-09 12:16:54,072 - INFO - Processing: Cloud Atlas seen using a new tool in its attacks
+2025-02-09 12:16:54,568 - INFO - Duplicate found (exact link match): https://securelist.com/cloud-atlas-attacks-with-new-backdoor-vbcloud/115103/
+2025-02-09 12:16:54,569 - INFO - Skipping duplicate article: Cloud Atlas seen using a new tool in its attacks
+2025-02-09 12:16:56,575 - INFO - Processing: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-09 12:16:57,083 - INFO - Duplicate found (exact link match): https://securelist.com/bellacpp-cpp-version-of-bellaciao/115087/
+2025-02-09 12:16:57,084 - INFO - Skipping duplicate article: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-09 12:16:59,101 - INFO - 
+Final Statistics:
+2025-02-09 12:16:59,101 - INFO - Total articles in database from Securelist: 10
+2025-02-09 12:46:16,196 - INFO - Fetching RSS feed from https://securelist.com/feed/
+2025-02-09 12:46:17,228 - INFO - Found 10 articles in feed
+2025-02-09 12:46:17,229 - INFO - Processing: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-09 12:46:17,455 - INFO - Duplicate found (exact link match): https://securelist.com/nigerian-scams-2024/115388/
+2025-02-09 12:46:17,455 - INFO - Skipping duplicate article: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-09 12:46:19,468 - INFO - Processing: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-09 12:46:19,990 - INFO - Duplicate found (exact link match): https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/
+2025-02-09 12:46:19,990 - INFO - Skipping duplicate article: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-09 12:46:22,005 - INFO - Processing: One policy to rule them all
+2025-02-09 12:46:22,538 - INFO - Duplicate found (exact link match): https://securelist.com/group-policies-in-cyberattacks/115331/
+2025-02-09 12:46:22,539 - INFO - Skipping duplicate article: One policy to rule them all
+2025-02-09 12:46:24,552 - INFO - Processing: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-09 12:46:25,072 - INFO - Duplicate found (exact link match): https://securelist.com/tria-stealer-collects-sms-data-from-android-devices/115295/
+2025-02-09 12:46:25,073 - INFO - Skipping duplicate article: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-09 12:46:27,074 - INFO - Processing: Threat predictions for industrial enterprises 2025
+2025-02-09 12:46:27,566 - INFO - Duplicate found (exact link match): https://securelist.com/industrial-threat-predictions-2025/115327/
+2025-02-09 12:46:27,566 - INFO - Skipping duplicate article: Threat predictions for industrial enterprises 2025
+2025-02-09 12:46:29,566 - INFO - Processing: Mercedes-Benz Head Unit security research report
+2025-02-09 12:46:30,111 - INFO - Duplicate found (exact link match): https://securelist.com/mercedes-benz-head-unit-security-research/115218/
+2025-02-09 12:46:30,111 - INFO - Skipping duplicate article: Mercedes-Benz Head Unit security research report
+2025-02-09 12:46:32,119 - INFO - Processing: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-09 12:46:32,655 - INFO - Duplicate found (exact link match): https://securelist.com/eagerbee-backdoor/115175/
+2025-02-09 12:46:32,655 - INFO - Skipping duplicate article: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-09 12:46:34,666 - INFO - Processing: Threat landscape for industrial automation systems in Q3 2024
+2025-02-09 12:46:35,149 - INFO - Duplicate found (exact link match): https://securelist.com/ics-cert-q3-2024-report/115182/
+2025-02-09 12:46:35,150 - INFO - Skipping duplicate article: Threat landscape for industrial automation systems in Q3 2024
+2025-02-09 12:46:37,158 - INFO - Processing: Cloud Atlas seen using a new tool in its attacks
+2025-02-09 12:46:37,654 - INFO - Duplicate found (exact link match): https://securelist.com/cloud-atlas-attacks-with-new-backdoor-vbcloud/115103/
+2025-02-09 12:46:37,654 - INFO - Skipping duplicate article: Cloud Atlas seen using a new tool in its attacks
+2025-02-09 12:46:39,668 - INFO - Processing: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-09 12:46:40,158 - INFO - Duplicate found (exact link match): https://securelist.com/bellacpp-cpp-version-of-bellaciao/115087/
+2025-02-09 12:46:40,158 - INFO - Skipping duplicate article: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-09 12:46:42,235 - INFO - 
+Final Statistics:
+2025-02-09 12:46:42,235 - INFO - Total articles in database from Securelist: 10
+2025-02-09 13:07:23,646 - INFO - Fetching RSS feed from https://securelist.com/feed/
+2025-02-09 13:07:24,665 - INFO - Found 10 articles in feed
+2025-02-09 13:07:24,665 - INFO - Processing: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-09 13:07:24,899 - INFO - Duplicate found (exact link match): https://securelist.com/nigerian-scams-2024/115388/
+2025-02-09 13:07:24,899 - INFO - Skipping duplicate article: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-09 13:07:26,900 - INFO - Processing: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-09 13:07:27,419 - INFO - Duplicate found (exact link match): https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/
+2025-02-09 13:07:27,419 - INFO - Skipping duplicate article: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-09 13:07:29,425 - INFO - Processing: One policy to rule them all
+2025-02-09 13:07:29,937 - INFO - Duplicate found (exact link match): https://securelist.com/group-policies-in-cyberattacks/115331/
+2025-02-09 13:07:29,938 - INFO - Skipping duplicate article: One policy to rule them all
+2025-02-09 13:07:31,948 - INFO - Processing: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-09 13:07:32,480 - INFO - Duplicate found (exact link match): https://securelist.com/tria-stealer-collects-sms-data-from-android-devices/115295/
+2025-02-09 13:07:32,481 - INFO - Skipping duplicate article: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-09 13:07:34,483 - INFO - Processing: Threat predictions for industrial enterprises 2025
+2025-02-09 13:07:34,966 - INFO - Duplicate found (exact link match): https://securelist.com/industrial-threat-predictions-2025/115327/
+2025-02-09 13:07:34,966 - INFO - Skipping duplicate article: Threat predictions for industrial enterprises 2025
+2025-02-09 13:07:36,977 - INFO - Processing: Mercedes-Benz Head Unit security research report
+2025-02-09 13:07:37,542 - INFO - Duplicate found (exact link match): https://securelist.com/mercedes-benz-head-unit-security-research/115218/
+2025-02-09 13:07:37,542 - INFO - Skipping duplicate article: Mercedes-Benz Head Unit security research report
+2025-02-09 13:07:39,553 - INFO - Processing: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-09 13:07:40,095 - INFO - Duplicate found (exact link match): https://securelist.com/eagerbee-backdoor/115175/
+2025-02-09 13:07:40,096 - INFO - Skipping duplicate article: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-09 13:07:42,106 - INFO - Processing: Threat landscape for industrial automation systems in Q3 2024
+2025-02-09 13:07:42,605 - INFO - Duplicate found (exact link match): https://securelist.com/ics-cert-q3-2024-report/115182/
+2025-02-09 13:07:42,605 - INFO - Skipping duplicate article: Threat landscape for industrial automation systems in Q3 2024
+2025-02-09 13:07:44,613 - INFO - Processing: Cloud Atlas seen using a new tool in its attacks
+2025-02-09 13:07:45,116 - INFO - Duplicate found (exact link match): https://securelist.com/cloud-atlas-attacks-with-new-backdoor-vbcloud/115103/
+2025-02-09 13:07:45,117 - INFO - Skipping duplicate article: Cloud Atlas seen using a new tool in its attacks
+2025-02-09 13:07:47,119 - INFO - Processing: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-09 13:07:47,622 - INFO - Duplicate found (exact link match): https://securelist.com/bellacpp-cpp-version-of-bellaciao/115087/
+2025-02-09 13:07:47,624 - INFO - Skipping duplicate article: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-09 13:07:49,637 - INFO - 
+Final Statistics:
+2025-02-09 13:07:49,637 - INFO - Total articles in database from Securelist: 10
+2025-02-09 13:25:11,087 - INFO - Fetching RSS feed from https://securelist.com/feed/
+2025-02-09 13:25:12,108 - INFO - Found 10 articles in feed
+2025-02-09 13:25:12,109 - INFO - Processing: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-09 13:25:12,328 - INFO - Duplicate found (exact link match): https://securelist.com/nigerian-scams-2024/115388/
+2025-02-09 13:25:12,328 - INFO - Skipping duplicate article: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-09 13:25:14,338 - INFO - Processing: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-09 13:25:14,858 - INFO - Duplicate found (exact link match): https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/
+2025-02-09 13:25:14,859 - INFO - Skipping duplicate article: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-09 13:25:16,872 - INFO - Processing: One policy to rule them all
+2025-02-09 13:25:17,401 - INFO - Duplicate found (exact link match): https://securelist.com/group-policies-in-cyberattacks/115331/
+2025-02-09 13:25:17,401 - INFO - Skipping duplicate article: One policy to rule them all
+2025-02-09 13:25:19,417 - INFO - Processing: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-09 13:25:19,925 - INFO - Duplicate found (exact link match): https://securelist.com/tria-stealer-collects-sms-data-from-android-devices/115295/
+2025-02-09 13:25:19,925 - INFO - Skipping duplicate article: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-09 13:25:21,928 - INFO - Processing: Threat predictions for industrial enterprises 2025
+2025-02-09 13:25:22,414 - INFO - Duplicate found (exact link match): https://securelist.com/industrial-threat-predictions-2025/115327/
+2025-02-09 13:25:22,414 - INFO - Skipping duplicate article: Threat predictions for industrial enterprises 2025
+2025-02-09 13:25:24,416 - INFO - Processing: Mercedes-Benz Head Unit security research report
+2025-02-09 13:25:24,948 - INFO - Duplicate found (exact link match): https://securelist.com/mercedes-benz-head-unit-security-research/115218/
+2025-02-09 13:25:24,948 - INFO - Skipping duplicate article: Mercedes-Benz Head Unit security research report
+2025-02-09 13:25:26,961 - INFO - Processing: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-09 13:25:27,484 - INFO - Duplicate found (exact link match): https://securelist.com/eagerbee-backdoor/115175/
+2025-02-09 13:25:27,485 - INFO - Skipping duplicate article: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-09 13:25:29,486 - INFO - Processing: Threat landscape for industrial automation systems in Q3 2024
+2025-02-09 13:25:29,954 - INFO - Duplicate found (exact link match): https://securelist.com/ics-cert-q3-2024-report/115182/
+2025-02-09 13:25:29,954 - INFO - Skipping duplicate article: Threat landscape for industrial automation systems in Q3 2024
+2025-02-09 13:25:31,965 - INFO - Processing: Cloud Atlas seen using a new tool in its attacks
+2025-02-09 13:25:32,450 - INFO - Duplicate found (exact link match): https://securelist.com/cloud-atlas-attacks-with-new-backdoor-vbcloud/115103/
+2025-02-09 13:25:32,451 - INFO - Skipping duplicate article: Cloud Atlas seen using a new tool in its attacks
+2025-02-09 13:25:34,460 - INFO - Processing: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-09 13:25:34,935 - INFO - Duplicate found (exact link match): https://securelist.com/bellacpp-cpp-version-of-bellaciao/115087/
+2025-02-09 13:25:34,937 - INFO - Skipping duplicate article: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-09 13:25:36,953 - INFO - 
+Final Statistics:
+2025-02-09 13:25:36,953 - INFO - Total articles in database from Securelist: 10
+2025-02-09 13:42:31,611 - INFO - Fetching RSS feed from https://securelist.com/feed/
+2025-02-09 13:42:32,669 - INFO - Found 10 articles in feed
+2025-02-09 13:42:32,670 - INFO - Processing: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-09 13:42:32,891 - INFO - Duplicate found (exact link match): https://securelist.com/nigerian-scams-2024/115388/
+2025-02-09 13:42:32,891 - INFO - Skipping duplicate article: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-09 13:42:34,904 - INFO - Processing: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-09 13:42:35,441 - INFO - Duplicate found (exact link match): https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/
+2025-02-09 13:42:35,441 - INFO - Skipping duplicate article: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-09 13:42:37,453 - INFO - Processing: One policy to rule them all
+2025-02-09 13:42:37,986 - INFO - Duplicate found (exact link match): https://securelist.com/group-policies-in-cyberattacks/115331/
+2025-02-09 13:42:37,986 - INFO - Skipping duplicate article: One policy to rule them all
+2025-02-09 13:42:39,987 - INFO - Processing: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-09 13:42:40,482 - INFO - Duplicate found (exact link match): https://securelist.com/tria-stealer-collects-sms-data-from-android-devices/115295/
+2025-02-09 13:42:40,483 - INFO - Skipping duplicate article: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-09 13:42:42,491 - INFO - Processing: Threat predictions for industrial enterprises 2025
+2025-02-09 13:42:42,977 - INFO - Duplicate found (exact link match): https://securelist.com/industrial-threat-predictions-2025/115327/
+2025-02-09 13:42:42,977 - INFO - Skipping duplicate article: Threat predictions for industrial enterprises 2025
+2025-02-09 13:42:44,987 - INFO - Processing: Mercedes-Benz Head Unit security research report
+2025-02-09 13:42:45,534 - INFO - Duplicate found (exact link match): https://securelist.com/mercedes-benz-head-unit-security-research/115218/
+2025-02-09 13:42:45,535 - INFO - Skipping duplicate article: Mercedes-Benz Head Unit security research report
+2025-02-09 13:42:47,543 - INFO - Processing: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-09 13:42:48,091 - INFO - Duplicate found (exact link match): https://securelist.com/eagerbee-backdoor/115175/
+2025-02-09 13:42:48,092 - INFO - Skipping duplicate article: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-09 13:42:50,098 - INFO - Processing: Threat landscape for industrial automation systems in Q3 2024
+2025-02-09 13:42:50,582 - INFO - Duplicate found (exact link match): https://securelist.com/ics-cert-q3-2024-report/115182/
+2025-02-09 13:42:50,582 - INFO - Skipping duplicate article: Threat landscape for industrial automation systems in Q3 2024
+2025-02-09 13:42:52,590 - INFO - Processing: Cloud Atlas seen using a new tool in its attacks
+2025-02-09 13:42:53,089 - INFO - Duplicate found (exact link match): https://securelist.com/cloud-atlas-attacks-with-new-backdoor-vbcloud/115103/
+2025-02-09 13:42:53,090 - INFO - Skipping duplicate article: Cloud Atlas seen using a new tool in its attacks
+2025-02-09 13:42:55,099 - INFO - Processing: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-09 13:42:55,597 - INFO - Duplicate found (exact link match): https://securelist.com/bellacpp-cpp-version-of-bellaciao/115087/
+2025-02-09 13:42:55,598 - INFO - Skipping duplicate article: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-09 13:42:57,616 - INFO - 
+Final Statistics:
+2025-02-09 13:42:57,616 - INFO - Total articles in database from Securelist: 10
+2025-02-09 13:58:58,912 - INFO - Fetching RSS feed from https://securelist.com/feed/
+2025-02-09 13:58:59,997 - INFO - Found 10 articles in feed
+2025-02-09 13:58:59,997 - INFO - Processing: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-09 13:59:00,252 - INFO - Duplicate found (exact link match): https://securelist.com/nigerian-scams-2024/115388/
+2025-02-09 13:59:00,253 - INFO - Skipping duplicate article: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-09 13:59:02,265 - INFO - Processing: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-09 13:59:02,806 - INFO - Duplicate found (exact link match): https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/
+2025-02-09 13:59:02,806 - INFO - Skipping duplicate article: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-09 13:59:04,820 - INFO - Processing: One policy to rule them all
+2025-02-09 13:59:05,345 - INFO - Duplicate found (exact link match): https://securelist.com/group-policies-in-cyberattacks/115331/
+2025-02-09 13:59:05,345 - INFO - Skipping duplicate article: One policy to rule them all
+2025-02-09 13:59:07,360 - INFO - Processing: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-09 13:59:07,869 - INFO - Duplicate found (exact link match): https://securelist.com/tria-stealer-collects-sms-data-from-android-devices/115295/
+2025-02-09 13:59:07,869 - INFO - Skipping duplicate article: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-09 13:59:09,873 - INFO - Processing: Threat predictions for industrial enterprises 2025
+2025-02-09 13:59:10,398 - INFO - Duplicate found (exact link match): https://securelist.com/industrial-threat-predictions-2025/115327/
+2025-02-09 13:59:10,400 - INFO - Skipping duplicate article: Threat predictions for industrial enterprises 2025
+2025-02-09 13:59:12,407 - INFO - Processing: Mercedes-Benz Head Unit security research report
+2025-02-09 13:59:13,033 - INFO - Duplicate found (exact link match): https://securelist.com/mercedes-benz-head-unit-security-research/115218/
+2025-02-09 13:59:13,033 - INFO - Skipping duplicate article: Mercedes-Benz Head Unit security research report
+2025-02-09 13:59:15,035 - INFO - Processing: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-09 13:59:15,635 - INFO - Duplicate found (exact link match): https://securelist.com/eagerbee-backdoor/115175/
+2025-02-09 13:59:15,636 - INFO - Skipping duplicate article: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-09 13:59:17,644 - INFO - Processing: Threat landscape for industrial automation systems in Q3 2024
+2025-02-09 13:59:18,132 - INFO - Duplicate found (exact link match): https://securelist.com/ics-cert-q3-2024-report/115182/
+2025-02-09 13:59:18,133 - INFO - Skipping duplicate article: Threat landscape for industrial automation systems in Q3 2024
+2025-02-09 13:59:20,144 - INFO - Processing: Cloud Atlas seen using a new tool in its attacks
+2025-02-09 13:59:20,654 - INFO - Duplicate found (exact link match): https://securelist.com/cloud-atlas-attacks-with-new-backdoor-vbcloud/115103/
+2025-02-09 13:59:20,654 - INFO - Skipping duplicate article: Cloud Atlas seen using a new tool in its attacks
+2025-02-09 13:59:22,670 - INFO - Processing: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-09 13:59:23,176 - INFO - Duplicate found (exact link match): https://securelist.com/bellacpp-cpp-version-of-bellaciao/115087/
+2025-02-09 13:59:23,176 - INFO - Skipping duplicate article: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-09 13:59:25,183 - INFO - 
+Final Statistics:
+2025-02-09 13:59:25,183 - INFO - Total articles in database from Securelist: 10
+2025-02-10 08:15:08,210 - INFO - Fetching RSS feed from https://securelist.com/feed/
+2025-02-10 08:15:09,253 - INFO - Found 10 articles in feed
+2025-02-10 08:15:09,254 - INFO - Processing: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 08:15:09,467 - INFO - Duplicate found (exact link match): https://securelist.com/nigerian-scams-2024/115388/
+2025-02-10 08:15:09,467 - INFO - Skipping duplicate article: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 08:15:11,470 - INFO - Processing: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 08:15:11,995 - INFO - Duplicate found (exact link match): https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/
+2025-02-10 08:15:11,995 - INFO - Skipping duplicate article: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 08:15:14,004 - INFO - Processing: One policy to rule them all
+2025-02-10 08:15:14,527 - INFO - Duplicate found (exact link match): https://securelist.com/group-policies-in-cyberattacks/115331/
+2025-02-10 08:15:14,527 - INFO - Skipping duplicate article: One policy to rule them all
+2025-02-10 08:15:16,541 - INFO - Processing: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 08:15:17,048 - INFO - Duplicate found (exact link match): https://securelist.com/tria-stealer-collects-sms-data-from-android-devices/115295/
+2025-02-10 08:15:17,048 - INFO - Skipping duplicate article: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 08:15:19,061 - INFO - Processing: Threat predictions for industrial enterprises 2025
+2025-02-10 08:15:19,535 - INFO - Duplicate found (exact link match): https://securelist.com/industrial-threat-predictions-2025/115327/
+2025-02-10 08:15:19,536 - INFO - Skipping duplicate article: Threat predictions for industrial enterprises 2025
+2025-02-10 08:15:21,539 - INFO - Processing: Mercedes-Benz Head Unit security research report
+2025-02-10 08:15:22,110 - INFO - Duplicate found (exact link match): https://securelist.com/mercedes-benz-head-unit-security-research/115218/
+2025-02-10 08:15:22,110 - INFO - Skipping duplicate article: Mercedes-Benz Head Unit security research report
+2025-02-10 08:15:24,118 - INFO - Processing: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 08:15:24,664 - INFO - Duplicate found (exact link match): https://securelist.com/eagerbee-backdoor/115175/
+2025-02-10 08:15:24,664 - INFO - Skipping duplicate article: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 08:15:26,675 - INFO - Processing: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 08:15:27,162 - INFO - Duplicate found (exact link match): https://securelist.com/ics-cert-q3-2024-report/115182/
+2025-02-10 08:15:27,162 - INFO - Skipping duplicate article: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 08:15:29,174 - INFO - Processing: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 08:15:29,692 - INFO - Duplicate found (exact link match): https://securelist.com/cloud-atlas-attacks-with-new-backdoor-vbcloud/115103/
+2025-02-10 08:15:29,692 - INFO - Skipping duplicate article: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 08:15:31,705 - INFO - Processing: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 08:15:32,200 - INFO - Duplicate found (exact link match): https://securelist.com/bellacpp-cpp-version-of-bellaciao/115087/
+2025-02-10 08:15:32,201 - INFO - Skipping duplicate article: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 08:15:34,212 - INFO - 
+Final Statistics:
+2025-02-10 08:15:34,213 - INFO - Total articles in database from Securelist: 10
+2025-02-10 08:35:31,154 - INFO - Fetching RSS feed from https://securelist.com/feed/
+2025-02-10 08:35:32,238 - INFO - Found 10 articles in feed
+2025-02-10 08:35:32,238 - INFO - Processing: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 08:35:32,442 - INFO - Duplicate found (exact link match): https://securelist.com/nigerian-scams-2024/115388/
+2025-02-10 08:35:32,442 - INFO - Skipping duplicate article: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 08:35:34,453 - INFO - Processing: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 08:35:34,978 - INFO - Duplicate found (exact link match): https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/
+2025-02-10 08:35:34,978 - INFO - Skipping duplicate article: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 08:35:36,981 - INFO - Processing: One policy to rule them all
+2025-02-10 08:35:37,508 - INFO - Duplicate found (exact link match): https://securelist.com/group-policies-in-cyberattacks/115331/
+2025-02-10 08:35:37,508 - INFO - Skipping duplicate article: One policy to rule them all
+2025-02-10 08:35:39,518 - INFO - Processing: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 08:35:40,044 - INFO - Duplicate found (exact link match): https://securelist.com/tria-stealer-collects-sms-data-from-android-devices/115295/
+2025-02-10 08:35:40,045 - INFO - Skipping duplicate article: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 08:35:42,048 - INFO - Processing: Threat predictions for industrial enterprises 2025
+2025-02-10 08:35:42,535 - INFO - Duplicate found (exact link match): https://securelist.com/industrial-threat-predictions-2025/115327/
+2025-02-10 08:35:42,535 - INFO - Skipping duplicate article: Threat predictions for industrial enterprises 2025
+2025-02-10 08:35:44,547 - INFO - Processing: Mercedes-Benz Head Unit security research report
+2025-02-10 08:35:45,119 - INFO - Duplicate found (exact link match): https://securelist.com/mercedes-benz-head-unit-security-research/115218/
+2025-02-10 08:35:45,119 - INFO - Skipping duplicate article: Mercedes-Benz Head Unit security research report
+2025-02-10 08:35:47,129 - INFO - Processing: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 08:35:47,702 - INFO - Duplicate found (exact link match): https://securelist.com/eagerbee-backdoor/115175/
+2025-02-10 08:35:47,703 - INFO - Skipping duplicate article: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 08:35:49,711 - INFO - Processing: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 08:35:50,200 - INFO - Duplicate found (exact link match): https://securelist.com/ics-cert-q3-2024-report/115182/
+2025-02-10 08:35:50,201 - INFO - Skipping duplicate article: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 08:35:52,213 - INFO - Processing: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 08:35:52,746 - INFO - Duplicate found (exact link match): https://securelist.com/cloud-atlas-attacks-with-new-backdoor-vbcloud/115103/
+2025-02-10 08:35:52,747 - INFO - Skipping duplicate article: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 08:35:54,756 - INFO - Processing: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 08:35:55,275 - INFO - Duplicate found (exact link match): https://securelist.com/bellacpp-cpp-version-of-bellaciao/115087/
+2025-02-10 08:35:55,276 - INFO - Skipping duplicate article: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 08:35:57,280 - INFO - 
+Final Statistics:
+2025-02-10 08:35:57,280 - INFO - Total articles in database from Securelist: 10
+2025-02-10 08:53:32,524 - INFO - Fetching RSS feed from https://securelist.com/feed/
+2025-02-10 08:53:33,573 - INFO - Found 10 articles in feed
+2025-02-10 08:53:33,573 - INFO - Processing: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 08:53:33,796 - INFO - Duplicate found (exact link match): https://securelist.com/nigerian-scams-2024/115388/
+2025-02-10 08:53:33,796 - INFO - Skipping duplicate article: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 08:53:35,806 - INFO - Processing: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 08:53:36,335 - INFO - Duplicate found (exact link match): https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/
+2025-02-10 08:53:36,336 - INFO - Skipping duplicate article: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 08:53:38,344 - INFO - Processing: One policy to rule them all
+2025-02-10 08:53:38,872 - INFO - Duplicate found (exact link match): https://securelist.com/group-policies-in-cyberattacks/115331/
+2025-02-10 08:53:38,872 - INFO - Skipping duplicate article: One policy to rule them all
+2025-02-10 08:53:40,874 - INFO - Processing: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 08:53:41,383 - INFO - Duplicate found (exact link match): https://securelist.com/tria-stealer-collects-sms-data-from-android-devices/115295/
+2025-02-10 08:53:41,384 - INFO - Skipping duplicate article: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 08:53:43,393 - INFO - Processing: Threat predictions for industrial enterprises 2025
+2025-02-10 08:53:43,886 - INFO - Duplicate found (exact link match): https://securelist.com/industrial-threat-predictions-2025/115327/
+2025-02-10 08:53:43,887 - INFO - Skipping duplicate article: Threat predictions for industrial enterprises 2025
+2025-02-10 08:53:45,902 - INFO - Processing: Mercedes-Benz Head Unit security research report
+2025-02-10 08:53:46,451 - INFO - Duplicate found (exact link match): https://securelist.com/mercedes-benz-head-unit-security-research/115218/
+2025-02-10 08:53:46,451 - INFO - Skipping duplicate article: Mercedes-Benz Head Unit security research report
+2025-02-10 08:53:48,462 - INFO - Processing: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 08:53:49,000 - INFO - Duplicate found (exact link match): https://securelist.com/eagerbee-backdoor/115175/
+2025-02-10 08:53:49,001 - INFO - Skipping duplicate article: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 08:53:51,003 - INFO - Processing: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 08:53:51,475 - INFO - Duplicate found (exact link match): https://securelist.com/ics-cert-q3-2024-report/115182/
+2025-02-10 08:53:51,476 - INFO - Skipping duplicate article: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 08:53:53,485 - INFO - Processing: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 08:53:53,979 - INFO - Duplicate found (exact link match): https://securelist.com/cloud-atlas-attacks-with-new-backdoor-vbcloud/115103/
+2025-02-10 08:53:53,979 - INFO - Skipping duplicate article: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 08:53:55,993 - INFO - Processing: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 08:53:56,492 - INFO - Duplicate found (exact link match): https://securelist.com/bellacpp-cpp-version-of-bellaciao/115087/
+2025-02-10 08:53:56,493 - INFO - Skipping duplicate article: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 08:53:58,500 - INFO - 
+Final Statistics:
+2025-02-10 08:53:58,500 - INFO - Total articles in database from Securelist: 10
+2025-02-10 09:10:59,516 - INFO - Fetching RSS feed from https://securelist.com/feed/
+2025-02-10 09:11:00,585 - INFO - Found 10 articles in feed
+2025-02-10 09:11:00,585 - INFO - Processing: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 09:11:00,875 - INFO - Duplicate found (exact link match): https://securelist.com/nigerian-scams-2024/115388/
+2025-02-10 09:11:00,875 - INFO - Skipping duplicate article: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 09:11:02,891 - INFO - Processing: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 09:11:03,405 - INFO - Duplicate found (exact link match): https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/
+2025-02-10 09:11:03,405 - INFO - Skipping duplicate article: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 09:11:05,417 - INFO - Processing: One policy to rule them all
+2025-02-10 09:11:05,945 - INFO - Duplicate found (exact link match): https://securelist.com/group-policies-in-cyberattacks/115331/
+2025-02-10 09:11:05,945 - INFO - Skipping duplicate article: One policy to rule them all
+2025-02-10 09:11:07,956 - INFO - Processing: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 09:11:08,459 - INFO - Duplicate found (exact link match): https://securelist.com/tria-stealer-collects-sms-data-from-android-devices/115295/
+2025-02-10 09:11:08,459 - INFO - Skipping duplicate article: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 09:11:10,468 - INFO - Processing: Threat predictions for industrial enterprises 2025
+2025-02-10 09:11:11,379 - INFO - Duplicate found (exact link match): https://securelist.com/industrial-threat-predictions-2025/115327/
+2025-02-10 09:11:11,379 - INFO - Skipping duplicate article: Threat predictions for industrial enterprises 2025
+2025-02-10 09:11:13,382 - INFO - Processing: Mercedes-Benz Head Unit security research report
+2025-02-10 09:11:14,388 - INFO - Duplicate found (exact link match): https://securelist.com/mercedes-benz-head-unit-security-research/115218/
+2025-02-10 09:11:14,389 - INFO - Skipping duplicate article: Mercedes-Benz Head Unit security research report
+2025-02-10 09:11:16,403 - INFO - Processing: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 09:11:17,079 - INFO - Duplicate found (exact link match): https://securelist.com/eagerbee-backdoor/115175/
+2025-02-10 09:11:17,080 - INFO - Skipping duplicate article: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 09:11:19,080 - INFO - Processing: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 09:11:19,575 - INFO - Duplicate found (exact link match): https://securelist.com/ics-cert-q3-2024-report/115182/
+2025-02-10 09:11:19,575 - INFO - Skipping duplicate article: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 09:11:21,581 - INFO - Processing: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 09:11:22,236 - INFO - Duplicate found (exact link match): https://securelist.com/cloud-atlas-attacks-with-new-backdoor-vbcloud/115103/
+2025-02-10 09:11:22,237 - INFO - Skipping duplicate article: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 09:11:24,243 - INFO - Processing: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 09:11:24,780 - INFO - Duplicate found (exact link match): https://securelist.com/bellacpp-cpp-version-of-bellaciao/115087/
+2025-02-10 09:11:24,780 - INFO - Skipping duplicate article: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 09:11:26,790 - INFO - 
+Final Statistics:
+2025-02-10 09:11:26,790 - INFO - Total articles in database from Securelist: 10
+2025-02-10 09:28:24,474 - INFO - Fetching RSS feed from https://securelist.com/feed/
+2025-02-10 09:28:25,494 - INFO - Found 10 articles in feed
+2025-02-10 09:28:25,494 - INFO - Processing: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 09:28:25,714 - INFO - Duplicate found (exact link match): https://securelist.com/nigerian-scams-2024/115388/
+2025-02-10 09:28:25,714 - INFO - Skipping duplicate article: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 09:28:27,716 - INFO - Processing: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 09:28:28,226 - INFO - Duplicate found (exact link match): https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/
+2025-02-10 09:28:28,227 - INFO - Skipping duplicate article: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 09:28:30,235 - INFO - Processing: One policy to rule them all
+2025-02-10 09:28:30,742 - INFO - Duplicate found (exact link match): https://securelist.com/group-policies-in-cyberattacks/115331/
+2025-02-10 09:28:30,742 - INFO - Skipping duplicate article: One policy to rule them all
+2025-02-10 09:28:32,743 - INFO - Processing: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 09:28:33,236 - INFO - Duplicate found (exact link match): https://securelist.com/tria-stealer-collects-sms-data-from-android-devices/115295/
+2025-02-10 09:28:33,237 - INFO - Skipping duplicate article: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 09:28:35,238 - INFO - Processing: Threat predictions for industrial enterprises 2025
+2025-02-10 09:28:35,733 - INFO - Duplicate found (exact link match): https://securelist.com/industrial-threat-predictions-2025/115327/
+2025-02-10 09:28:35,734 - INFO - Skipping duplicate article: Threat predictions for industrial enterprises 2025
+2025-02-10 09:28:37,741 - INFO - Processing: Mercedes-Benz Head Unit security research report
+2025-02-10 09:28:38,279 - INFO - Duplicate found (exact link match): https://securelist.com/mercedes-benz-head-unit-security-research/115218/
+2025-02-10 09:28:38,280 - INFO - Skipping duplicate article: Mercedes-Benz Head Unit security research report
+2025-02-10 09:28:40,287 - INFO - Processing: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 09:28:40,828 - INFO - Duplicate found (exact link match): https://securelist.com/eagerbee-backdoor/115175/
+2025-02-10 09:28:40,828 - INFO - Skipping duplicate article: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 09:28:42,830 - INFO - Processing: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 09:28:43,310 - INFO - Duplicate found (exact link match): https://securelist.com/ics-cert-q3-2024-report/115182/
+2025-02-10 09:28:43,311 - INFO - Skipping duplicate article: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 09:28:45,322 - INFO - Processing: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 09:28:45,814 - INFO - Duplicate found (exact link match): https://securelist.com/cloud-atlas-attacks-with-new-backdoor-vbcloud/115103/
+2025-02-10 09:28:45,814 - INFO - Skipping duplicate article: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 09:28:47,815 - INFO - Processing: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 09:28:48,326 - INFO - Duplicate found (exact link match): https://securelist.com/bellacpp-cpp-version-of-bellaciao/115087/
+2025-02-10 09:28:48,326 - INFO - Skipping duplicate article: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 09:28:50,343 - INFO - 
+Final Statistics:
+2025-02-10 09:28:50,343 - INFO - Total articles in database from Securelist: 10
+2025-02-10 09:44:58,224 - INFO - Fetching RSS feed from https://securelist.com/feed/
+2025-02-10 09:44:59,267 - INFO - Found 10 articles in feed
+2025-02-10 09:44:59,268 - INFO - Processing: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 09:44:59,487 - INFO - Duplicate found (exact link match): https://securelist.com/nigerian-scams-2024/115388/
+2025-02-10 09:44:59,487 - INFO - Skipping duplicate article: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 09:45:01,496 - INFO - Processing: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 09:45:02,004 - INFO - Duplicate found (exact link match): https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/
+2025-02-10 09:45:02,004 - INFO - Skipping duplicate article: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 09:45:04,016 - INFO - Processing: One policy to rule them all
+2025-02-10 09:45:04,526 - INFO - Duplicate found (exact link match): https://securelist.com/group-policies-in-cyberattacks/115331/
+2025-02-10 09:45:04,526 - INFO - Skipping duplicate article: One policy to rule them all
+2025-02-10 09:45:06,538 - INFO - Processing: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 09:45:07,030 - INFO - Duplicate found (exact link match): https://securelist.com/tria-stealer-collects-sms-data-from-android-devices/115295/
+2025-02-10 09:45:07,030 - INFO - Skipping duplicate article: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 09:45:09,033 - INFO - Processing: Threat predictions for industrial enterprises 2025
+2025-02-10 09:45:09,514 - INFO - Duplicate found (exact link match): https://securelist.com/industrial-threat-predictions-2025/115327/
+2025-02-10 09:45:09,514 - INFO - Skipping duplicate article: Threat predictions for industrial enterprises 2025
+2025-02-10 09:45:11,524 - INFO - Processing: Mercedes-Benz Head Unit security research report
+2025-02-10 09:45:12,064 - INFO - Duplicate found (exact link match): https://securelist.com/mercedes-benz-head-unit-security-research/115218/
+2025-02-10 09:45:12,064 - INFO - Skipping duplicate article: Mercedes-Benz Head Unit security research report
+2025-02-10 09:45:14,068 - INFO - Processing: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 09:45:14,612 - INFO - Duplicate found (exact link match): https://securelist.com/eagerbee-backdoor/115175/
+2025-02-10 09:45:14,613 - INFO - Skipping duplicate article: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 09:45:16,628 - INFO - Processing: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 09:45:17,101 - INFO - Duplicate found (exact link match): https://securelist.com/ics-cert-q3-2024-report/115182/
+2025-02-10 09:45:17,101 - INFO - Skipping duplicate article: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 09:45:19,108 - INFO - Processing: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 09:45:19,607 - INFO - Duplicate found (exact link match): https://securelist.com/cloud-atlas-attacks-with-new-backdoor-vbcloud/115103/
+2025-02-10 09:45:19,608 - INFO - Skipping duplicate article: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 09:45:21,623 - INFO - Processing: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 09:45:22,110 - INFO - Duplicate found (exact link match): https://securelist.com/bellacpp-cpp-version-of-bellaciao/115087/
+2025-02-10 09:45:22,110 - INFO - Skipping duplicate article: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 09:45:24,119 - INFO - 
+Final Statistics:
+2025-02-10 09:45:24,119 - INFO - Total articles in database from Securelist: 10
+2025-02-10 10:01:32,752 - INFO - Fetching RSS feed from https://securelist.com/feed/
+2025-02-10 10:01:33,797 - INFO - Found 10 articles in feed
+2025-02-10 10:01:33,798 - INFO - Processing: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 10:01:34,045 - INFO - Duplicate found (exact link match): https://securelist.com/nigerian-scams-2024/115388/
+2025-02-10 10:01:34,045 - INFO - Skipping duplicate article: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 10:01:36,048 - INFO - Processing: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 10:01:36,556 - INFO - Duplicate found (exact link match): https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/
+2025-02-10 10:01:36,556 - INFO - Skipping duplicate article: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 10:01:38,559 - INFO - Processing: One policy to rule them all
+2025-02-10 10:01:39,104 - INFO - Duplicate found (exact link match): https://securelist.com/group-policies-in-cyberattacks/115331/
+2025-02-10 10:01:39,105 - INFO - Skipping duplicate article: One policy to rule them all
+2025-02-10 10:01:41,111 - INFO - Processing: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 10:01:41,616 - INFO - Duplicate found (exact link match): https://securelist.com/tria-stealer-collects-sms-data-from-android-devices/115295/
+2025-02-10 10:01:41,617 - INFO - Skipping duplicate article: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 10:01:43,621 - INFO - Processing: Threat predictions for industrial enterprises 2025
+2025-02-10 10:01:44,159 - INFO - Duplicate found (exact link match): https://securelist.com/industrial-threat-predictions-2025/115327/
+2025-02-10 10:01:44,159 - INFO - Skipping duplicate article: Threat predictions for industrial enterprises 2025
+2025-02-10 10:01:46,167 - INFO - Processing: Mercedes-Benz Head Unit security research report
+2025-02-10 10:01:46,725 - INFO - Duplicate found (exact link match): https://securelist.com/mercedes-benz-head-unit-security-research/115218/
+2025-02-10 10:01:46,725 - INFO - Skipping duplicate article: Mercedes-Benz Head Unit security research report
+2025-02-10 10:01:48,736 - INFO - Processing: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 10:01:49,306 - INFO - Duplicate found (exact link match): https://securelist.com/eagerbee-backdoor/115175/
+2025-02-10 10:01:49,306 - INFO - Skipping duplicate article: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 10:01:51,315 - INFO - Processing: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 10:01:51,813 - INFO - Duplicate found (exact link match): https://securelist.com/ics-cert-q3-2024-report/115182/
+2025-02-10 10:01:51,813 - INFO - Skipping duplicate article: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 10:01:53,822 - INFO - Processing: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 10:01:54,321 - INFO - Duplicate found (exact link match): https://securelist.com/cloud-atlas-attacks-with-new-backdoor-vbcloud/115103/
+2025-02-10 10:01:54,321 - INFO - Skipping duplicate article: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 10:01:56,332 - INFO - Processing: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 10:01:56,831 - INFO - Duplicate found (exact link match): https://securelist.com/bellacpp-cpp-version-of-bellaciao/115087/
+2025-02-10 10:01:56,832 - INFO - Skipping duplicate article: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 10:01:58,840 - INFO - 
+Final Statistics:
+2025-02-10 10:01:58,840 - INFO - Total articles in database from Securelist: 10
+2025-02-10 10:17:51,779 - INFO - Fetching RSS feed from https://securelist.com/feed/
+2025-02-10 10:17:52,793 - INFO - Found 10 articles in feed
+2025-02-10 10:17:52,793 - INFO - Processing: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 10:17:54,581 - INFO - Duplicate found (exact link match): https://securelist.com/nigerian-scams-2024/115388/
+2025-02-10 10:17:54,581 - INFO - Skipping duplicate article: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 10:17:56,594 - INFO - Processing: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 10:18:06,603 - ERROR - Error fetching https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/: HTTPSConnectionPool(host='securelist.com', port=443): Read timed out. (read timeout=10)
+2025-02-10 10:18:08,610 - INFO - Processing: One policy to rule them all
+2025-02-10 10:18:14,860 - INFO - Duplicate found (exact link match): https://securelist.com/group-policies-in-cyberattacks/115331/
+2025-02-10 10:18:14,860 - INFO - Skipping duplicate article: One policy to rule them all
+2025-02-10 10:18:16,863 - INFO - Processing: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 10:18:18,456 - INFO - Duplicate found (exact link match): https://securelist.com/tria-stealer-collects-sms-data-from-android-devices/115295/
+2025-02-10 10:18:18,456 - INFO - Skipping duplicate article: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 10:18:20,460 - INFO - Processing: Threat predictions for industrial enterprises 2025
+2025-02-10 10:18:22,993 - INFO - Duplicate found (exact link match): https://securelist.com/industrial-threat-predictions-2025/115327/
+2025-02-10 10:18:22,994 - INFO - Skipping duplicate article: Threat predictions for industrial enterprises 2025
+2025-02-10 10:18:24,998 - INFO - Processing: Mercedes-Benz Head Unit security research report
+2025-02-10 10:18:32,583 - INFO - Duplicate found (exact link match): https://securelist.com/mercedes-benz-head-unit-security-research/115218/
+2025-02-10 10:18:32,583 - INFO - Skipping duplicate article: Mercedes-Benz Head Unit security research report
+2025-02-10 10:18:34,587 - INFO - Processing: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 10:18:35,108 - INFO - Duplicate found (exact link match): https://securelist.com/eagerbee-backdoor/115175/
+2025-02-10 10:18:35,109 - INFO - Skipping duplicate article: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 10:18:37,112 - INFO - Processing: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 10:18:37,593 - INFO - Duplicate found (exact link match): https://securelist.com/ics-cert-q3-2024-report/115182/
+2025-02-10 10:18:37,594 - INFO - Skipping duplicate article: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 10:18:39,606 - INFO - Processing: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 10:18:40,095 - INFO - Duplicate found (exact link match): https://securelist.com/cloud-atlas-attacks-with-new-backdoor-vbcloud/115103/
+2025-02-10 10:18:40,095 - INFO - Skipping duplicate article: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 10:18:42,107 - INFO - Processing: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 10:18:42,582 - INFO - Duplicate found (exact link match): https://securelist.com/bellacpp-cpp-version-of-bellaciao/115087/
+2025-02-10 10:18:42,583 - INFO - Skipping duplicate article: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 10:18:44,587 - INFO - 
+Final Statistics:
+2025-02-10 10:18:44,587 - INFO - Total articles in database from Securelist: 10
+2025-02-10 10:35:10,319 - INFO - Fetching RSS feed from https://securelist.com/feed/
+2025-02-10 10:35:11,346 - INFO - Found 10 articles in feed
+2025-02-10 10:35:11,346 - INFO - Processing: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 10:35:12,881 - INFO - Duplicate found (exact link match): https://securelist.com/nigerian-scams-2024/115388/
+2025-02-10 10:35:12,881 - INFO - Skipping duplicate article: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 10:35:14,894 - INFO - Processing: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 10:35:15,418 - INFO - Duplicate found (exact link match): https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/
+2025-02-10 10:35:15,418 - INFO - Skipping duplicate article: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 10:35:17,421 - INFO - Processing: One policy to rule them all
+2025-02-10 10:35:17,941 - INFO - Duplicate found (exact link match): https://securelist.com/group-policies-in-cyberattacks/115331/
+2025-02-10 10:35:17,942 - INFO - Skipping duplicate article: One policy to rule them all
+2025-02-10 10:35:19,947 - INFO - Processing: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 10:35:21,685 - INFO - Duplicate found (exact link match): https://securelist.com/tria-stealer-collects-sms-data-from-android-devices/115295/
+2025-02-10 10:35:21,685 - INFO - Skipping duplicate article: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 10:35:23,690 - INFO - Processing: Threat predictions for industrial enterprises 2025
+2025-02-10 10:35:29,620 - INFO - Duplicate found (exact link match): https://securelist.com/industrial-threat-predictions-2025/115327/
+2025-02-10 10:35:29,620 - INFO - Skipping duplicate article: Threat predictions for industrial enterprises 2025
+2025-02-10 10:35:31,629 - INFO - Processing: Mercedes-Benz Head Unit security research report
+2025-02-10 10:35:39,023 - INFO - Duplicate found (exact link match): https://securelist.com/mercedes-benz-head-unit-security-research/115218/
+2025-02-10 10:35:39,024 - INFO - Skipping duplicate article: Mercedes-Benz Head Unit security research report
+2025-02-10 10:35:41,034 - INFO - Processing: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 10:35:47,123 - INFO - Duplicate found (exact link match): https://securelist.com/eagerbee-backdoor/115175/
+2025-02-10 10:35:47,123 - INFO - Skipping duplicate article: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 10:35:49,139 - INFO - Processing: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 10:35:56,819 - INFO - Duplicate found (exact link match): https://securelist.com/ics-cert-q3-2024-report/115182/
+2025-02-10 10:35:56,820 - INFO - Skipping duplicate article: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 10:35:58,824 - INFO - Processing: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 10:36:07,419 - INFO - Duplicate found (exact link match): https://securelist.com/cloud-atlas-attacks-with-new-backdoor-vbcloud/115103/
+2025-02-10 10:36:07,419 - INFO - Skipping duplicate article: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 10:36:09,433 - INFO - Processing: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 10:36:10,812 - INFO - Duplicate found (exact link match): https://securelist.com/bellacpp-cpp-version-of-bellaciao/115087/
+2025-02-10 10:36:10,813 - INFO - Skipping duplicate article: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 10:36:12,822 - INFO - 
+Final Statistics:
+2025-02-10 10:36:12,822 - INFO - Total articles in database from Securelist: 10
+2025-02-10 10:52:57,154 - INFO - Fetching RSS feed from https://securelist.com/feed/
+2025-02-10 10:52:58,171 - INFO - Found 10 articles in feed
+2025-02-10 10:52:58,171 - INFO - Processing: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 10:53:07,571 - INFO - Duplicate found (exact link match): https://securelist.com/nigerian-scams-2024/115388/
+2025-02-10 10:53:07,572 - INFO - Skipping duplicate article: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 10:53:09,576 - INFO - Processing: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 10:53:10,088 - INFO - Duplicate found (exact link match): https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/
+2025-02-10 10:53:10,089 - INFO - Skipping duplicate article: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 10:53:12,094 - INFO - Processing: One policy to rule them all
+2025-02-10 10:53:18,019 - INFO - Duplicate found (exact link match): https://securelist.com/group-policies-in-cyberattacks/115331/
+2025-02-10 10:53:18,020 - INFO - Skipping duplicate article: One policy to rule them all
+2025-02-10 10:53:20,033 - INFO - Processing: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 10:53:27,126 - INFO - Duplicate found (exact link match): https://securelist.com/tria-stealer-collects-sms-data-from-android-devices/115295/
+2025-02-10 10:53:27,126 - INFO - Skipping duplicate article: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 10:53:29,134 - INFO - Processing: Threat predictions for industrial enterprises 2025
+2025-02-10 10:53:31,768 - INFO - Duplicate found (exact link match): https://securelist.com/industrial-threat-predictions-2025/115327/
+2025-02-10 10:53:31,769 - INFO - Skipping duplicate article: Threat predictions for industrial enterprises 2025
+2025-02-10 10:53:33,775 - INFO - Processing: Mercedes-Benz Head Unit security research report
+2025-02-10 10:53:39,137 - INFO - Duplicate found (exact link match): https://securelist.com/mercedes-benz-head-unit-security-research/115218/
+2025-02-10 10:53:39,138 - INFO - Skipping duplicate article: Mercedes-Benz Head Unit security research report
+2025-02-10 10:53:41,142 - INFO - Processing: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 10:53:47,308 - INFO - Duplicate found (exact link match): https://securelist.com/eagerbee-backdoor/115175/
+2025-02-10 10:53:47,309 - INFO - Skipping duplicate article: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 10:53:49,319 - INFO - Processing: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 10:53:49,799 - INFO - Duplicate found (exact link match): https://securelist.com/ics-cert-q3-2024-report/115182/
+2025-02-10 10:53:49,799 - INFO - Skipping duplicate article: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 10:53:51,808 - INFO - Processing: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 10:53:52,325 - INFO - Duplicate found (exact link match): https://securelist.com/cloud-atlas-attacks-with-new-backdoor-vbcloud/115103/
+2025-02-10 10:53:52,325 - INFO - Skipping duplicate article: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 10:53:54,326 - INFO - Processing: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 10:53:54,822 - INFO - Duplicate found (exact link match): https://securelist.com/bellacpp-cpp-version-of-bellaciao/115087/
+2025-02-10 10:53:54,822 - INFO - Skipping duplicate article: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 10:53:56,826 - INFO - 
+Final Statistics:
+2025-02-10 10:53:56,826 - INFO - Total articles in database from Securelist: 10
+2025-02-10 11:10:21,804 - INFO - Fetching RSS feed from https://securelist.com/feed/
+2025-02-10 11:10:22,846 - INFO - Found 10 articles in feed
+2025-02-10 11:10:22,847 - INFO - Processing: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 11:10:23,055 - INFO - Duplicate found (exact link match): https://securelist.com/nigerian-scams-2024/115388/
+2025-02-10 11:10:23,055 - INFO - Skipping duplicate article: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 11:10:25,058 - INFO - Processing: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 11:10:25,600 - INFO - Duplicate found (exact link match): https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/
+2025-02-10 11:10:25,600 - INFO - Skipping duplicate article: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 11:10:27,611 - INFO - Processing: One policy to rule them all
+2025-02-10 11:10:28,124 - INFO - Duplicate found (exact link match): https://securelist.com/group-policies-in-cyberattacks/115331/
+2025-02-10 11:10:28,124 - INFO - Skipping duplicate article: One policy to rule them all
+2025-02-10 11:10:30,133 - INFO - Processing: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 11:10:30,646 - INFO - Duplicate found (exact link match): https://securelist.com/tria-stealer-collects-sms-data-from-android-devices/115295/
+2025-02-10 11:10:30,647 - INFO - Skipping duplicate article: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 11:10:32,662 - INFO - Processing: Threat predictions for industrial enterprises 2025
+2025-02-10 11:10:33,174 - INFO - Duplicate found (exact link match): https://securelist.com/industrial-threat-predictions-2025/115327/
+2025-02-10 11:10:33,174 - INFO - Skipping duplicate article: Threat predictions for industrial enterprises 2025
+2025-02-10 11:10:35,176 - INFO - Processing: Mercedes-Benz Head Unit security research report
+2025-02-10 11:10:35,739 - INFO - Duplicate found (exact link match): https://securelist.com/mercedes-benz-head-unit-security-research/115218/
+2025-02-10 11:10:35,739 - INFO - Skipping duplicate article: Mercedes-Benz Head Unit security research report
+2025-02-10 11:10:37,744 - INFO - Processing: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 11:10:38,278 - INFO - Duplicate found (exact link match): https://securelist.com/eagerbee-backdoor/115175/
+2025-02-10 11:10:38,279 - INFO - Skipping duplicate article: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 11:10:40,286 - INFO - Processing: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 11:10:40,790 - INFO - Duplicate found (exact link match): https://securelist.com/ics-cert-q3-2024-report/115182/
+2025-02-10 11:10:40,791 - INFO - Skipping duplicate article: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 11:10:42,801 - INFO - Processing: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 11:10:43,323 - INFO - Duplicate found (exact link match): https://securelist.com/cloud-atlas-attacks-with-new-backdoor-vbcloud/115103/
+2025-02-10 11:10:43,324 - INFO - Skipping duplicate article: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 11:10:45,331 - INFO - Processing: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 11:10:45,831 - INFO - Duplicate found (exact link match): https://securelist.com/bellacpp-cpp-version-of-bellaciao/115087/
+2025-02-10 11:10:45,831 - INFO - Skipping duplicate article: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 11:10:47,847 - INFO - 
+Final Statistics:
+2025-02-10 11:10:47,848 - INFO - Total articles in database from Securelist: 10
+2025-02-10 11:27:20,581 - INFO - Fetching RSS feed from https://securelist.com/feed/
+2025-02-10 11:27:21,633 - INFO - Found 10 articles in feed
+2025-02-10 11:27:21,633 - INFO - Processing: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 11:27:21,847 - INFO - Duplicate found (exact link match): https://securelist.com/nigerian-scams-2024/115388/
+2025-02-10 11:27:21,847 - INFO - Skipping duplicate article: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 11:27:23,856 - INFO - Processing: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 11:27:24,379 - INFO - Duplicate found (exact link match): https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/
+2025-02-10 11:27:24,379 - INFO - Skipping duplicate article: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 11:27:26,380 - INFO - Processing: One policy to rule them all
+2025-02-10 11:27:26,892 - INFO - Duplicate found (exact link match): https://securelist.com/group-policies-in-cyberattacks/115331/
+2025-02-10 11:27:26,892 - INFO - Skipping duplicate article: One policy to rule them all
+2025-02-10 11:27:28,896 - INFO - Processing: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 11:27:29,409 - INFO - Duplicate found (exact link match): https://securelist.com/tria-stealer-collects-sms-data-from-android-devices/115295/
+2025-02-10 11:27:29,409 - INFO - Skipping duplicate article: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 11:27:31,424 - INFO - Processing: Threat predictions for industrial enterprises 2025
+2025-02-10 11:27:31,919 - INFO - Duplicate found (exact link match): https://securelist.com/industrial-threat-predictions-2025/115327/
+2025-02-10 11:27:31,919 - INFO - Skipping duplicate article: Threat predictions for industrial enterprises 2025
+2025-02-10 11:27:33,926 - INFO - Processing: Mercedes-Benz Head Unit security research report
+2025-02-10 11:27:34,476 - INFO - Duplicate found (exact link match): https://securelist.com/mercedes-benz-head-unit-security-research/115218/
+2025-02-10 11:27:34,477 - INFO - Skipping duplicate article: Mercedes-Benz Head Unit security research report
+2025-02-10 11:27:36,488 - INFO - Processing: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 11:27:37,038 - INFO - Duplicate found (exact link match): https://securelist.com/eagerbee-backdoor/115175/
+2025-02-10 11:27:37,038 - INFO - Skipping duplicate article: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 11:27:39,039 - INFO - Processing: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 11:27:39,521 - INFO - Duplicate found (exact link match): https://securelist.com/ics-cert-q3-2024-report/115182/
+2025-02-10 11:27:39,522 - INFO - Skipping duplicate article: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 11:27:41,533 - INFO - Processing: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 11:27:42,044 - INFO - Duplicate found (exact link match): https://securelist.com/cloud-atlas-attacks-with-new-backdoor-vbcloud/115103/
+2025-02-10 11:27:42,044 - INFO - Skipping duplicate article: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 11:27:44,048 - INFO - Processing: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 11:27:44,555 - INFO - Duplicate found (exact link match): https://securelist.com/bellacpp-cpp-version-of-bellaciao/115087/
+2025-02-10 11:27:44,555 - INFO - Skipping duplicate article: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 11:27:46,566 - INFO - 
+Final Statistics:
+2025-02-10 11:27:46,567 - INFO - Total articles in database from Securelist: 10
+2025-02-10 11:44:37,317 - INFO - Fetching RSS feed from https://securelist.com/feed/
+2025-02-10 11:44:38,339 - INFO - Found 10 articles in feed
+2025-02-10 11:44:38,339 - INFO - Processing: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 11:44:38,541 - INFO - Duplicate found (exact link match): https://securelist.com/nigerian-scams-2024/115388/
+2025-02-10 11:44:38,541 - INFO - Skipping duplicate article: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 11:44:40,543 - INFO - Processing: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 11:44:41,052 - INFO - Duplicate found (exact link match): https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/
+2025-02-10 11:44:41,052 - INFO - Skipping duplicate article: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 11:44:43,068 - INFO - Processing: One policy to rule them all
+2025-02-10 11:44:43,579 - INFO - Duplicate found (exact link match): https://securelist.com/group-policies-in-cyberattacks/115331/
+2025-02-10 11:44:43,579 - INFO - Skipping duplicate article: One policy to rule them all
+2025-02-10 11:44:45,592 - INFO - Processing: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 11:44:46,084 - INFO - Duplicate found (exact link match): https://securelist.com/tria-stealer-collects-sms-data-from-android-devices/115295/
+2025-02-10 11:44:46,084 - INFO - Skipping duplicate article: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 11:44:48,095 - INFO - Processing: Threat predictions for industrial enterprises 2025
+2025-02-10 11:44:48,563 - INFO - Duplicate found (exact link match): https://securelist.com/industrial-threat-predictions-2025/115327/
+2025-02-10 11:44:48,563 - INFO - Skipping duplicate article: Threat predictions for industrial enterprises 2025
+2025-02-10 11:44:50,566 - INFO - Processing: Mercedes-Benz Head Unit security research report
+2025-02-10 11:44:51,128 - INFO - Duplicate found (exact link match): https://securelist.com/mercedes-benz-head-unit-security-research/115218/
+2025-02-10 11:44:51,128 - INFO - Skipping duplicate article: Mercedes-Benz Head Unit security research report
+2025-02-10 11:44:53,139 - INFO - Processing: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 11:44:53,662 - INFO - Duplicate found (exact link match): https://securelist.com/eagerbee-backdoor/115175/
+2025-02-10 11:44:53,663 - INFO - Skipping duplicate article: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 11:44:55,674 - INFO - Processing: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 11:44:56,170 - INFO - Duplicate found (exact link match): https://securelist.com/ics-cert-q3-2024-report/115182/
+2025-02-10 11:44:56,170 - INFO - Skipping duplicate article: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 11:44:58,182 - INFO - Processing: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 11:44:58,670 - INFO - Duplicate found (exact link match): https://securelist.com/cloud-atlas-attacks-with-new-backdoor-vbcloud/115103/
+2025-02-10 11:44:58,670 - INFO - Skipping duplicate article: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 11:45:00,685 - INFO - Processing: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 11:45:01,170 - INFO - Duplicate found (exact link match): https://securelist.com/bellacpp-cpp-version-of-bellaciao/115087/
+2025-02-10 11:45:01,171 - INFO - Skipping duplicate article: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 11:45:03,173 - INFO - 
+Final Statistics:
+2025-02-10 11:45:03,174 - INFO - Total articles in database from Securelist: 10
+2025-02-10 12:02:48,755 - INFO - Fetching RSS feed from https://securelist.com/feed/
+2025-02-10 12:02:49,766 - INFO - Found 10 articles in feed
+2025-02-10 12:02:49,766 - INFO - Processing: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 12:02:50,001 - INFO - Duplicate found (exact link match): https://securelist.com/nigerian-scams-2024/115388/
+2025-02-10 12:02:50,001 - INFO - Skipping duplicate article: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 12:02:52,003 - INFO - Processing: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 12:02:52,505 - INFO - Duplicate found (exact link match): https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/
+2025-02-10 12:02:52,505 - INFO - Skipping duplicate article: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 12:02:54,506 - INFO - Processing: One policy to rule them all
+2025-02-10 12:02:55,029 - INFO - Duplicate found (exact link match): https://securelist.com/group-policies-in-cyberattacks/115331/
+2025-02-10 12:02:55,029 - INFO - Skipping duplicate article: One policy to rule them all
+2025-02-10 12:02:57,040 - INFO - Processing: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 12:02:57,515 - INFO - Duplicate found (exact link match): https://securelist.com/tria-stealer-collects-sms-data-from-android-devices/115295/
+2025-02-10 12:02:57,515 - INFO - Skipping duplicate article: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 12:02:59,530 - INFO - Processing: Threat predictions for industrial enterprises 2025
+2025-02-10 12:03:00,010 - INFO - Duplicate found (exact link match): https://securelist.com/industrial-threat-predictions-2025/115327/
+2025-02-10 12:03:00,011 - INFO - Skipping duplicate article: Threat predictions for industrial enterprises 2025
+2025-02-10 12:03:02,017 - INFO - Processing: Mercedes-Benz Head Unit security research report
+2025-02-10 12:03:02,563 - INFO - Duplicate found (exact link match): https://securelist.com/mercedes-benz-head-unit-security-research/115218/
+2025-02-10 12:03:02,564 - INFO - Skipping duplicate article: Mercedes-Benz Head Unit security research report
+2025-02-10 12:03:04,572 - INFO - Processing: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 12:03:05,112 - INFO - Duplicate found (exact link match): https://securelist.com/eagerbee-backdoor/115175/
+2025-02-10 12:03:05,112 - INFO - Skipping duplicate article: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 12:03:07,124 - INFO - Processing: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 12:03:07,619 - INFO - Duplicate found (exact link match): https://securelist.com/ics-cert-q3-2024-report/115182/
+2025-02-10 12:03:07,620 - INFO - Skipping duplicate article: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 12:03:09,625 - INFO - Processing: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 12:03:10,121 - INFO - Duplicate found (exact link match): https://securelist.com/cloud-atlas-attacks-with-new-backdoor-vbcloud/115103/
+2025-02-10 12:03:10,122 - INFO - Skipping duplicate article: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 12:03:12,126 - INFO - Processing: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 12:03:12,651 - INFO - Duplicate found (exact link match): https://securelist.com/bellacpp-cpp-version-of-bellaciao/115087/
+2025-02-10 12:03:12,652 - INFO - Skipping duplicate article: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 12:03:14,658 - INFO - 
+Final Statistics:
+2025-02-10 12:03:14,658 - INFO - Total articles in database from Securelist: 10
+2025-02-10 12:20:14,842 - INFO - Fetching RSS feed from https://securelist.com/feed/
+2025-02-10 12:20:15,924 - INFO - Found 10 articles in feed
+2025-02-10 12:20:15,924 - INFO - Processing: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 12:20:16,151 - INFO - Duplicate found (exact link match): https://securelist.com/nigerian-scams-2024/115388/
+2025-02-10 12:20:16,152 - INFO - Skipping duplicate article: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 12:20:18,161 - INFO - Processing: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 12:20:18,670 - INFO - Duplicate found (exact link match): https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/
+2025-02-10 12:20:18,670 - INFO - Skipping duplicate article: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 12:20:20,680 - INFO - Processing: One policy to rule them all
+2025-02-10 12:20:21,199 - INFO - Duplicate found (exact link match): https://securelist.com/group-policies-in-cyberattacks/115331/
+2025-02-10 12:20:21,200 - INFO - Skipping duplicate article: One policy to rule them all
+2025-02-10 12:20:23,209 - INFO - Processing: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 12:20:23,707 - INFO - Duplicate found (exact link match): https://securelist.com/tria-stealer-collects-sms-data-from-android-devices/115295/
+2025-02-10 12:20:23,707 - INFO - Skipping duplicate article: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 12:20:25,714 - INFO - Processing: Threat predictions for industrial enterprises 2025
+2025-02-10 12:20:26,205 - INFO - Duplicate found (exact link match): https://securelist.com/industrial-threat-predictions-2025/115327/
+2025-02-10 12:20:26,206 - INFO - Skipping duplicate article: Threat predictions for industrial enterprises 2025
+2025-02-10 12:20:28,212 - INFO - Processing: Mercedes-Benz Head Unit security research report
+2025-02-10 12:20:28,777 - INFO - Duplicate found (exact link match): https://securelist.com/mercedes-benz-head-unit-security-research/115218/
+2025-02-10 12:20:28,777 - INFO - Skipping duplicate article: Mercedes-Benz Head Unit security research report
+2025-02-10 12:20:30,789 - INFO - Processing: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 12:20:31,341 - INFO - Duplicate found (exact link match): https://securelist.com/eagerbee-backdoor/115175/
+2025-02-10 12:20:31,342 - INFO - Skipping duplicate article: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 12:20:33,356 - INFO - Processing: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 12:20:33,837 - INFO - Duplicate found (exact link match): https://securelist.com/ics-cert-q3-2024-report/115182/
+2025-02-10 12:20:33,837 - INFO - Skipping duplicate article: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 12:20:35,846 - INFO - Processing: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 12:20:36,349 - INFO - Duplicate found (exact link match): https://securelist.com/cloud-atlas-attacks-with-new-backdoor-vbcloud/115103/
+2025-02-10 12:20:36,350 - INFO - Skipping duplicate article: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 12:20:38,363 - INFO - Processing: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 12:20:38,848 - INFO - Duplicate found (exact link match): https://securelist.com/bellacpp-cpp-version-of-bellaciao/115087/
+2025-02-10 12:20:38,849 - INFO - Skipping duplicate article: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 12:20:40,857 - INFO - 
+Final Statistics:
+2025-02-10 12:20:40,857 - INFO - Total articles in database from Securelist: 10
+2025-02-10 12:36:37,082 - INFO - Fetching RSS feed from https://securelist.com/feed/
+2025-02-10 12:36:38,097 - INFO - Found 10 articles in feed
+2025-02-10 12:36:38,098 - INFO - Processing: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 12:36:38,327 - INFO - Duplicate found (exact link match): https://securelist.com/nigerian-scams-2024/115388/
+2025-02-10 12:36:38,327 - INFO - Skipping duplicate article: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 12:36:40,338 - INFO - Processing: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 12:36:40,846 - INFO - Duplicate found (exact link match): https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/
+2025-02-10 12:36:40,846 - INFO - Skipping duplicate article: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 12:36:42,852 - INFO - Processing: One policy to rule them all
+2025-02-10 12:36:48,611 - INFO - Duplicate found (exact link match): https://securelist.com/group-policies-in-cyberattacks/115331/
+2025-02-10 12:36:48,611 - INFO - Skipping duplicate article: One policy to rule them all
+2025-02-10 12:36:50,615 - INFO - Processing: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 12:36:51,103 - INFO - Duplicate found (exact link match): https://securelist.com/tria-stealer-collects-sms-data-from-android-devices/115295/
+2025-02-10 12:36:51,104 - INFO - Skipping duplicate article: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 12:36:53,108 - INFO - Processing: Threat predictions for industrial enterprises 2025
+2025-02-10 12:36:57,932 - INFO - Duplicate found (exact link match): https://securelist.com/industrial-threat-predictions-2025/115327/
+2025-02-10 12:36:57,933 - INFO - Skipping duplicate article: Threat predictions for industrial enterprises 2025
+2025-02-10 12:36:59,933 - INFO - Processing: Mercedes-Benz Head Unit security research report
+2025-02-10 12:37:00,497 - INFO - Duplicate found (exact link match): https://securelist.com/mercedes-benz-head-unit-security-research/115218/
+2025-02-10 12:37:00,498 - INFO - Skipping duplicate article: Mercedes-Benz Head Unit security research report
+2025-02-10 12:37:02,507 - INFO - Processing: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 12:37:07,448 - INFO - Duplicate found (exact link match): https://securelist.com/eagerbee-backdoor/115175/
+2025-02-10 12:37:07,448 - INFO - Skipping duplicate article: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 12:37:09,455 - INFO - Processing: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 12:37:09,933 - INFO - Duplicate found (exact link match): https://securelist.com/ics-cert-q3-2024-report/115182/
+2025-02-10 12:37:09,934 - INFO - Skipping duplicate article: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 12:37:11,938 - INFO - Processing: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 12:37:18,329 - INFO - Duplicate found (exact link match): https://securelist.com/cloud-atlas-attacks-with-new-backdoor-vbcloud/115103/
+2025-02-10 12:37:18,329 - INFO - Skipping duplicate article: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 12:37:20,332 - INFO - Processing: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 12:37:24,558 - INFO - Duplicate found (exact link match): https://securelist.com/bellacpp-cpp-version-of-bellaciao/115087/
+2025-02-10 12:37:24,559 - INFO - Skipping duplicate article: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 12:37:26,572 - INFO - 
+Final Statistics:
+2025-02-10 12:37:26,572 - INFO - Total articles in database from Securelist: 10
+2025-02-10 12:53:50,700 - INFO - Fetching RSS feed from https://securelist.com/feed/
+2025-02-10 12:53:51,766 - INFO - Found 10 articles in feed
+2025-02-10 12:53:51,766 - INFO - Processing: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 12:53:51,998 - INFO - Duplicate found (exact link match): https://securelist.com/nigerian-scams-2024/115388/
+2025-02-10 12:53:51,998 - INFO - Skipping duplicate article: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 12:53:53,998 - INFO - Processing: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 12:53:54,518 - INFO - Duplicate found (exact link match): https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/
+2025-02-10 12:53:54,518 - INFO - Skipping duplicate article: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 12:53:56,534 - INFO - Processing: One policy to rule them all
+2025-02-10 12:53:57,049 - INFO - Duplicate found (exact link match): https://securelist.com/group-policies-in-cyberattacks/115331/
+2025-02-10 12:53:57,049 - INFO - Skipping duplicate article: One policy to rule them all
+2025-02-10 12:53:59,057 - INFO - Processing: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 12:53:59,598 - INFO - Duplicate found (exact link match): https://securelist.com/tria-stealer-collects-sms-data-from-android-devices/115295/
+2025-02-10 12:53:59,598 - INFO - Skipping duplicate article: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 12:54:01,612 - INFO - Processing: Threat predictions for industrial enterprises 2025
+2025-02-10 12:54:02,111 - INFO - Duplicate found (exact link match): https://securelist.com/industrial-threat-predictions-2025/115327/
+2025-02-10 12:54:02,111 - INFO - Skipping duplicate article: Threat predictions for industrial enterprises 2025
+2025-02-10 12:54:04,121 - INFO - Processing: Mercedes-Benz Head Unit security research report
+2025-02-10 12:54:04,679 - INFO - Duplicate found (exact link match): https://securelist.com/mercedes-benz-head-unit-security-research/115218/
+2025-02-10 12:54:04,680 - INFO - Skipping duplicate article: Mercedes-Benz Head Unit security research report
+2025-02-10 12:54:06,682 - INFO - Processing: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 12:54:07,218 - INFO - Duplicate found (exact link match): https://securelist.com/eagerbee-backdoor/115175/
+2025-02-10 12:54:07,219 - INFO - Skipping duplicate article: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 12:54:09,220 - INFO - Processing: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 12:54:09,705 - INFO - Duplicate found (exact link match): https://securelist.com/ics-cert-q3-2024-report/115182/
+2025-02-10 12:54:09,706 - INFO - Skipping duplicate article: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 12:54:11,716 - INFO - Processing: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 12:54:12,230 - INFO - Duplicate found (exact link match): https://securelist.com/cloud-atlas-attacks-with-new-backdoor-vbcloud/115103/
+2025-02-10 12:54:12,231 - INFO - Skipping duplicate article: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 12:54:14,239 - INFO - Processing: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 12:54:14,737 - INFO - Duplicate found (exact link match): https://securelist.com/bellacpp-cpp-version-of-bellaciao/115087/
+2025-02-10 12:54:14,738 - INFO - Skipping duplicate article: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 12:54:16,751 - INFO - 
+Final Statistics:
+2025-02-10 12:54:16,752 - INFO - Total articles in database from Securelist: 10
+2025-02-10 13:11:43,247 - INFO - Fetching RSS feed from https://securelist.com/feed/
+2025-02-10 13:11:44,276 - INFO - Found 10 articles in feed
+2025-02-10 13:11:44,276 - INFO - Processing: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 13:11:44,491 - INFO - Duplicate found (exact link match): https://securelist.com/nigerian-scams-2024/115388/
+2025-02-10 13:11:44,491 - INFO - Skipping duplicate article: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 13:11:46,505 - INFO - Processing: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 13:11:47,015 - INFO - Duplicate found (exact link match): https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/
+2025-02-10 13:11:47,015 - INFO - Skipping duplicate article: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 13:11:49,021 - INFO - Processing: One policy to rule them all
+2025-02-10 13:11:49,521 - INFO - Duplicate found (exact link match): https://securelist.com/group-policies-in-cyberattacks/115331/
+2025-02-10 13:11:49,521 - INFO - Skipping duplicate article: One policy to rule them all
+2025-02-10 13:11:51,530 - INFO - Processing: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 13:11:52,015 - INFO - Duplicate found (exact link match): https://securelist.com/tria-stealer-collects-sms-data-from-android-devices/115295/
+2025-02-10 13:11:52,015 - INFO - Skipping duplicate article: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 13:11:54,016 - INFO - Processing: Threat predictions for industrial enterprises 2025
+2025-02-10 13:11:54,501 - INFO - Duplicate found (exact link match): https://securelist.com/industrial-threat-predictions-2025/115327/
+2025-02-10 13:11:54,501 - INFO - Skipping duplicate article: Threat predictions for industrial enterprises 2025
+2025-02-10 13:11:56,516 - INFO - Processing: Mercedes-Benz Head Unit security research report
+2025-02-10 13:11:57,042 - INFO - Duplicate found (exact link match): https://securelist.com/mercedes-benz-head-unit-security-research/115218/
+2025-02-10 13:11:57,042 - INFO - Skipping duplicate article: Mercedes-Benz Head Unit security research report
+2025-02-10 13:11:59,046 - INFO - Processing: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 13:11:59,570 - INFO - Duplicate found (exact link match): https://securelist.com/eagerbee-backdoor/115175/
+2025-02-10 13:11:59,571 - INFO - Skipping duplicate article: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 13:12:01,583 - INFO - Processing: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 13:12:02,055 - INFO - Duplicate found (exact link match): https://securelist.com/ics-cert-q3-2024-report/115182/
+2025-02-10 13:12:02,055 - INFO - Skipping duplicate article: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 13:12:04,058 - INFO - Processing: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 13:12:04,553 - INFO - Duplicate found (exact link match): https://securelist.com/cloud-atlas-attacks-with-new-backdoor-vbcloud/115103/
+2025-02-10 13:12:04,553 - INFO - Skipping duplicate article: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 13:12:06,556 - INFO - Processing: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 13:12:07,046 - INFO - Duplicate found (exact link match): https://securelist.com/bellacpp-cpp-version-of-bellaciao/115087/
+2025-02-10 13:12:07,046 - INFO - Skipping duplicate article: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 13:12:09,052 - INFO - 
+Final Statistics:
+2025-02-10 13:12:09,052 - INFO - Total articles in database from Securelist: 10
+2025-02-10 13:28:41,764 - INFO - Fetching RSS feed from https://securelist.com/feed/
+2025-02-10 13:28:42,830 - INFO - Found 10 articles in feed
+2025-02-10 13:28:42,830 - INFO - Processing: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 13:28:43,047 - INFO - Duplicate found (exact link match): https://securelist.com/nigerian-scams-2024/115388/
+2025-02-10 13:28:43,047 - INFO - Skipping duplicate article: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 13:28:45,060 - INFO - Processing: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 13:28:45,586 - INFO - Duplicate found (exact link match): https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/
+2025-02-10 13:28:45,586 - INFO - Skipping duplicate article: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 13:28:47,595 - INFO - Processing: One policy to rule them all
+2025-02-10 13:28:48,124 - INFO - Duplicate found (exact link match): https://securelist.com/group-policies-in-cyberattacks/115331/
+2025-02-10 13:28:48,124 - INFO - Skipping duplicate article: One policy to rule them all
+2025-02-10 13:28:50,129 - INFO - Processing: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 13:28:50,641 - INFO - Duplicate found (exact link match): https://securelist.com/tria-stealer-collects-sms-data-from-android-devices/115295/
+2025-02-10 13:28:50,641 - INFO - Skipping duplicate article: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 13:28:52,650 - INFO - Processing: Threat predictions for industrial enterprises 2025
+2025-02-10 13:28:53,145 - INFO - Duplicate found (exact link match): https://securelist.com/industrial-threat-predictions-2025/115327/
+2025-02-10 13:28:53,146 - INFO - Skipping duplicate article: Threat predictions for industrial enterprises 2025
+2025-02-10 13:28:55,156 - INFO - Processing: Mercedes-Benz Head Unit security research report
+2025-02-10 13:28:55,691 - INFO - Duplicate found (exact link match): https://securelist.com/mercedes-benz-head-unit-security-research/115218/
+2025-02-10 13:28:55,691 - INFO - Skipping duplicate article: Mercedes-Benz Head Unit security research report
+2025-02-10 13:28:57,698 - INFO - Processing: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 13:28:58,235 - INFO - Duplicate found (exact link match): https://securelist.com/eagerbee-backdoor/115175/
+2025-02-10 13:28:58,235 - INFO - Skipping duplicate article: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 13:29:00,249 - INFO - Processing: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 13:29:00,761 - INFO - Duplicate found (exact link match): https://securelist.com/ics-cert-q3-2024-report/115182/
+2025-02-10 13:29:00,762 - INFO - Skipping duplicate article: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 13:29:02,769 - INFO - Processing: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 13:29:03,275 - INFO - Duplicate found (exact link match): https://securelist.com/cloud-atlas-attacks-with-new-backdoor-vbcloud/115103/
+2025-02-10 13:29:03,276 - INFO - Skipping duplicate article: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 13:29:05,288 - INFO - Processing: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 13:29:05,771 - INFO - Duplicate found (exact link match): https://securelist.com/bellacpp-cpp-version-of-bellaciao/115087/
+2025-02-10 13:29:05,772 - INFO - Skipping duplicate article: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 13:29:07,784 - INFO - 
+Final Statistics:
+2025-02-10 13:29:07,785 - INFO - Total articles in database from Securelist: 10
+2025-02-10 13:45:36,045 - INFO - Fetching RSS feed from https://securelist.com/feed/
+2025-02-10 13:45:37,172 - INFO - Found 10 articles in feed
+2025-02-10 13:45:37,173 - INFO - Processing: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 13:45:37,402 - INFO - Duplicate found (exact link match): https://securelist.com/nigerian-scams-2024/115388/
+2025-02-10 13:45:37,403 - INFO - Skipping duplicate article: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 13:45:39,406 - INFO - Processing: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 13:45:39,982 - INFO - Duplicate found (exact link match): https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/
+2025-02-10 13:45:39,982 - INFO - Skipping duplicate article: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 13:45:41,986 - INFO - Processing: One policy to rule them all
+2025-02-10 13:45:42,544 - INFO - Duplicate found (exact link match): https://securelist.com/group-policies-in-cyberattacks/115331/
+2025-02-10 13:45:42,544 - INFO - Skipping duplicate article: One policy to rule them all
+2025-02-10 13:45:44,555 - INFO - Processing: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 13:45:45,092 - INFO - Duplicate found (exact link match): https://securelist.com/tria-stealer-collects-sms-data-from-android-devices/115295/
+2025-02-10 13:45:45,092 - INFO - Skipping duplicate article: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 13:45:47,096 - INFO - Processing: Threat predictions for industrial enterprises 2025
+2025-02-10 13:45:47,648 - INFO - Duplicate found (exact link match): https://securelist.com/industrial-threat-predictions-2025/115327/
+2025-02-10 13:45:47,648 - INFO - Skipping duplicate article: Threat predictions for industrial enterprises 2025
+2025-02-10 13:45:49,656 - INFO - Processing: Mercedes-Benz Head Unit security research report
+2025-02-10 13:45:50,269 - INFO - Duplicate found (exact link match): https://securelist.com/mercedes-benz-head-unit-security-research/115218/
+2025-02-10 13:45:50,269 - INFO - Skipping duplicate article: Mercedes-Benz Head Unit security research report
+2025-02-10 13:45:52,274 - INFO - Processing: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 13:45:52,881 - INFO - Duplicate found (exact link match): https://securelist.com/eagerbee-backdoor/115175/
+2025-02-10 13:45:52,882 - INFO - Skipping duplicate article: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 13:45:54,889 - INFO - Processing: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 13:45:55,425 - INFO - Duplicate found (exact link match): https://securelist.com/ics-cert-q3-2024-report/115182/
+2025-02-10 13:45:55,426 - INFO - Skipping duplicate article: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 13:45:57,435 - INFO - Processing: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 13:45:57,992 - INFO - Duplicate found (exact link match): https://securelist.com/cloud-atlas-attacks-with-new-backdoor-vbcloud/115103/
+2025-02-10 13:45:57,992 - INFO - Skipping duplicate article: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 13:46:00,002 - INFO - Processing: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 13:46:00,550 - INFO - Duplicate found (exact link match): https://securelist.com/bellacpp-cpp-version-of-bellaciao/115087/
+2025-02-10 13:46:00,551 - INFO - Skipping duplicate article: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 13:46:02,559 - INFO - 
+Final Statistics:
+2025-02-10 13:46:02,559 - INFO - Total articles in database from Securelist: 10
+2025-02-10 14:03:01,659 - INFO - Fetching RSS feed from https://securelist.com/feed/
+2025-02-10 14:03:02,857 - INFO - Found 10 articles in feed
+2025-02-10 14:03:02,857 - INFO - Processing: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 14:03:03,126 - INFO - Duplicate found (exact link match): https://securelist.com/nigerian-scams-2024/115388/
+2025-02-10 14:03:03,126 - INFO - Skipping duplicate article: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 14:03:05,130 - INFO - Processing: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 14:03:05,717 - INFO - Duplicate found (exact link match): https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/
+2025-02-10 14:03:05,717 - INFO - Skipping duplicate article: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 14:03:07,718 - INFO - Processing: One policy to rule them all
+2025-02-10 14:03:08,286 - INFO - Duplicate found (exact link match): https://securelist.com/group-policies-in-cyberattacks/115331/
+2025-02-10 14:03:08,287 - INFO - Skipping duplicate article: One policy to rule them all
+2025-02-10 14:03:10,301 - INFO - Processing: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 14:03:10,857 - INFO - Duplicate found (exact link match): https://securelist.com/tria-stealer-collects-sms-data-from-android-devices/115295/
+2025-02-10 14:03:10,857 - INFO - Skipping duplicate article: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 14:03:12,865 - INFO - Processing: Threat predictions for industrial enterprises 2025
+2025-02-10 14:03:13,416 - INFO - Duplicate found (exact link match): https://securelist.com/industrial-threat-predictions-2025/115327/
+2025-02-10 14:03:13,416 - INFO - Skipping duplicate article: Threat predictions for industrial enterprises 2025
+2025-02-10 14:03:15,419 - INFO - Processing: Mercedes-Benz Head Unit security research report
+2025-02-10 14:03:16,041 - INFO - Duplicate found (exact link match): https://securelist.com/mercedes-benz-head-unit-security-research/115218/
+2025-02-10 14:03:16,041 - INFO - Skipping duplicate article: Mercedes-Benz Head Unit security research report
+2025-02-10 14:03:18,045 - INFO - Processing: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 14:03:18,666 - INFO - Duplicate found (exact link match): https://securelist.com/eagerbee-backdoor/115175/
+2025-02-10 14:03:18,667 - INFO - Skipping duplicate article: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 14:03:20,672 - INFO - Processing: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 14:03:21,227 - INFO - Duplicate found (exact link match): https://securelist.com/ics-cert-q3-2024-report/115182/
+2025-02-10 14:03:21,228 - INFO - Skipping duplicate article: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 14:03:23,234 - INFO - Processing: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 14:03:23,784 - INFO - Duplicate found (exact link match): https://securelist.com/cloud-atlas-attacks-with-new-backdoor-vbcloud/115103/
+2025-02-10 14:03:23,784 - INFO - Skipping duplicate article: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 14:03:25,792 - INFO - Processing: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 14:03:26,321 - INFO - Duplicate found (exact link match): https://securelist.com/bellacpp-cpp-version-of-bellaciao/115087/
+2025-02-10 14:03:26,321 - INFO - Skipping duplicate article: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 14:03:28,330 - INFO - 
+Final Statistics:
+2025-02-10 14:03:28,330 - INFO - Total articles in database from Securelist: 10
+2025-02-10 14:19:47,863 - INFO - Fetching RSS feed from https://securelist.com/feed/
+2025-02-10 14:19:49,159 - INFO - Found 10 articles in feed
+2025-02-10 14:19:49,159 - INFO - Processing: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 14:19:49,424 - INFO - Duplicate found (exact link match): https://securelist.com/nigerian-scams-2024/115388/
+2025-02-10 14:19:49,425 - INFO - Skipping duplicate article: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 14:19:51,440 - INFO - Processing: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 14:19:51,991 - INFO - Duplicate found (exact link match): https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/
+2025-02-10 14:19:51,991 - INFO - Skipping duplicate article: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 14:19:53,992 - INFO - Processing: One policy to rule them all
+2025-02-10 14:19:54,563 - INFO - Duplicate found (exact link match): https://securelist.com/group-policies-in-cyberattacks/115331/
+2025-02-10 14:19:54,564 - INFO - Skipping duplicate article: One policy to rule them all
+2025-02-10 14:19:56,577 - INFO - Processing: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 14:19:57,116 - INFO - Duplicate found (exact link match): https://securelist.com/tria-stealer-collects-sms-data-from-android-devices/115295/
+2025-02-10 14:19:57,117 - INFO - Skipping duplicate article: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 14:19:59,124 - INFO - Processing: Threat predictions for industrial enterprises 2025
+2025-02-10 14:19:59,738 - INFO - Duplicate found (exact link match): https://securelist.com/industrial-threat-predictions-2025/115327/
+2025-02-10 14:19:59,739 - INFO - Skipping duplicate article: Threat predictions for industrial enterprises 2025
+2025-02-10 14:20:01,744 - INFO - Processing: Mercedes-Benz Head Unit security research report
+2025-02-10 14:20:02,332 - INFO - Duplicate found (exact link match): https://securelist.com/mercedes-benz-head-unit-security-research/115218/
+2025-02-10 14:20:02,333 - INFO - Skipping duplicate article: Mercedes-Benz Head Unit security research report
+2025-02-10 14:20:04,334 - INFO - Processing: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 14:20:04,959 - INFO - Duplicate found (exact link match): https://securelist.com/eagerbee-backdoor/115175/
+2025-02-10 14:20:04,959 - INFO - Skipping duplicate article: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 14:20:06,974 - INFO - Processing: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 14:20:07,498 - INFO - Duplicate found (exact link match): https://securelist.com/ics-cert-q3-2024-report/115182/
+2025-02-10 14:20:07,499 - INFO - Skipping duplicate article: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 14:20:09,508 - INFO - Processing: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 14:20:10,061 - INFO - Duplicate found (exact link match): https://securelist.com/cloud-atlas-attacks-with-new-backdoor-vbcloud/115103/
+2025-02-10 14:20:10,062 - INFO - Skipping duplicate article: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 14:20:12,071 - INFO - Processing: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 14:20:12,610 - INFO - Duplicate found (exact link match): https://securelist.com/bellacpp-cpp-version-of-bellaciao/115087/
+2025-02-10 14:20:12,611 - INFO - Skipping duplicate article: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 14:20:14,626 - INFO - 
+Final Statistics:
+2025-02-10 14:20:14,626 - INFO - Total articles in database from Securelist: 10
+2025-02-10 14:36:15,897 - INFO - Fetching RSS feed from https://securelist.com/feed/
+2025-02-10 14:36:17,161 - INFO - Found 10 articles in feed
+2025-02-10 14:36:17,162 - INFO - Processing: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 14:36:17,404 - INFO - Duplicate found (exact link match): https://securelist.com/nigerian-scams-2024/115388/
+2025-02-10 14:36:17,404 - INFO - Skipping duplicate article: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 14:36:19,413 - INFO - Processing: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 14:36:20,003 - INFO - Duplicate found (exact link match): https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/
+2025-02-10 14:36:20,003 - INFO - Skipping duplicate article: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 14:36:22,017 - INFO - Processing: One policy to rule them all
+2025-02-10 14:36:22,581 - INFO - Duplicate found (exact link match): https://securelist.com/group-policies-in-cyberattacks/115331/
+2025-02-10 14:36:22,581 - INFO - Skipping duplicate article: One policy to rule them all
+2025-02-10 14:36:24,592 - INFO - Processing: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 14:36:25,142 - INFO - Duplicate found (exact link match): https://securelist.com/tria-stealer-collects-sms-data-from-android-devices/115295/
+2025-02-10 14:36:25,142 - INFO - Skipping duplicate article: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 14:36:27,152 - INFO - Processing: Threat predictions for industrial enterprises 2025
+2025-02-10 14:36:27,692 - INFO - Duplicate found (exact link match): https://securelist.com/industrial-threat-predictions-2025/115327/
+2025-02-10 14:36:27,693 - INFO - Skipping duplicate article: Threat predictions for industrial enterprises 2025
+2025-02-10 14:36:29,702 - INFO - Processing: Mercedes-Benz Head Unit security research report
+2025-02-10 14:36:30,310 - INFO - Duplicate found (exact link match): https://securelist.com/mercedes-benz-head-unit-security-research/115218/
+2025-02-10 14:36:30,311 - INFO - Skipping duplicate article: Mercedes-Benz Head Unit security research report
+2025-02-10 14:36:32,325 - INFO - Processing: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 14:36:32,944 - INFO - Duplicate found (exact link match): https://securelist.com/eagerbee-backdoor/115175/
+2025-02-10 14:36:32,944 - INFO - Skipping duplicate article: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 14:36:34,956 - INFO - Processing: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 14:36:35,487 - INFO - Duplicate found (exact link match): https://securelist.com/ics-cert-q3-2024-report/115182/
+2025-02-10 14:36:35,488 - INFO - Skipping duplicate article: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 14:36:37,503 - INFO - Processing: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 14:36:38,074 - INFO - Duplicate found (exact link match): https://securelist.com/cloud-atlas-attacks-with-new-backdoor-vbcloud/115103/
+2025-02-10 14:36:38,075 - INFO - Skipping duplicate article: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 14:36:40,083 - INFO - Processing: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 14:36:40,635 - INFO - Duplicate found (exact link match): https://securelist.com/bellacpp-cpp-version-of-bellaciao/115087/
+2025-02-10 14:36:40,636 - INFO - Skipping duplicate article: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 14:36:42,647 - INFO - 
+Final Statistics:
+2025-02-10 14:36:42,647 - INFO - Total articles in database from Securelist: 10
+2025-02-10 14:53:39,502 - INFO - Fetching RSS feed from https://securelist.com/feed/
+2025-02-10 14:53:40,775 - INFO - Found 10 articles in feed
+2025-02-10 14:53:40,776 - INFO - Processing: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 14:53:41,018 - INFO - Duplicate found (exact link match): https://securelist.com/nigerian-scams-2024/115388/
+2025-02-10 14:53:41,018 - INFO - Skipping duplicate article: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 14:53:43,027 - INFO - Processing: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 14:53:43,587 - INFO - Duplicate found (exact link match): https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/
+2025-02-10 14:53:43,588 - INFO - Skipping duplicate article: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 14:53:45,603 - INFO - Processing: One policy to rule them all
+2025-02-10 14:53:46,177 - INFO - Duplicate found (exact link match): https://securelist.com/group-policies-in-cyberattacks/115331/
+2025-02-10 14:53:46,178 - INFO - Skipping duplicate article: One policy to rule them all
+2025-02-10 14:53:48,184 - INFO - Processing: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 14:53:48,713 - INFO - Duplicate found (exact link match): https://securelist.com/tria-stealer-collects-sms-data-from-android-devices/115295/
+2025-02-10 14:53:48,713 - INFO - Skipping duplicate article: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 14:53:50,724 - INFO - Processing: Threat predictions for industrial enterprises 2025
+2025-02-10 14:53:51,234 - INFO - Duplicate found (exact link match): https://securelist.com/industrial-threat-predictions-2025/115327/
+2025-02-10 14:53:51,235 - INFO - Skipping duplicate article: Threat predictions for industrial enterprises 2025
+2025-02-10 14:53:53,247 - INFO - Processing: Mercedes-Benz Head Unit security research report
+2025-02-10 14:53:53,848 - INFO - Duplicate found (exact link match): https://securelist.com/mercedes-benz-head-unit-security-research/115218/
+2025-02-10 14:53:53,849 - INFO - Skipping duplicate article: Mercedes-Benz Head Unit security research report
+2025-02-10 14:53:55,852 - INFO - Processing: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 14:53:56,441 - INFO - Duplicate found (exact link match): https://securelist.com/eagerbee-backdoor/115175/
+2025-02-10 14:53:56,441 - INFO - Skipping duplicate article: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 14:53:58,442 - INFO - Processing: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 14:53:58,970 - INFO - Duplicate found (exact link match): https://securelist.com/ics-cert-q3-2024-report/115182/
+2025-02-10 14:53:58,970 - INFO - Skipping duplicate article: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 14:54:00,980 - INFO - Processing: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 14:54:01,523 - INFO - Duplicate found (exact link match): https://securelist.com/cloud-atlas-attacks-with-new-backdoor-vbcloud/115103/
+2025-02-10 14:54:01,523 - INFO - Skipping duplicate article: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 14:54:03,538 - INFO - Processing: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 14:54:04,100 - INFO - Duplicate found (exact link match): https://securelist.com/bellacpp-cpp-version-of-bellaciao/115087/
+2025-02-10 14:54:04,101 - INFO - Skipping duplicate article: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 14:54:06,112 - INFO - 
+Final Statistics:
+2025-02-10 14:54:06,112 - INFO - Total articles in database from Securelist: 10
+2025-02-10 15:10:31,390 - INFO - Fetching RSS feed from https://securelist.com/feed/
+2025-02-10 15:10:32,504 - INFO - Found 10 articles in feed
+2025-02-10 15:10:32,504 - INFO - Processing: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 15:10:32,733 - INFO - Duplicate found (exact link match): https://securelist.com/nigerian-scams-2024/115388/
+2025-02-10 15:10:32,733 - INFO - Skipping duplicate article: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 15:10:34,738 - INFO - Processing: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 15:10:35,310 - INFO - Duplicate found (exact link match): https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/
+2025-02-10 15:10:35,311 - INFO - Skipping duplicate article: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 15:10:37,312 - INFO - Processing: One policy to rule them all
+2025-02-10 15:10:37,882 - INFO - Duplicate found (exact link match): https://securelist.com/group-policies-in-cyberattacks/115331/
+2025-02-10 15:10:37,883 - INFO - Skipping duplicate article: One policy to rule them all
+2025-02-10 15:10:39,895 - INFO - Processing: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 15:10:40,441 - INFO - Duplicate found (exact link match): https://securelist.com/tria-stealer-collects-sms-data-from-android-devices/115295/
+2025-02-10 15:10:40,441 - INFO - Skipping duplicate article: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 15:10:42,449 - INFO - Processing: Threat predictions for industrial enterprises 2025
+2025-02-10 15:10:42,984 - INFO - Duplicate found (exact link match): https://securelist.com/industrial-threat-predictions-2025/115327/
+2025-02-10 15:10:42,985 - INFO - Skipping duplicate article: Threat predictions for industrial enterprises 2025
+2025-02-10 15:10:45,000 - INFO - Processing: Mercedes-Benz Head Unit security research report
+2025-02-10 15:10:45,583 - INFO - Duplicate found (exact link match): https://securelist.com/mercedes-benz-head-unit-security-research/115218/
+2025-02-10 15:10:45,583 - INFO - Skipping duplicate article: Mercedes-Benz Head Unit security research report
+2025-02-10 15:10:47,587 - INFO - Processing: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 15:10:48,177 - INFO - Duplicate found (exact link match): https://securelist.com/eagerbee-backdoor/115175/
+2025-02-10 15:10:48,177 - INFO - Skipping duplicate article: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 15:10:50,190 - INFO - Processing: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 15:10:50,733 - INFO - Duplicate found (exact link match): https://securelist.com/ics-cert-q3-2024-report/115182/
+2025-02-10 15:10:50,733 - INFO - Skipping duplicate article: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 15:10:52,746 - INFO - Processing: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 15:10:53,302 - INFO - Duplicate found (exact link match): https://securelist.com/cloud-atlas-attacks-with-new-backdoor-vbcloud/115103/
+2025-02-10 15:10:53,302 - INFO - Skipping duplicate article: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 15:10:55,318 - INFO - Processing: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 15:10:55,867 - INFO - Duplicate found (exact link match): https://securelist.com/bellacpp-cpp-version-of-bellaciao/115087/
+2025-02-10 15:10:55,868 - INFO - Skipping duplicate article: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 15:10:57,879 - INFO - 
+Final Statistics:
+2025-02-10 15:10:57,880 - INFO - Total articles in database from Securelist: 10
+2025-02-10 15:27:27,870 - INFO - Fetching RSS feed from https://securelist.com/feed/
+2025-02-10 15:27:29,276 - INFO - Found 10 articles in feed
+2025-02-10 15:27:29,276 - INFO - Processing: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 15:27:29,520 - INFO - Duplicate found (exact link match): https://securelist.com/nigerian-scams-2024/115388/
+2025-02-10 15:27:29,521 - INFO - Skipping duplicate article: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 15:27:31,523 - INFO - Processing: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 15:27:32,080 - INFO - Duplicate found (exact link match): https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/
+2025-02-10 15:27:32,080 - INFO - Skipping duplicate article: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 15:27:34,081 - INFO - Processing: One policy to rule them all
+2025-02-10 15:27:34,648 - INFO - Duplicate found (exact link match): https://securelist.com/group-policies-in-cyberattacks/115331/
+2025-02-10 15:27:34,649 - INFO - Skipping duplicate article: One policy to rule them all
+2025-02-10 15:27:36,649 - INFO - Processing: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 15:27:37,170 - INFO - Duplicate found (exact link match): https://securelist.com/tria-stealer-collects-sms-data-from-android-devices/115295/
+2025-02-10 15:27:37,171 - INFO - Skipping duplicate article: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 15:27:39,171 - INFO - Processing: Threat predictions for industrial enterprises 2025
+2025-02-10 15:27:39,722 - INFO - Duplicate found (exact link match): https://securelist.com/industrial-threat-predictions-2025/115327/
+2025-02-10 15:27:39,723 - INFO - Skipping duplicate article: Threat predictions for industrial enterprises 2025
+2025-02-10 15:27:41,730 - INFO - Processing: Mercedes-Benz Head Unit security research report
+2025-02-10 15:27:42,311 - INFO - Duplicate found (exact link match): https://securelist.com/mercedes-benz-head-unit-security-research/115218/
+2025-02-10 15:27:42,312 - INFO - Skipping duplicate article: Mercedes-Benz Head Unit security research report
+2025-02-10 15:27:44,313 - INFO - Processing: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 15:27:44,895 - INFO - Duplicate found (exact link match): https://securelist.com/eagerbee-backdoor/115175/
+2025-02-10 15:27:44,896 - INFO - Skipping duplicate article: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 15:27:46,898 - INFO - Processing: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 15:27:47,430 - INFO - Duplicate found (exact link match): https://securelist.com/ics-cert-q3-2024-report/115182/
+2025-02-10 15:27:47,430 - INFO - Skipping duplicate article: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 15:27:49,438 - INFO - Processing: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 15:27:49,983 - INFO - Duplicate found (exact link match): https://securelist.com/cloud-atlas-attacks-with-new-backdoor-vbcloud/115103/
+2025-02-10 15:27:49,983 - INFO - Skipping duplicate article: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 15:27:51,987 - INFO - Processing: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 15:27:52,533 - INFO - Duplicate found (exact link match): https://securelist.com/bellacpp-cpp-version-of-bellaciao/115087/
+2025-02-10 15:27:52,534 - INFO - Skipping duplicate article: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 15:27:54,550 - INFO - 
+Final Statistics:
+2025-02-10 15:27:54,550 - INFO - Total articles in database from Securelist: 10
+2025-02-10 15:43:52,277 - INFO - Fetching RSS feed from https://securelist.com/feed/
+2025-02-10 15:43:53,437 - INFO - Found 10 articles in feed
+2025-02-10 15:43:53,437 - INFO - Processing: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 15:43:53,702 - INFO - Duplicate found (exact link match): https://securelist.com/nigerian-scams-2024/115388/
+2025-02-10 15:43:53,702 - INFO - Skipping duplicate article: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 15:43:55,716 - INFO - Processing: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 15:43:56,287 - INFO - Duplicate found (exact link match): https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/
+2025-02-10 15:43:56,287 - INFO - Skipping duplicate article: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 15:43:58,288 - INFO - Processing: One policy to rule them all
+2025-02-10 15:43:58,862 - INFO - Duplicate found (exact link match): https://securelist.com/group-policies-in-cyberattacks/115331/
+2025-02-10 15:43:58,862 - INFO - Skipping duplicate article: One policy to rule them all
+2025-02-10 15:44:00,870 - INFO - Processing: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 15:44:01,430 - INFO - Duplicate found (exact link match): https://securelist.com/tria-stealer-collects-sms-data-from-android-devices/115295/
+2025-02-10 15:44:01,430 - INFO - Skipping duplicate article: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 15:44:03,436 - INFO - Processing: Threat predictions for industrial enterprises 2025
+2025-02-10 15:44:04,018 - INFO - Duplicate found (exact link match): https://securelist.com/industrial-threat-predictions-2025/115327/
+2025-02-10 15:44:04,018 - INFO - Skipping duplicate article: Threat predictions for industrial enterprises 2025
+2025-02-10 15:44:06,023 - INFO - Processing: Mercedes-Benz Head Unit security research report
+2025-02-10 15:44:06,620 - INFO - Duplicate found (exact link match): https://securelist.com/mercedes-benz-head-unit-security-research/115218/
+2025-02-10 15:44:06,621 - INFO - Skipping duplicate article: Mercedes-Benz Head Unit security research report
+2025-02-10 15:44:08,630 - INFO - Processing: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 15:44:09,235 - INFO - Duplicate found (exact link match): https://securelist.com/eagerbee-backdoor/115175/
+2025-02-10 15:44:09,235 - INFO - Skipping duplicate article: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 15:44:11,249 - INFO - Processing: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 15:44:11,787 - INFO - Duplicate found (exact link match): https://securelist.com/ics-cert-q3-2024-report/115182/
+2025-02-10 15:44:11,788 - INFO - Skipping duplicate article: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 15:44:13,803 - INFO - Processing: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 15:44:14,367 - INFO - Duplicate found (exact link match): https://securelist.com/cloud-atlas-attacks-with-new-backdoor-vbcloud/115103/
+2025-02-10 15:44:14,368 - INFO - Skipping duplicate article: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 15:44:16,383 - INFO - Processing: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 15:44:16,916 - INFO - Duplicate found (exact link match): https://securelist.com/bellacpp-cpp-version-of-bellaciao/115087/
+2025-02-10 15:44:16,917 - INFO - Skipping duplicate article: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 15:44:18,926 - INFO - 
+Final Statistics:
+2025-02-10 15:44:18,926 - INFO - Total articles in database from Securelist: 10
+2025-02-10 16:00:41,315 - INFO - Fetching RSS feed from https://securelist.com/feed/
+2025-02-10 16:00:42,518 - INFO - Found 10 articles in feed
+2025-02-10 16:00:42,518 - INFO - Processing: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 16:00:42,736 - INFO - Duplicate found (exact link match): https://securelist.com/nigerian-scams-2024/115388/
+2025-02-10 16:00:42,736 - INFO - Skipping duplicate article: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 16:00:44,740 - INFO - Processing: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 16:00:45,310 - INFO - Duplicate found (exact link match): https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/
+2025-02-10 16:00:45,310 - INFO - Skipping duplicate article: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 16:00:47,310 - INFO - Processing: One policy to rule them all
+2025-02-10 16:00:47,860 - INFO - Duplicate found (exact link match): https://securelist.com/group-policies-in-cyberattacks/115331/
+2025-02-10 16:00:47,861 - INFO - Skipping duplicate article: One policy to rule them all
+2025-02-10 16:00:49,866 - INFO - Processing: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 16:00:50,408 - INFO - Duplicate found (exact link match): https://securelist.com/tria-stealer-collects-sms-data-from-android-devices/115295/
+2025-02-10 16:00:50,408 - INFO - Skipping duplicate article: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 16:00:52,408 - INFO - Processing: Threat predictions for industrial enterprises 2025
+2025-02-10 16:00:52,940 - INFO - Duplicate found (exact link match): https://securelist.com/industrial-threat-predictions-2025/115327/
+2025-02-10 16:00:52,940 - INFO - Skipping duplicate article: Threat predictions for industrial enterprises 2025
+2025-02-10 16:00:54,951 - INFO - Processing: Mercedes-Benz Head Unit security research report
+2025-02-10 16:00:55,539 - INFO - Duplicate found (exact link match): https://securelist.com/mercedes-benz-head-unit-security-research/115218/
+2025-02-10 16:00:55,540 - INFO - Skipping duplicate article: Mercedes-Benz Head Unit security research report
+2025-02-10 16:00:57,551 - INFO - Processing: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 16:00:58,140 - INFO - Duplicate found (exact link match): https://securelist.com/eagerbee-backdoor/115175/
+2025-02-10 16:00:58,141 - INFO - Skipping duplicate article: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 16:01:00,156 - INFO - Processing: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 16:01:00,687 - INFO - Duplicate found (exact link match): https://securelist.com/ics-cert-q3-2024-report/115182/
+2025-02-10 16:01:00,688 - INFO - Skipping duplicate article: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 16:01:02,701 - INFO - Processing: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 16:01:03,246 - INFO - Duplicate found (exact link match): https://securelist.com/cloud-atlas-attacks-with-new-backdoor-vbcloud/115103/
+2025-02-10 16:01:03,246 - INFO - Skipping duplicate article: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 16:01:05,249 - INFO - Processing: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 16:01:05,774 - INFO - Duplicate found (exact link match): https://securelist.com/bellacpp-cpp-version-of-bellaciao/115087/
+2025-02-10 16:01:05,775 - INFO - Skipping duplicate article: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 16:01:07,793 - INFO - 
+Final Statistics:
+2025-02-10 16:01:07,793 - INFO - Total articles in database from Securelist: 10
+2025-02-10 16:17:36,119 - INFO - Fetching RSS feed from https://securelist.com/feed/
+2025-02-10 16:17:37,343 - INFO - Found 10 articles in feed
+2025-02-10 16:17:37,343 - INFO - Processing: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 16:17:37,572 - INFO - Duplicate found (exact link match): https://securelist.com/nigerian-scams-2024/115388/
+2025-02-10 16:17:37,572 - INFO - Skipping duplicate article: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 16:17:39,585 - INFO - Processing: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 16:17:40,136 - INFO - Duplicate found (exact link match): https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/
+2025-02-10 16:17:40,136 - INFO - Skipping duplicate article: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 16:17:42,138 - INFO - Processing: One policy to rule them all
+2025-02-10 16:17:42,700 - INFO - Duplicate found (exact link match): https://securelist.com/group-policies-in-cyberattacks/115331/
+2025-02-10 16:17:42,700 - INFO - Skipping duplicate article: One policy to rule them all
+2025-02-10 16:17:44,703 - INFO - Processing: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 16:17:45,247 - INFO - Duplicate found (exact link match): https://securelist.com/tria-stealer-collects-sms-data-from-android-devices/115295/
+2025-02-10 16:17:45,248 - INFO - Skipping duplicate article: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 16:17:47,260 - INFO - Processing: Threat predictions for industrial enterprises 2025
+2025-02-10 16:17:47,783 - INFO - Duplicate found (exact link match): https://securelist.com/industrial-threat-predictions-2025/115327/
+2025-02-10 16:17:47,783 - INFO - Skipping duplicate article: Threat predictions for industrial enterprises 2025
+2025-02-10 16:17:49,798 - INFO - Processing: Mercedes-Benz Head Unit security research report
+2025-02-10 16:17:50,376 - INFO - Duplicate found (exact link match): https://securelist.com/mercedes-benz-head-unit-security-research/115218/
+2025-02-10 16:17:50,377 - INFO - Skipping duplicate article: Mercedes-Benz Head Unit security research report
+2025-02-10 16:17:52,391 - INFO - Processing: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 16:17:52,981 - INFO - Duplicate found (exact link match): https://securelist.com/eagerbee-backdoor/115175/
+2025-02-10 16:17:52,982 - INFO - Skipping duplicate article: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 16:17:54,993 - INFO - Processing: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 16:17:55,542 - INFO - Duplicate found (exact link match): https://securelist.com/ics-cert-q3-2024-report/115182/
+2025-02-10 16:17:55,542 - INFO - Skipping duplicate article: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 16:17:57,547 - INFO - Processing: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 16:17:58,091 - INFO - Duplicate found (exact link match): https://securelist.com/cloud-atlas-attacks-with-new-backdoor-vbcloud/115103/
+2025-02-10 16:17:58,091 - INFO - Skipping duplicate article: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 16:18:00,099 - INFO - Processing: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 16:18:00,649 - INFO - Duplicate found (exact link match): https://securelist.com/bellacpp-cpp-version-of-bellaciao/115087/
+2025-02-10 16:18:00,650 - INFO - Skipping duplicate article: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 16:18:02,656 - INFO - 
+Final Statistics:
+2025-02-10 16:18:02,657 - INFO - Total articles in database from Securelist: 10
+2025-02-10 16:34:15,842 - INFO - Fetching RSS feed from https://securelist.com/feed/
+2025-02-10 16:34:19,464 - INFO - Found 10 articles in feed
+2025-02-10 16:34:19,464 - INFO - Processing: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 16:34:19,698 - INFO - Duplicate found (exact link match): https://securelist.com/nigerian-scams-2024/115388/
+2025-02-10 16:34:19,698 - INFO - Skipping duplicate article: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 16:34:21,699 - INFO - Processing: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 16:34:27,252 - INFO - Duplicate found (exact link match): https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/
+2025-02-10 16:34:27,253 - INFO - Skipping duplicate article: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 16:34:29,255 - INFO - Processing: One policy to rule them all
+2025-02-10 16:34:30,960 - INFO - Duplicate found (exact link match): https://securelist.com/group-policies-in-cyberattacks/115331/
+2025-02-10 16:34:30,960 - INFO - Skipping duplicate article: One policy to rule them all
+2025-02-10 16:34:32,968 - INFO - Processing: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 16:34:38,442 - INFO - Duplicate found (exact link match): https://securelist.com/tria-stealer-collects-sms-data-from-android-devices/115295/
+2025-02-10 16:34:38,443 - INFO - Skipping duplicate article: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 16:34:40,447 - INFO - Processing: Threat predictions for industrial enterprises 2025
+2025-02-10 16:34:42,132 - INFO - Duplicate found (exact link match): https://securelist.com/industrial-threat-predictions-2025/115327/
+2025-02-10 16:34:42,132 - INFO - Skipping duplicate article: Threat predictions for industrial enterprises 2025
+2025-02-10 16:34:44,133 - INFO - Processing: Mercedes-Benz Head Unit security research report
+2025-02-10 16:34:49,842 - INFO - Duplicate found (exact link match): https://securelist.com/mercedes-benz-head-unit-security-research/115218/
+2025-02-10 16:34:49,843 - INFO - Skipping duplicate article: Mercedes-Benz Head Unit security research report
+2025-02-10 16:34:51,851 - INFO - Processing: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 16:34:57,325 - INFO - Duplicate found (exact link match): https://securelist.com/eagerbee-backdoor/115175/
+2025-02-10 16:34:57,325 - INFO - Skipping duplicate article: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 16:34:59,335 - INFO - Processing: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 16:35:06,244 - INFO - Duplicate found (exact link match): https://securelist.com/ics-cert-q3-2024-report/115182/
+2025-02-10 16:35:06,245 - INFO - Skipping duplicate article: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 16:35:08,259 - INFO - Processing: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 16:35:13,219 - INFO - Duplicate found (exact link match): https://securelist.com/cloud-atlas-attacks-with-new-backdoor-vbcloud/115103/
+2025-02-10 16:35:13,220 - INFO - Skipping duplicate article: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 16:35:15,235 - INFO - Processing: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 16:35:16,578 - INFO - Duplicate found (exact link match): https://securelist.com/bellacpp-cpp-version-of-bellaciao/115087/
+2025-02-10 16:35:16,579 - INFO - Skipping duplicate article: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 16:35:18,588 - INFO - 
+Final Statistics:
+2025-02-10 16:35:18,588 - INFO - Total articles in database from Securelist: 10
+2025-02-10 16:53:00,427 - INFO - Fetching RSS feed from https://securelist.com/feed/
+2025-02-10 16:53:01,774 - INFO - Found 10 articles in feed
+2025-02-10 16:53:01,775 - INFO - Processing: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 16:53:02,042 - INFO - Duplicate found (exact link match): https://securelist.com/nigerian-scams-2024/115388/
+2025-02-10 16:53:02,042 - INFO - Skipping duplicate article: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 16:53:04,050 - INFO - Processing: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 16:53:04,685 - INFO - Duplicate found (exact link match): https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/
+2025-02-10 16:53:04,685 - INFO - Skipping duplicate article: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 16:53:06,695 - INFO - Processing: One policy to rule them all
+2025-02-10 16:53:07,248 - INFO - Duplicate found (exact link match): https://securelist.com/group-policies-in-cyberattacks/115331/
+2025-02-10 16:53:07,249 - INFO - Skipping duplicate article: One policy to rule them all
+2025-02-10 16:53:09,263 - INFO - Processing: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 16:53:09,799 - INFO - Duplicate found (exact link match): https://securelist.com/tria-stealer-collects-sms-data-from-android-devices/115295/
+2025-02-10 16:53:09,799 - INFO - Skipping duplicate article: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 16:53:11,802 - INFO - Processing: Threat predictions for industrial enterprises 2025
+2025-02-10 16:53:12,324 - INFO - Duplicate found (exact link match): https://securelist.com/industrial-threat-predictions-2025/115327/
+2025-02-10 16:53:12,324 - INFO - Skipping duplicate article: Threat predictions for industrial enterprises 2025
+2025-02-10 16:53:14,330 - INFO - Processing: Mercedes-Benz Head Unit security research report
+2025-02-10 16:53:14,919 - INFO - Duplicate found (exact link match): https://securelist.com/mercedes-benz-head-unit-security-research/115218/
+2025-02-10 16:53:14,920 - INFO - Skipping duplicate article: Mercedes-Benz Head Unit security research report
+2025-02-10 16:53:16,933 - INFO - Processing: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 16:53:17,545 - INFO - Duplicate found (exact link match): https://securelist.com/eagerbee-backdoor/115175/
+2025-02-10 16:53:17,546 - INFO - Skipping duplicate article: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 16:53:19,560 - INFO - Processing: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 16:53:20,082 - INFO - Duplicate found (exact link match): https://securelist.com/ics-cert-q3-2024-report/115182/
+2025-02-10 16:53:20,083 - INFO - Skipping duplicate article: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 16:53:22,085 - INFO - Processing: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 16:53:22,679 - INFO - Duplicate found (exact link match): https://securelist.com/cloud-atlas-attacks-with-new-backdoor-vbcloud/115103/
+2025-02-10 16:53:22,680 - INFO - Skipping duplicate article: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 16:53:24,687 - INFO - Processing: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 16:53:25,230 - INFO - Duplicate found (exact link match): https://securelist.com/bellacpp-cpp-version-of-bellaciao/115087/
+2025-02-10 16:53:25,231 - INFO - Skipping duplicate article: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 16:53:27,237 - INFO - 
+Final Statistics:
+2025-02-10 16:53:27,237 - INFO - Total articles in database from Securelist: 10
+2025-02-10 17:11:00,050 - INFO - Fetching RSS feed from https://securelist.com/feed/
+2025-02-10 17:11:01,296 - INFO - Found 10 articles in feed
+2025-02-10 17:11:01,297 - INFO - Processing: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 17:11:01,530 - INFO - Duplicate found (exact link match): https://securelist.com/nigerian-scams-2024/115388/
+2025-02-10 17:11:01,530 - INFO - Skipping duplicate article: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 17:11:03,545 - INFO - Processing: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 17:11:04,103 - INFO - Duplicate found (exact link match): https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/
+2025-02-10 17:11:04,103 - INFO - Skipping duplicate article: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 17:11:06,118 - INFO - Processing: One policy to rule them all
+2025-02-10 17:11:06,681 - INFO - Duplicate found (exact link match): https://securelist.com/group-policies-in-cyberattacks/115331/
+2025-02-10 17:11:06,682 - INFO - Skipping duplicate article: One policy to rule them all
+2025-02-10 17:11:08,690 - INFO - Processing: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 17:11:09,249 - INFO - Duplicate found (exact link match): https://securelist.com/tria-stealer-collects-sms-data-from-android-devices/115295/
+2025-02-10 17:11:09,250 - INFO - Skipping duplicate article: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 17:11:11,255 - INFO - Processing: Threat predictions for industrial enterprises 2025
+2025-02-10 17:11:11,794 - INFO - Duplicate found (exact link match): https://securelist.com/industrial-threat-predictions-2025/115327/
+2025-02-10 17:11:11,795 - INFO - Skipping duplicate article: Threat predictions for industrial enterprises 2025
+2025-02-10 17:11:13,810 - INFO - Processing: Mercedes-Benz Head Unit security research report
+2025-02-10 17:11:14,413 - INFO - Duplicate found (exact link match): https://securelist.com/mercedes-benz-head-unit-security-research/115218/
+2025-02-10 17:11:14,413 - INFO - Skipping duplicate article: Mercedes-Benz Head Unit security research report
+2025-02-10 17:11:16,421 - INFO - Processing: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 17:11:17,020 - INFO - Duplicate found (exact link match): https://securelist.com/eagerbee-backdoor/115175/
+2025-02-10 17:11:17,020 - INFO - Skipping duplicate article: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 17:11:19,022 - INFO - Processing: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 17:11:19,568 - INFO - Duplicate found (exact link match): https://securelist.com/ics-cert-q3-2024-report/115182/
+2025-02-10 17:11:19,569 - INFO - Skipping duplicate article: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 17:11:21,582 - INFO - Processing: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 17:11:22,153 - INFO - Duplicate found (exact link match): https://securelist.com/cloud-atlas-attacks-with-new-backdoor-vbcloud/115103/
+2025-02-10 17:11:22,154 - INFO - Skipping duplicate article: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 17:11:24,156 - INFO - Processing: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 17:11:24,699 - INFO - Duplicate found (exact link match): https://securelist.com/bellacpp-cpp-version-of-bellaciao/115087/
+2025-02-10 17:11:24,700 - INFO - Skipping duplicate article: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 17:11:26,711 - INFO - 
+Final Statistics:
+2025-02-10 17:11:26,711 - INFO - Total articles in database from Securelist: 10
+2025-02-10 17:28:34,453 - INFO - Fetching RSS feed from https://securelist.com/feed/
+2025-02-10 17:28:35,801 - INFO - Found 10 articles in feed
+2025-02-10 17:28:35,802 - INFO - Processing: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 17:28:36,031 - INFO - Duplicate found (exact link match): https://securelist.com/nigerian-scams-2024/115388/
+2025-02-10 17:28:36,031 - INFO - Skipping duplicate article: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 17:28:38,043 - INFO - Processing: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 17:28:38,619 - INFO - Duplicate found (exact link match): https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/
+2025-02-10 17:28:38,619 - INFO - Skipping duplicate article: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 17:28:40,629 - INFO - Processing: One policy to rule them all
+2025-02-10 17:28:41,200 - INFO - Duplicate found (exact link match): https://securelist.com/group-policies-in-cyberattacks/115331/
+2025-02-10 17:28:41,201 - INFO - Skipping duplicate article: One policy to rule them all
+2025-02-10 17:28:43,213 - INFO - Processing: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 17:28:43,752 - INFO - Duplicate found (exact link match): https://securelist.com/tria-stealer-collects-sms-data-from-android-devices/115295/
+2025-02-10 17:28:43,753 - INFO - Skipping duplicate article: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 17:28:45,755 - INFO - Processing: Threat predictions for industrial enterprises 2025
+2025-02-10 17:28:46,299 - INFO - Duplicate found (exact link match): https://securelist.com/industrial-threat-predictions-2025/115327/
+2025-02-10 17:28:46,300 - INFO - Skipping duplicate article: Threat predictions for industrial enterprises 2025
+2025-02-10 17:28:48,315 - INFO - Processing: Mercedes-Benz Head Unit security research report
+2025-02-10 17:28:48,908 - INFO - Duplicate found (exact link match): https://securelist.com/mercedes-benz-head-unit-security-research/115218/
+2025-02-10 17:28:48,909 - INFO - Skipping duplicate article: Mercedes-Benz Head Unit security research report
+2025-02-10 17:28:50,921 - INFO - Processing: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 17:28:51,499 - INFO - Duplicate found (exact link match): https://securelist.com/eagerbee-backdoor/115175/
+2025-02-10 17:28:51,500 - INFO - Skipping duplicate article: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 17:28:53,512 - INFO - Processing: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 17:28:54,043 - INFO - Duplicate found (exact link match): https://securelist.com/ics-cert-q3-2024-report/115182/
+2025-02-10 17:28:54,044 - INFO - Skipping duplicate article: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 17:28:56,052 - INFO - Processing: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 17:28:56,615 - INFO - Duplicate found (exact link match): https://securelist.com/cloud-atlas-attacks-with-new-backdoor-vbcloud/115103/
+2025-02-10 17:28:56,615 - INFO - Skipping duplicate article: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 17:28:58,616 - INFO - Processing: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 17:28:59,156 - INFO - Duplicate found (exact link match): https://securelist.com/bellacpp-cpp-version-of-bellaciao/115087/
+2025-02-10 17:28:59,156 - INFO - Skipping duplicate article: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 17:29:01,172 - INFO - 
+Final Statistics:
+2025-02-10 17:29:01,172 - INFO - Total articles in database from Securelist: 10
+2025-02-10 17:45:44,104 - INFO - Fetching RSS feed from https://securelist.com/feed/
+2025-02-10 17:45:45,432 - INFO - Found 10 articles in feed
+2025-02-10 17:45:45,432 - INFO - Processing: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 17:45:45,673 - INFO - Duplicate found (exact link match): https://securelist.com/nigerian-scams-2024/115388/
+2025-02-10 17:45:45,674 - INFO - Skipping duplicate article: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 17:45:47,675 - INFO - Processing: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 17:45:48,253 - INFO - Duplicate found (exact link match): https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/
+2025-02-10 17:45:48,254 - INFO - Skipping duplicate article: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 17:45:50,257 - INFO - Processing: One policy to rule them all
+2025-02-10 17:45:50,836 - INFO - Duplicate found (exact link match): https://securelist.com/group-policies-in-cyberattacks/115331/
+2025-02-10 17:45:50,837 - INFO - Skipping duplicate article: One policy to rule them all
+2025-02-10 17:45:52,843 - INFO - Processing: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 17:45:53,389 - INFO - Duplicate found (exact link match): https://securelist.com/tria-stealer-collects-sms-data-from-android-devices/115295/
+2025-02-10 17:45:53,390 - INFO - Skipping duplicate article: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 17:45:55,405 - INFO - Processing: Threat predictions for industrial enterprises 2025
+2025-02-10 17:45:55,948 - INFO - Duplicate found (exact link match): https://securelist.com/industrial-threat-predictions-2025/115327/
+2025-02-10 17:45:55,948 - INFO - Skipping duplicate article: Threat predictions for industrial enterprises 2025
+2025-02-10 17:45:57,950 - INFO - Processing: Mercedes-Benz Head Unit security research report
+2025-02-10 17:45:58,555 - INFO - Duplicate found (exact link match): https://securelist.com/mercedes-benz-head-unit-security-research/115218/
+2025-02-10 17:45:58,555 - INFO - Skipping duplicate article: Mercedes-Benz Head Unit security research report
+2025-02-10 17:46:00,566 - INFO - Processing: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 17:46:01,182 - INFO - Duplicate found (exact link match): https://securelist.com/eagerbee-backdoor/115175/
+2025-02-10 17:46:01,183 - INFO - Skipping duplicate article: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 17:46:03,187 - INFO - Processing: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 17:46:03,729 - INFO - Duplicate found (exact link match): https://securelist.com/ics-cert-q3-2024-report/115182/
+2025-02-10 17:46:03,729 - INFO - Skipping duplicate article: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 17:46:05,731 - INFO - Processing: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 17:46:06,307 - INFO - Duplicate found (exact link match): https://securelist.com/cloud-atlas-attacks-with-new-backdoor-vbcloud/115103/
+2025-02-10 17:46:06,307 - INFO - Skipping duplicate article: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 17:46:08,320 - INFO - Processing: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 17:46:08,865 - INFO - Duplicate found (exact link match): https://securelist.com/bellacpp-cpp-version-of-bellaciao/115087/
+2025-02-10 17:46:08,865 - INFO - Skipping duplicate article: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 17:46:10,872 - INFO - 
+Final Statistics:
+2025-02-10 17:46:10,873 - INFO - Total articles in database from Securelist: 10
+2025-02-10 18:02:20,880 - INFO - Fetching RSS feed from https://securelist.com/feed/
+2025-02-10 18:02:22,193 - INFO - Found 10 articles in feed
+2025-02-10 18:02:22,194 - INFO - Processing: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 18:02:22,428 - INFO - Duplicate found (exact link match): https://securelist.com/nigerian-scams-2024/115388/
+2025-02-10 18:02:22,428 - INFO - Skipping duplicate article: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 18:02:24,432 - INFO - Processing: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 18:02:24,990 - INFO - Duplicate found (exact link match): https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/
+2025-02-10 18:02:24,990 - INFO - Skipping duplicate article: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 18:02:26,996 - INFO - Processing: One policy to rule them all
+2025-02-10 18:02:27,548 - INFO - Duplicate found (exact link match): https://securelist.com/group-policies-in-cyberattacks/115331/
+2025-02-10 18:02:27,549 - INFO - Skipping duplicate article: One policy to rule them all
+2025-02-10 18:02:29,554 - INFO - Processing: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 18:02:30,159 - INFO - Duplicate found (exact link match): https://securelist.com/tria-stealer-collects-sms-data-from-android-devices/115295/
+2025-02-10 18:02:30,160 - INFO - Skipping duplicate article: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 18:02:32,166 - INFO - Processing: Threat predictions for industrial enterprises 2025
+2025-02-10 18:02:32,708 - INFO - Duplicate found (exact link match): https://securelist.com/industrial-threat-predictions-2025/115327/
+2025-02-10 18:02:32,708 - INFO - Skipping duplicate article: Threat predictions for industrial enterprises 2025
+2025-02-10 18:02:34,719 - INFO - Processing: Mercedes-Benz Head Unit security research report
+2025-02-10 18:02:35,312 - INFO - Duplicate found (exact link match): https://securelist.com/mercedes-benz-head-unit-security-research/115218/
+2025-02-10 18:02:35,312 - INFO - Skipping duplicate article: Mercedes-Benz Head Unit security research report
+2025-02-10 18:02:37,313 - INFO - Processing: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 18:02:37,890 - INFO - Duplicate found (exact link match): https://securelist.com/eagerbee-backdoor/115175/
+2025-02-10 18:02:37,891 - INFO - Skipping duplicate article: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 18:02:39,904 - INFO - Processing: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 18:02:40,433 - INFO - Duplicate found (exact link match): https://securelist.com/ics-cert-q3-2024-report/115182/
+2025-02-10 18:02:40,434 - INFO - Skipping duplicate article: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 18:02:42,446 - INFO - Processing: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 18:02:42,988 - INFO - Duplicate found (exact link match): https://securelist.com/cloud-atlas-attacks-with-new-backdoor-vbcloud/115103/
+2025-02-10 18:02:42,989 - INFO - Skipping duplicate article: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 18:02:44,995 - INFO - Processing: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 18:02:45,537 - INFO - Duplicate found (exact link match): https://securelist.com/bellacpp-cpp-version-of-bellaciao/115087/
+2025-02-10 18:02:45,538 - INFO - Skipping duplicate article: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 18:02:47,543 - INFO - 
+Final Statistics:
+2025-02-10 18:02:47,543 - INFO - Total articles in database from Securelist: 10
+2025-02-10 18:19:30,662 - INFO - Fetching RSS feed from https://securelist.com/feed/
+2025-02-10 18:19:31,817 - INFO - Found 10 articles in feed
+2025-02-10 18:19:31,818 - INFO - Processing: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 18:19:32,061 - INFO - Duplicate found (exact link match): https://securelist.com/nigerian-scams-2024/115388/
+2025-02-10 18:19:32,061 - INFO - Skipping duplicate article: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 18:19:34,067 - INFO - Processing: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 18:19:34,634 - INFO - Duplicate found (exact link match): https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/
+2025-02-10 18:19:34,635 - INFO - Skipping duplicate article: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 18:19:36,644 - INFO - Processing: One policy to rule them all
+2025-02-10 18:19:37,217 - INFO - Duplicate found (exact link match): https://securelist.com/group-policies-in-cyberattacks/115331/
+2025-02-10 18:19:37,219 - INFO - Skipping duplicate article: One policy to rule them all
+2025-02-10 18:19:39,233 - INFO - Processing: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 18:19:39,783 - INFO - Duplicate found (exact link match): https://securelist.com/tria-stealer-collects-sms-data-from-android-devices/115295/
+2025-02-10 18:19:39,784 - INFO - Skipping duplicate article: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 18:19:41,797 - INFO - Processing: Threat predictions for industrial enterprises 2025
+2025-02-10 18:19:42,324 - INFO - Duplicate found (exact link match): https://securelist.com/industrial-threat-predictions-2025/115327/
+2025-02-10 18:19:42,325 - INFO - Skipping duplicate article: Threat predictions for industrial enterprises 2025
+2025-02-10 18:19:44,338 - INFO - Processing: Mercedes-Benz Head Unit security research report
+2025-02-10 18:19:44,989 - INFO - Duplicate found (exact link match): https://securelist.com/mercedes-benz-head-unit-security-research/115218/
+2025-02-10 18:19:44,990 - INFO - Skipping duplicate article: Mercedes-Benz Head Unit security research report
+2025-02-10 18:19:46,997 - INFO - Processing: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 18:19:47,612 - INFO - Duplicate found (exact link match): https://securelist.com/eagerbee-backdoor/115175/
+2025-02-10 18:19:47,612 - INFO - Skipping duplicate article: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 18:19:49,615 - INFO - Processing: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 18:19:50,168 - INFO - Duplicate found (exact link match): https://securelist.com/ics-cert-q3-2024-report/115182/
+2025-02-10 18:19:50,168 - INFO - Skipping duplicate article: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 18:19:52,180 - INFO - Processing: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 18:19:52,741 - INFO - Duplicate found (exact link match): https://securelist.com/cloud-atlas-attacks-with-new-backdoor-vbcloud/115103/
+2025-02-10 18:19:52,741 - INFO - Skipping duplicate article: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 18:19:54,751 - INFO - Processing: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 18:19:55,299 - INFO - Duplicate found (exact link match): https://securelist.com/bellacpp-cpp-version-of-bellaciao/115087/
+2025-02-10 18:19:55,299 - INFO - Skipping duplicate article: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 18:19:57,307 - INFO - 
+Final Statistics:
+2025-02-10 18:19:57,307 - INFO - Total articles in database from Securelist: 10
+2025-02-10 18:36:00,609 - INFO - Fetching RSS feed from https://securelist.com/feed/
+2025-02-10 18:36:01,864 - INFO - Found 10 articles in feed
+2025-02-10 18:36:01,864 - INFO - Processing: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 18:36:02,099 - INFO - Duplicate found (exact link match): https://securelist.com/nigerian-scams-2024/115388/
+2025-02-10 18:36:02,099 - INFO - Skipping duplicate article: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 18:36:04,110 - INFO - Processing: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 18:36:04,693 - INFO - Duplicate found (exact link match): https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/
+2025-02-10 18:36:04,693 - INFO - Skipping duplicate article: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 18:36:06,698 - INFO - Processing: One policy to rule them all
+2025-02-10 18:36:07,267 - INFO - Duplicate found (exact link match): https://securelist.com/group-policies-in-cyberattacks/115331/
+2025-02-10 18:36:07,268 - INFO - Skipping duplicate article: One policy to rule them all
+2025-02-10 18:36:09,283 - INFO - Processing: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 18:36:09,823 - INFO - Duplicate found (exact link match): https://securelist.com/tria-stealer-collects-sms-data-from-android-devices/115295/
+2025-02-10 18:36:09,823 - INFO - Skipping duplicate article: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 18:36:11,829 - INFO - Processing: Threat predictions for industrial enterprises 2025
+2025-02-10 18:36:12,358 - INFO - Duplicate found (exact link match): https://securelist.com/industrial-threat-predictions-2025/115327/
+2025-02-10 18:36:12,358 - INFO - Skipping duplicate article: Threat predictions for industrial enterprises 2025
+2025-02-10 18:36:14,364 - INFO - Processing: Mercedes-Benz Head Unit security research report
+2025-02-10 18:36:14,999 - INFO - Duplicate found (exact link match): https://securelist.com/mercedes-benz-head-unit-security-research/115218/
+2025-02-10 18:36:14,999 - INFO - Skipping duplicate article: Mercedes-Benz Head Unit security research report
+2025-02-10 18:36:17,013 - INFO - Processing: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 18:36:17,641 - INFO - Duplicate found (exact link match): https://securelist.com/eagerbee-backdoor/115175/
+2025-02-10 18:36:17,642 - INFO - Skipping duplicate article: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 18:36:19,658 - INFO - Processing: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 18:36:20,206 - INFO - Duplicate found (exact link match): https://securelist.com/ics-cert-q3-2024-report/115182/
+2025-02-10 18:36:20,207 - INFO - Skipping duplicate article: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 18:36:22,207 - INFO - Processing: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 18:36:22,754 - INFO - Duplicate found (exact link match): https://securelist.com/cloud-atlas-attacks-with-new-backdoor-vbcloud/115103/
+2025-02-10 18:36:22,755 - INFO - Skipping duplicate article: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 18:36:24,756 - INFO - Processing: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 18:36:25,279 - INFO - Duplicate found (exact link match): https://securelist.com/bellacpp-cpp-version-of-bellaciao/115087/
+2025-02-10 18:36:25,280 - INFO - Skipping duplicate article: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 18:36:27,286 - INFO - 
+Final Statistics:
+2025-02-10 18:36:27,286 - INFO - Total articles in database from Securelist: 10
+2025-02-10 18:53:44,016 - INFO - Fetching RSS feed from https://securelist.com/feed/
+2025-02-10 18:53:45,450 - INFO - Found 10 articles in feed
+2025-02-10 18:53:45,450 - INFO - Processing: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 18:53:45,731 - INFO - Duplicate found (exact link match): https://securelist.com/nigerian-scams-2024/115388/
+2025-02-10 18:53:45,731 - INFO - Skipping duplicate article: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 18:53:47,731 - INFO - Processing: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 18:53:48,296 - INFO - Duplicate found (exact link match): https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/
+2025-02-10 18:53:48,297 - INFO - Skipping duplicate article: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 18:53:50,308 - INFO - Processing: One policy to rule them all
+2025-02-10 18:53:50,875 - INFO - Duplicate found (exact link match): https://securelist.com/group-policies-in-cyberattacks/115331/
+2025-02-10 18:53:50,875 - INFO - Skipping duplicate article: One policy to rule them all
+2025-02-10 18:53:52,884 - INFO - Processing: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 18:53:53,429 - INFO - Duplicate found (exact link match): https://securelist.com/tria-stealer-collects-sms-data-from-android-devices/115295/
+2025-02-10 18:53:53,430 - INFO - Skipping duplicate article: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 18:53:55,432 - INFO - Processing: Threat predictions for industrial enterprises 2025
+2025-02-10 18:53:55,972 - INFO - Duplicate found (exact link match): https://securelist.com/industrial-threat-predictions-2025/115327/
+2025-02-10 18:53:55,973 - INFO - Skipping duplicate article: Threat predictions for industrial enterprises 2025
+2025-02-10 18:53:57,974 - INFO - Processing: Mercedes-Benz Head Unit security research report
+2025-02-10 18:53:58,574 - INFO - Duplicate found (exact link match): https://securelist.com/mercedes-benz-head-unit-security-research/115218/
+2025-02-10 18:53:58,575 - INFO - Skipping duplicate article: Mercedes-Benz Head Unit security research report
+2025-02-10 18:54:00,587 - INFO - Processing: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 18:54:01,175 - INFO - Duplicate found (exact link match): https://securelist.com/eagerbee-backdoor/115175/
+2025-02-10 18:54:01,175 - INFO - Skipping duplicate article: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 18:54:03,186 - INFO - Processing: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 18:54:03,713 - INFO - Duplicate found (exact link match): https://securelist.com/ics-cert-q3-2024-report/115182/
+2025-02-10 18:54:03,714 - INFO - Skipping duplicate article: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 18:54:05,715 - INFO - Processing: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 18:54:06,278 - INFO - Duplicate found (exact link match): https://securelist.com/cloud-atlas-attacks-with-new-backdoor-vbcloud/115103/
+2025-02-10 18:54:06,278 - INFO - Skipping duplicate article: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 18:54:08,291 - INFO - Processing: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 18:54:08,850 - INFO - Duplicate found (exact link match): https://securelist.com/bellacpp-cpp-version-of-bellaciao/115087/
+2025-02-10 18:54:08,851 - INFO - Skipping duplicate article: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 18:54:10,867 - INFO - 
+Final Statistics:
+2025-02-10 18:54:10,867 - INFO - Total articles in database from Securelist: 10
+2025-02-10 19:10:10,927 - INFO - Fetching RSS feed from https://securelist.com/feed/
+2025-02-10 19:10:12,080 - INFO - Found 10 articles in feed
+2025-02-10 19:10:12,081 - INFO - Processing: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 19:10:12,331 - INFO - Duplicate found (exact link match): https://securelist.com/nigerian-scams-2024/115388/
+2025-02-10 19:10:12,332 - INFO - Skipping duplicate article: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 19:10:14,345 - INFO - Processing: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 19:10:14,906 - INFO - Duplicate found (exact link match): https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/
+2025-02-10 19:10:14,906 - INFO - Skipping duplicate article: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 19:10:16,918 - INFO - Processing: One policy to rule them all
+2025-02-10 19:10:17,492 - INFO - Duplicate found (exact link match): https://securelist.com/group-policies-in-cyberattacks/115331/
+2025-02-10 19:10:17,492 - INFO - Skipping duplicate article: One policy to rule them all
+2025-02-10 19:10:19,505 - INFO - Processing: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 19:10:20,032 - INFO - Duplicate found (exact link match): https://securelist.com/tria-stealer-collects-sms-data-from-android-devices/115295/
+2025-02-10 19:10:20,033 - INFO - Skipping duplicate article: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 19:10:22,038 - INFO - Processing: Threat predictions for industrial enterprises 2025
+2025-02-10 19:10:22,561 - INFO - Duplicate found (exact link match): https://securelist.com/industrial-threat-predictions-2025/115327/
+2025-02-10 19:10:22,561 - INFO - Skipping duplicate article: Threat predictions for industrial enterprises 2025
+2025-02-10 19:10:24,576 - INFO - Processing: Mercedes-Benz Head Unit security research report
+2025-02-10 19:10:25,175 - INFO - Duplicate found (exact link match): https://securelist.com/mercedes-benz-head-unit-security-research/115218/
+2025-02-10 19:10:25,176 - INFO - Skipping duplicate article: Mercedes-Benz Head Unit security research report
+2025-02-10 19:10:27,178 - INFO - Processing: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 19:10:27,785 - INFO - Duplicate found (exact link match): https://securelist.com/eagerbee-backdoor/115175/
+2025-02-10 19:10:27,786 - INFO - Skipping duplicate article: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 19:10:29,795 - INFO - Processing: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 19:10:30,400 - INFO - Duplicate found (exact link match): https://securelist.com/ics-cert-q3-2024-report/115182/
+2025-02-10 19:10:30,401 - INFO - Skipping duplicate article: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 19:10:32,416 - INFO - Processing: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 19:10:32,967 - INFO - Duplicate found (exact link match): https://securelist.com/cloud-atlas-attacks-with-new-backdoor-vbcloud/115103/
+2025-02-10 19:10:32,967 - INFO - Skipping duplicate article: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 19:10:34,977 - INFO - Processing: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 19:10:35,517 - INFO - Duplicate found (exact link match): https://securelist.com/bellacpp-cpp-version-of-bellaciao/115087/
+2025-02-10 19:10:35,518 - INFO - Skipping duplicate article: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 19:10:37,527 - INFO - 
+Final Statistics:
+2025-02-10 19:10:37,527 - INFO - Total articles in database from Securelist: 10
+2025-02-10 19:27:43,151 - INFO - Fetching RSS feed from https://securelist.com/feed/
+2025-02-10 19:27:44,372 - INFO - Found 10 articles in feed
+2025-02-10 19:27:44,373 - INFO - Processing: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 19:27:44,611 - INFO - Duplicate found (exact link match): https://securelist.com/nigerian-scams-2024/115388/
+2025-02-10 19:27:44,611 - INFO - Skipping duplicate article: Investors, Trump and the Illuminati: What the “Nigerian prince” scams became in 2024
+2025-02-10 19:27:46,624 - INFO - Processing: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 19:27:47,188 - INFO - Duplicate found (exact link match): https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/
+2025-02-10 19:27:47,188 - INFO - Skipping duplicate article: Take my money: OCR crypto stealers in Google Play and App Store
+2025-02-10 19:27:49,198 - INFO - Processing: One policy to rule them all
+2025-02-10 19:27:49,750 - INFO - Duplicate found (exact link match): https://securelist.com/group-policies-in-cyberattacks/115331/
+2025-02-10 19:27:49,751 - INFO - Skipping duplicate article: One policy to rule them all
+2025-02-10 19:27:51,755 - INFO - Processing: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 19:27:52,284 - INFO - Duplicate found (exact link match): https://securelist.com/tria-stealer-collects-sms-data-from-android-devices/115295/
+2025-02-10 19:27:52,285 - INFO - Skipping duplicate article: No need to RSVP: a closer look at the Tria stealer campaign
+2025-02-10 19:27:54,289 - INFO - Processing: Threat predictions for industrial enterprises 2025
+2025-02-10 19:27:54,805 - INFO - Duplicate found (exact link match): https://securelist.com/industrial-threat-predictions-2025/115327/
+2025-02-10 19:27:54,805 - INFO - Skipping duplicate article: Threat predictions for industrial enterprises 2025
+2025-02-10 19:27:56,807 - INFO - Processing: Mercedes-Benz Head Unit security research report
+2025-02-10 19:27:57,388 - INFO - Duplicate found (exact link match): https://securelist.com/mercedes-benz-head-unit-security-research/115218/
+2025-02-10 19:27:57,388 - INFO - Skipping duplicate article: Mercedes-Benz Head Unit security research report
+2025-02-10 19:27:59,397 - INFO - Processing: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 19:27:59,981 - INFO - Duplicate found (exact link match): https://securelist.com/eagerbee-backdoor/115175/
+2025-02-10 19:27:59,982 - INFO - Skipping duplicate article: EAGERBEE, with updated and novel components, targets the Middle East
+2025-02-10 19:28:01,993 - INFO - Processing: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 19:28:02,520 - INFO - Duplicate found (exact link match): https://securelist.com/ics-cert-q3-2024-report/115182/
+2025-02-10 19:28:02,521 - INFO - Skipping duplicate article: Threat landscape for industrial automation systems in Q3 2024
+2025-02-10 19:28:04,521 - INFO - Processing: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 19:28:05,054 - INFO - Duplicate found (exact link match): https://securelist.com/cloud-atlas-attacks-with-new-backdoor-vbcloud/115103/
+2025-02-10 19:28:05,055 - INFO - Skipping duplicate article: Cloud Atlas seen using a new tool in its attacks
+2025-02-10 19:28:07,064 - INFO - Processing: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 19:28:11,401 - INFO - Duplicate found (exact link match): https://securelist.com/bellacpp-cpp-version-of-bellaciao/115087/
+2025-02-10 19:28:11,401 - INFO - Skipping duplicate article: BellaCPP: Discovering a new BellaCiao variant written in C++
+2025-02-10 19:28:13,406 - INFO - 
+Final Statistics:
+2025-02-10 19:28:13,407 - INFO - Total articles in database from Securelist: 10

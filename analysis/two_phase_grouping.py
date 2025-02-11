@@ -266,33 +266,39 @@ def two_phase_grouping_with_predefined_categories(summaries_dict, api_key, db_pa
     return result
 
 def save_two_phase_groups(grouped_results, db_path="db/news.db"):
-    """
-    Save the two-phase groups (categories) to DB.
-    """
     conn = get_connection(db_path)
     c = conn.cursor()
     try:
         for grp in grouped_results["groups"]:
+            # Insert a new row in 'two_phase_article_groups' for this group
             c.execute("""
                 INSERT INTO two_phase_article_groups (main_topic, sub_topic, group_label)
                 VALUES (?, ?, ?)
             """, (grp["main_topic"], grp["sub_topic"], grp["group_label"]))
             new_gid = c.lastrowid
 
+            # For each article in this group, delete any old membership first,
+            # then insert the new membership
             for art_id in grp["articles"]:
                 if art_id:
+                    c.execute("""
+                        DELETE FROM two_phase_article_group_memberships
+                        WHERE article_link = ?
+                    """, (art_id,))
+
                     c.execute("""
                         INSERT OR IGNORE INTO two_phase_article_group_memberships (article_link, group_id)
                         VALUES (?, ?)
                     """, (art_id, new_gid))
 
         conn.commit()
-        print("Saved two-phase groups to DB.")
+        print("Saved two-phase groups to DB with reassignment logic.")
     except Exception as e:
         conn.rollback()
         print(f"Error saving two-phase groups: {e}")
     finally:
         conn.close()
+
 
 def group_articles_within_category(category: str, api_key: str, db_path="db/news.db"):
     """
