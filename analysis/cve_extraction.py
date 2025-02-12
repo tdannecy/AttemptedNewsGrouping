@@ -4,7 +4,7 @@ import re
 from datetime import datetime, timedelta
 import pytz
 import sqlite3
-
+import math
 from db.database import (
     get_connection,
     insert_article_cve,
@@ -120,7 +120,7 @@ def build_cve_table(date_hours=None, db_path="db/news.db"):
             "First Mention": first_mention,
             "Last Mention": last_mention,
             "Articles": link_list_str.strip(),
-            "Base Score": base_score if base_score is not None else "",
+            "Base Score": base_score if base_score is not None else math.nan,
             "Vendor": vendor,
             "Affected Products": products,
             "CVE Page Link": cve_page_link,
